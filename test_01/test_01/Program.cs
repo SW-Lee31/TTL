@@ -93,7 +93,6 @@ namespace ConsoleApp_0701_02
             Console.WriteLine(line_change);
             Console.WriteLine("이름은 " + input_name + "이고 나이는 " + input_age + "입니다\n");
 
-
         }
     }
 }
