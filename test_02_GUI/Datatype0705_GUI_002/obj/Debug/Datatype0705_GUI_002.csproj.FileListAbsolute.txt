@@ -1,0 +1,9 @@
+C:\c#_work\test_02_GUI\Datatype0705_GUI_002\bin\Debug\Datatype0705_GUI_002.exe.config
+C:\c#_work\test_02_GUI\Datatype0705_GUI_002\bin\Debug\Datatype0705_GUI_002.exe
+C:\c#_work\test_02_GUI\Datatype0705_GUI_002\bin\Debug\Datatype0705_GUI_002.pdb
+C:\c#_work\test_02_GUI\Datatype0705_GUI_002\obj\Debug\Datatype0705_GUI_002.MainForm.resources
+C:\c#_work\test_02_GUI\Datatype0705_GUI_002\obj\Debug\Datatype0705_GUI_002.Properties.Resources.resources
+C:\c#_work\test_02_GUI\Datatype0705_GUI_002\obj\Debug\Datatype0705_GUI_002.csproj.GenerateResource.cache
+C:\c#_work\test_02_GUI\Datatype0705_GUI_002\obj\Debug\Datatype0705_GUI_002.csproj.CoreCompileInputs.cache
+C:\c#_work\test_02_GUI\Datatype0705_GUI_002\obj\Debug\Datatype0705_GUI_002.exe
+C:\c#_work\test_02_GUI\Datatype0705_GUI_002\obj\Debug\Datatype0705_GUI_002.pdb

@@ -1,0 +1,10 @@
+C:\c#_work\test_02_GUI\Datatype0705\bin\Debug\Datatype0705.exe.config
+C:\c#_work\test_02_GUI\Datatype0705\bin\Debug\Datatype0705.exe
+C:\c#_work\test_02_GUI\Datatype0705\bin\Debug\Datatype0705.pdb
+C:\c#_work\test_02_GUI\Datatype0705\obj\Debug\Datatype0705.csproj.AssemblyReference.cache
+C:\c#_work\test_02_GUI\Datatype0705\obj\Debug\Datatype0705.Form1.resources
+C:\c#_work\test_02_GUI\Datatype0705\obj\Debug\Datatype0705.Properties.Resources.resources
+C:\c#_work\test_02_GUI\Datatype0705\obj\Debug\Datatype0705.csproj.GenerateResource.cache
+C:\c#_work\test_02_GUI\Datatype0705\obj\Debug\Datatype0705.csproj.CoreCompileInputs.cache
+C:\c#_work\test_02_GUI\Datatype0705\obj\Debug\Datatype0705.exe
+C:\c#_work\test_02_GUI\Datatype0705\obj\Debug\Datatype0705.pdb

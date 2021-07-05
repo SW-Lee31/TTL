@@ -1,0 +1,9 @@
+C:\c#_work\test_input_GUI\input_04\bin\Debug\input_04.exe.config
+C:\c#_work\test_input_GUI\input_04\bin\Debug\input_04.exe
+C:\c#_work\test_input_GUI\input_04\bin\Debug\input_04.pdb
+C:\c#_work\test_input_GUI\input_04\obj\Debug\input_04.MainForm_03.resources
+C:\c#_work\test_input_GUI\input_04\obj\Debug\input_04.Properties.Resources.resources
+C:\c#_work\test_input_GUI\input_04\obj\Debug\input_04.csproj.GenerateResource.cache
+C:\c#_work\test_input_GUI\input_04\obj\Debug\input_04.csproj.CoreCompileInputs.cache
+C:\c#_work\test_input_GUI\input_04\obj\Debug\input_04.exe
+C:\c#_work\test_input_GUI\input_04\obj\Debug\input_04.pdb
