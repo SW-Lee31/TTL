@@ -1,0 +1,10 @@
+C:\c#_work\test_03_GUI\input0706\bin\Debug\input0706.exe.config
+C:\c#_work\test_03_GUI\input0706\bin\Debug\input0706.exe
+C:\c#_work\test_03_GUI\input0706\bin\Debug\input0706.pdb
+C:\c#_work\test_03_GUI\input0706\obj\Debug\input0706.csproj.AssemblyReference.cache
+C:\c#_work\test_03_GUI\input0706\obj\Debug\input0706.MainFrame.resources
+C:\c#_work\test_03_GUI\input0706\obj\Debug\input0706.Properties.Resources.resources
+C:\c#_work\test_03_GUI\input0706\obj\Debug\input0706.csproj.GenerateResource.cache
+C:\c#_work\test_03_GUI\input0706\obj\Debug\input0706.csproj.CoreCompileInputs.cache
+C:\c#_work\test_03_GUI\input0706\obj\Debug\input0706.exe
+C:\c#_work\test_03_GUI\input0706\obj\Debug\input0706.pdb

@@ -1,0 +1,10 @@
+C:\c#_work\test_03_GUI\operator0706\bin\Debug\operator0706.exe.config
+C:\c#_work\test_03_GUI\operator0706\bin\Debug\operator0706.exe
+C:\c#_work\test_03_GUI\operator0706\bin\Debug\operator0706.pdb
+C:\c#_work\test_03_GUI\operator0706\obj\Debug\operator0706.MainForm2.resources
+C:\c#_work\test_03_GUI\operator0706\obj\Debug\operator0706.Properties.Resources.resources
+C:\c#_work\test_03_GUI\operator0706\obj\Debug\operator0706.csproj.GenerateResource.cache
+C:\c#_work\test_03_GUI\operator0706\obj\Debug\operator0706.csproj.CoreCompileInputs.cache
+C:\c#_work\test_03_GUI\operator0706\obj\Debug\operator0706.exe
+C:\c#_work\test_03_GUI\operator0706\obj\Debug\operator0706.pdb
+C:\c#_work\test_03_GUI\operator0706\obj\Debug\operator0706.csproj.AssemblyReference.cache

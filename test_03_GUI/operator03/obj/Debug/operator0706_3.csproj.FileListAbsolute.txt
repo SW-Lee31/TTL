@@ -1,0 +1,10 @@
+C:\c#_work\test_03_GUI\operator03\bin\Debug\operator03.exe.config
+C:\c#_work\test_03_GUI\operator03\bin\Debug\operator03.exe
+C:\c#_work\test_03_GUI\operator03\bin\Debug\operator03.pdb
+C:\c#_work\test_03_GUI\operator03\obj\Debug\operator03.MainFrame.resources
+C:\c#_work\test_03_GUI\operator03\obj\Debug\operator03.Properties.Resources.resources
+C:\c#_work\test_03_GUI\operator03\obj\Debug\operator0706_3.csproj.GenerateResource.cache
+C:\c#_work\test_03_GUI\operator03\obj\Debug\operator0706_3.csproj.CoreCompileInputs.cache
+C:\c#_work\test_03_GUI\operator03\obj\Debug\operator03.exe
+C:\c#_work\test_03_GUI\operator03\obj\Debug\operator03.pdb
+C:\c#_work\test_03_GUI\operator03\obj\Debug\operator0706_3.csproj.AssemblyReference.cache
