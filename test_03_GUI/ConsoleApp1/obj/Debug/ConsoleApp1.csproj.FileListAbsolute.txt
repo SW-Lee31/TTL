@@ -1,0 +1,6 @@
+C:\c#_work\test_03_GUI\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\c#_work\test_03_GUI\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\c#_work\test_03_GUI\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\c#_work\test_03_GUI\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\c#_work\test_03_GUI\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\c#_work\test_03_GUI\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

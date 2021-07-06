@@ -58,6 +58,7 @@ namespace operator0706_2
 
             if (num_1 == num_2)
                 greatest_output.Text = "=";
+            
         }
     }
 }
