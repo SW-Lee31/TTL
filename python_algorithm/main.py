@@ -24,7 +24,7 @@ def binary(num):
     return result_str
 
 
-print("function> binary의 결과입니다. (14) -> " + binary(14))
+print("function> binary의 결과입니다. (29) -> " + binary(29))
 
 
 # 변의 길이(len)에 맞게끔 0을 추가
