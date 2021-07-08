@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\test04_GUI\control0707_3\bin\Debug\control0707_3.exe.config
+C:\Users\User\source\repos\test04_GUI\control0707_3\bin\Debug\control0707_3.exe
+C:\Users\User\source\repos\test04_GUI\control0707_3\bin\Debug\control0707_3.pdb
+C:\Users\User\source\repos\test04_GUI\control0707_3\obj\Debug\control0707_3.MainFrame.resources
+C:\Users\User\source\repos\test04_GUI\control0707_3\obj\Debug\control0707_3.Properties.Resources.resources
+C:\Users\User\source\repos\test04_GUI\control0707_3\obj\Debug\control0707_3.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test04_GUI\control0707_3\obj\Debug\control0707_3.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test04_GUI\control0707_3\obj\Debug\control0707_3.exe
+C:\Users\User\source\repos\test04_GUI\control0707_3\obj\Debug\control0707_3.pdb

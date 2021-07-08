@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test04_GUI\control0707\bin\Debug\control0707.exe.config
+C:\Users\User\source\repos\test04_GUI\control0707\bin\Debug\control0707.exe
+C:\Users\User\source\repos\test04_GUI\control0707\bin\Debug\control0707.pdb
+C:\Users\User\source\repos\test04_GUI\control0707\obj\Debug\control0707.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test04_GUI\control0707\obj\Debug\control0707.MainForm.resources
+C:\Users\User\source\repos\test04_GUI\control0707\obj\Debug\control0707.Properties.Resources.resources
+C:\Users\User\source\repos\test04_GUI\control0707\obj\Debug\control0707.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test04_GUI\control0707\obj\Debug\control0707.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test04_GUI\control0707\obj\Debug\control0707.exe
+C:\Users\User\source\repos\test04_GUI\control0707\obj\Debug\control0707.pdb
