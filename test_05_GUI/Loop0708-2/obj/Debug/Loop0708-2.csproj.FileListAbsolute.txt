@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test_05_GUI\Loop0708-2\obj\Debug\Loop0708-2.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test_05_GUI\Loop0708-2\obj\Debug\Loop0708_2.MainFrame.resources
+C:\Users\User\source\repos\test_05_GUI\Loop0708-2\obj\Debug\Loop0708_2.Properties.Resources.resources
+C:\Users\User\source\repos\test_05_GUI\Loop0708-2\obj\Debug\Loop0708-2.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_05_GUI\Loop0708-2\obj\Debug\Loop0708-2.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_05_GUI\Loop0708-2\bin\Debug\Loop0708_2.exe.config
+C:\Users\User\source\repos\test_05_GUI\Loop0708-2\bin\Debug\Loop0708_2.exe
+C:\Users\User\source\repos\test_05_GUI\Loop0708-2\bin\Debug\Loop0708_2.pdb
+C:\Users\User\source\repos\test_05_GUI\Loop0708-2\obj\Debug\Loop0708_2.exe
+C:\Users\User\source\repos\test_05_GUI\Loop0708-2\obj\Debug\Loop0708_2.pdb

@@ -201,7 +201,7 @@ namespace control0708
 
             double sum_amount = korean + english + math + society + science;
             double average_amount = (korean + english + math + society + science) / 5;
-
+            
             sum_result.Text = sum_amount.ToString();
             avg_result.Text = average_amount.ToString();
 

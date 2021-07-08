@@ -194,7 +194,6 @@ namespace control0707_4
 
         private void price_input_TextChanged(object sender, EventArgs e)
         {
-
         }
     }
 }

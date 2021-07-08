@@ -375,7 +375,7 @@ namespace control0708
             // 
             this.avg_result.AutoSize = true;
             this.avg_result.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.avg_result.Location = new System.Drawing.Point(246, 175);
+            this.avg_result.Location = new System.Drawing.Point(241, 175);
             this.avg_result.Name = "avg_result";
             this.avg_result.Size = new System.Drawing.Size(0, 13);
             this.avg_result.TabIndex = 22;
