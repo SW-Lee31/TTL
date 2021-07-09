@@ -47,13 +47,17 @@ namespace control0707_2
             this.multi_button = new System.Windows.Forms.Button();
             this.na_button = new System.Windows.Forms.Button();
             this.output = new System.Windows.Forms.Label();
+            this.dot_button = new System.Windows.Forms.Button();
+            this.clear_button = new System.Windows.Forms.Button();
+            this.route_button = new System.Windows.Forms.Button();
+            this.make_negative = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // title
             // 
             this.title.AutoSize = true;
             this.title.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.title.Location = new System.Drawing.Point(69, 9);
+            this.title.Location = new System.Drawing.Point(69, 20);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(221, 32);
             this.title.TabIndex = 0;
@@ -90,7 +94,7 @@ namespace control0707_2
             this.num2_button.TabIndex = 3;
             this.num2_button.Text = "2";
             this.num2_button.UseVisualStyleBackColor = true;
-            this.num2_button.Click += new System.EventHandler(this.num2_button_Click);
+            this.num2_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num3_button
             // 
@@ -101,7 +105,7 @@ namespace control0707_2
             this.num3_button.TabIndex = 4;
             this.num3_button.Text = "3";
             this.num3_button.UseVisualStyleBackColor = true;
-            this.num3_button.Click += new System.EventHandler(this.num3_button_Click);
+            this.num3_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num4_button
             // 
@@ -112,7 +116,7 @@ namespace control0707_2
             this.num4_button.TabIndex = 5;
             this.num4_button.Text = "4";
             this.num4_button.UseVisualStyleBackColor = true;
-            this.num4_button.Click += new System.EventHandler(this.num4_button_Click);
+            this.num4_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num5_button
             // 
@@ -123,7 +127,7 @@ namespace control0707_2
             this.num5_button.TabIndex = 6;
             this.num5_button.Text = "5";
             this.num5_button.UseVisualStyleBackColor = true;
-            this.num5_button.Click += new System.EventHandler(this.num5_button_Click);
+            this.num5_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num6_button
             // 
@@ -134,7 +138,7 @@ namespace control0707_2
             this.num6_button.TabIndex = 7;
             this.num6_button.Text = "6";
             this.num6_button.UseVisualStyleBackColor = true;
-            this.num6_button.Click += new System.EventHandler(this.num6_button_Click);
+            this.num6_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num7_button
             // 
@@ -145,7 +149,7 @@ namespace control0707_2
             this.num7_button.TabIndex = 8;
             this.num7_button.Text = "7";
             this.num7_button.UseVisualStyleBackColor = true;
-            this.num7_button.Click += new System.EventHandler(this.num7_button_Click);
+            this.num7_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num8_button
             // 
@@ -156,7 +160,7 @@ namespace control0707_2
             this.num8_button.TabIndex = 9;
             this.num8_button.Text = "8";
             this.num8_button.UseVisualStyleBackColor = true;
-            this.num8_button.Click += new System.EventHandler(this.num8_button_Click);
+            this.num8_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num9_button
             // 
@@ -167,7 +171,7 @@ namespace control0707_2
             this.num9_button.TabIndex = 10;
             this.num9_button.Text = "9";
             this.num9_button.UseVisualStyleBackColor = true;
-            this.num9_button.Click += new System.EventHandler(this.num9_button_Click);
+            this.num9_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num0_button
             // 
@@ -178,16 +182,16 @@ namespace control0707_2
             this.num0_button.TabIndex = 11;
             this.num0_button.Text = "0";
             this.num0_button.UseVisualStyleBackColor = true;
-            this.num0_button.Click += new System.EventHandler(this.num0_button_Click);
+            this.num0_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // equal_button
             // 
-            this.equal_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.equal_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.equal_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.equal_button.Location = new System.Drawing.Point(261, 175);
+            this.equal_button.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.equal_button.Font = new System.Drawing.Font("굴림", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.equal_button.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.equal_button.Location = new System.Drawing.Point(260, 156);
             this.equal_button.Name = "equal_button";
-            this.equal_button.Size = new System.Drawing.Size(47, 48);
+            this.equal_button.Size = new System.Drawing.Size(48, 48);
             this.equal_button.TabIndex = 12;
             this.equal_button.Text = "=";
             this.equal_button.UseVisualStyleBackColor = false;
@@ -198,7 +202,7 @@ namespace control0707_2
             this.plus_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.plus_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.plus_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.plus_button.Location = new System.Drawing.Point(235, 241);
+            this.plus_button.Location = new System.Drawing.Point(233, 229);
             this.plus_button.Name = "plus_button";
             this.plus_button.Size = new System.Drawing.Size(47, 48);
             this.plus_button.TabIndex = 13;
@@ -211,7 +215,7 @@ namespace control0707_2
             this.minus_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.minus_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.minus_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.minus_button.Location = new System.Drawing.Point(292, 241);
+            this.minus_button.Location = new System.Drawing.Point(290, 229);
             this.minus_button.Name = "minus_button";
             this.minus_button.Size = new System.Drawing.Size(47, 48);
             this.minus_button.TabIndex = 14;
@@ -224,7 +228,7 @@ namespace control0707_2
             this.multi_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.multi_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.multi_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.multi_button.Location = new System.Drawing.Point(235, 306);
+            this.multi_button.Location = new System.Drawing.Point(233, 294);
             this.multi_button.Name = "multi_button";
             this.multi_button.Size = new System.Drawing.Size(47, 48);
             this.multi_button.TabIndex = 15;
@@ -237,7 +241,7 @@ namespace control0707_2
             this.na_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.na_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.na_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.na_button.Location = new System.Drawing.Point(292, 306);
+            this.na_button.Location = new System.Drawing.Point(290, 294);
             this.na_button.Name = "na_button";
             this.na_button.Size = new System.Drawing.Size(47, 48);
             this.na_button.TabIndex = 16;
@@ -257,11 +261,62 @@ namespace control0707_2
             this.output.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.output.Click += new System.EventHandler(this.output_Click);
             // 
+            // dot_button
+            // 
+            this.dot_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.dot_button.Location = new System.Drawing.Point(160, 350);
+            this.dot_button.Name = "dot_button";
+            this.dot_button.Size = new System.Drawing.Size(57, 48);
+            this.dot_button.TabIndex = 18;
+            this.dot_button.Text = ".";
+            this.dot_button.UseVisualStyleBackColor = true;
+            this.dot_button.Click += new System.EventHandler(this.num1_button_Click);
+            // 
+            // clear_button
+            // 
+            this.clear_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.clear_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.clear_button.ForeColor = System.Drawing.SystemColors.Window;
+            this.clear_button.Location = new System.Drawing.Point(261, 352);
+            this.clear_button.Name = "clear_button";
+            this.clear_button.Size = new System.Drawing.Size(47, 48);
+            this.clear_button.TabIndex = 20;
+            this.clear_button.Text = "C";
+            this.clear_button.UseVisualStyleBackColor = false;
+            this.clear_button.Click += new System.EventHandler(this.num1_button_Click);
+            // 
+            // route_button
+            // 
+            this.route_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.route_button.Location = new System.Drawing.Point(12, 352);
+            this.route_button.Name = "route_button";
+            this.route_button.Size = new System.Drawing.Size(57, 48);
+            this.route_button.TabIndex = 21;
+            this.route_button.Text = "√";
+            this.route_button.UseVisualStyleBackColor = true;
+            this.route_button.Click += new System.EventHandler(this.route_button_Click);
+            // 
+            // make_negative
+            // 
+            this.make_negative.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.make_negative.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.make_negative.ForeColor = System.Drawing.SystemColors.Window;
+            this.make_negative.Location = new System.Drawing.Point(17, 83);
+            this.make_negative.Name = "make_negative";
+            this.make_negative.Size = new System.Drawing.Size(47, 48);
+            this.make_negative.TabIndex = 22;
+            this.make_negative.Text = "±";
+            this.make_negative.UseVisualStyleBackColor = false;
+            // 
             // MainFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(349, 450);
+            this.Controls.Add(this.make_negative);
+            this.Controls.Add(this.route_button);
+            this.Controls.Add(this.clear_button);
+            this.Controls.Add(this.dot_button);
             this.Controls.Add(this.output);
             this.Controls.Add(this.na_button);
             this.Controls.Add(this.multi_button);
@@ -308,6 +363,10 @@ namespace control0707_2
         private System.Windows.Forms.Button multi_button;
         private System.Windows.Forms.Button na_button;
         private System.Windows.Forms.Label output;
+        private System.Windows.Forms.Button dot_button;
+        private System.Windows.Forms.Button clear_button;
+        private System.Windows.Forms.Button route_button;
+        private System.Windows.Forms.Button make_negative;
     }
 }
 

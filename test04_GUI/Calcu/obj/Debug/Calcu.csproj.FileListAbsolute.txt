@@ -1,0 +1,5 @@
+C:\c#_work\test04_GUI\Calcu\obj\Debug\control0707_2.MainFrame.resources
+C:\c#_work\test04_GUI\Calcu\obj\Debug\Calcu.Properties.Resources.resources
+C:\c#_work\test04_GUI\Calcu\obj\Debug\Calcu.csproj.GenerateResource.cache
+C:\c#_work\test04_GUI\Calcu\obj\Debug\Calcu.csproj.CoreCompileInputs.cache
+C:\c#_work\test04_GUI\Calcu\obj\Debug\Calcu.MainFrame.resources

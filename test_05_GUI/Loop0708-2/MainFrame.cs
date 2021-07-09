@@ -17,9 +17,9 @@ namespace Loop0708_2
         int order_amount = 0;
         int pay = 0;
         int kimchi_amount = 0;
-        int knife = 0;
-        int fest = 0;
-        int bibim = 0;
+        int knife_amount = 0;
+        int fest_amount = 0;
+        int bibim_amount = 0;
         int soy_amount = 0;
 
         public MainFrame()
@@ -44,48 +44,74 @@ namespace Loop0708_2
 
         private void kimchi_button_Click(object sender, EventArgs e)
         {
-            menu_output.Text = "김치찌개";
-            ++kimchi_amount;
-            kimchi_num.Text = kimchi_amount.ToString();
-            pay += 5000;
-            payment.Text = pay.ToString();
+            string button_name = ((Control)sender).Name.ToString();
+
+            Console.WriteLine("버튼 이름 : " + button_name);
+
+            switch (button_name)
+            {
+                case "kimchi_button":
+                    menu_output.Text = "김치찌개";
+                    kimchi_amount++;
+                    kimchi_num.Text = kimchi_amount.ToString();
+                    pay += 5000;
+                    payment.Text = pay.ToString();
+                    break;
+
+                case "soy_button":
+                    menu_output.Text = "된장찌개";
+                    soy_amount++;
+                    soy_num.Text = soy_amount.ToString();
+                    pay += 5000;
+                    payment.Text = pay.ToString();
+                    break;
+
+                case "knife_button":
+                    menu_output.Text = "칼국수";
+                    knife_amount++;
+                    knife_num.Text = knife_amount.ToString();
+                    pay += 4500;
+                    payment.Text = pay.ToString();
+                    break;
+
+                case "fest_button":
+                    menu_output.Text = "잔치국수";
+                    fest_amount++;
+                    fest_num.Text = fest_amount.ToString();
+                    pay += 4000;
+                    payment.Text = pay.ToString();
+                    break;
+
+                case "bibim_button":
+                    menu_output.Text = "비빔밥";
+                    bibim_amount++;
+                    rice_num.Text = bibim_amount.ToString();
+                    pay += 5000;
+                    payment.Text = pay.ToString();
+                    break;
+            }
+
         }
 
 
         private void button2_Click(object sender, EventArgs e)
         {
-            menu_output.Text = "칼국수";
-            ++knife;
-            knife_num.Text = knife.ToString();
-            pay += 4500;
-            payment.Text = pay.ToString();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            menu_output.Text = "잔치국수";
-            ++fest;
-            fest_num.Text = fest.ToString();
-            pay += 4000;
-            payment.Text = pay.ToString();
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            menu_output.Text = "비빔밥";
-            ++bibim;
-            rice_num.Text = bibim.ToString();
-            pay += 4000;
-            payment.Text = pay.ToString();
+
         }
 
         private void soy_button_Click(object sender, EventArgs e)
         {
-            menu_output.Text = "된장찌개";
-            soy_amount += 1;
-            soy_num.Text = soy_amount.ToString();
-            pay += 5000;
-            payment.Text = pay.ToString();
+
         }
 
         private void payprice_Click(object sender, EventArgs e)

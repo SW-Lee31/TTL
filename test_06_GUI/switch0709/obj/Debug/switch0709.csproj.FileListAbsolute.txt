@@ -1,0 +1,10 @@
+C:\c#_work\text_06_GUI\switch0709\obj\Debug\switch0709.csproj.AssemblyReference.cache
+C:\c#_work\text_06_GUI\switch0709\obj\Debug\switch0709.MainForm.resources
+C:\c#_work\text_06_GUI\switch0709\obj\Debug\switch0709.Properties.Resources.resources
+C:\c#_work\text_06_GUI\switch0709\obj\Debug\switch0709.csproj.GenerateResource.cache
+C:\c#_work\text_06_GUI\switch0709\obj\Debug\switch0709.csproj.CoreCompileInputs.cache
+C:\c#_work\text_06_GUI\switch0709\bin\Debug\switch0709.exe.config
+C:\c#_work\text_06_GUI\switch0709\bin\Debug\switch0709.exe
+C:\c#_work\text_06_GUI\switch0709\bin\Debug\switch0709.pdb
+C:\c#_work\text_06_GUI\switch0709\obj\Debug\switch0709.exe
+C:\c#_work\text_06_GUI\switch0709\obj\Debug\switch0709.pdb

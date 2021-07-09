@@ -8,3 +8,13 @@ C:\Users\User\source\repos\test_05_GUI\Loop0708-2\bin\Debug\Loop0708_2.exe
 C:\Users\User\source\repos\test_05_GUI\Loop0708-2\bin\Debug\Loop0708_2.pdb
 C:\Users\User\source\repos\test_05_GUI\Loop0708-2\obj\Debug\Loop0708_2.exe
 C:\Users\User\source\repos\test_05_GUI\Loop0708-2\obj\Debug\Loop0708_2.pdb
+C:\c#_work\test_05_GUI\Loop0708-2\bin\Debug\Loop0708_2.exe.config
+C:\c#_work\test_05_GUI\Loop0708-2\bin\Debug\Loop0708_2.exe
+C:\c#_work\test_05_GUI\Loop0708-2\bin\Debug\Loop0708_2.pdb
+C:\c#_work\test_05_GUI\Loop0708-2\obj\Debug\Loop0708-2.csproj.AssemblyReference.cache
+C:\c#_work\test_05_GUI\Loop0708-2\obj\Debug\Loop0708_2.MainFrame.resources
+C:\c#_work\test_05_GUI\Loop0708-2\obj\Debug\Loop0708_2.Properties.Resources.resources
+C:\c#_work\test_05_GUI\Loop0708-2\obj\Debug\Loop0708-2.csproj.GenerateResource.cache
+C:\c#_work\test_05_GUI\Loop0708-2\obj\Debug\Loop0708-2.csproj.CoreCompileInputs.cache
+C:\c#_work\test_05_GUI\Loop0708-2\obj\Debug\Loop0708_2.exe
+C:\c#_work\test_05_GUI\Loop0708-2\obj\Debug\Loop0708_2.pdb

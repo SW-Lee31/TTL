@@ -60,7 +60,6 @@ namespace Loop0708_2
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.payprice = new System.Windows.Forms.Button();
-            this.output = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -81,9 +80,9 @@ namespace Loop0708_2
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Loop0708_2.Properties.Resources.bibimbop;
-            this.pictureBox5.Location = new System.Drawing.Point(656, 98);
+            this.pictureBox5.Location = new System.Drawing.Point(655, 98);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(132, 121);
+            this.pictureBox5.Size = new System.Drawing.Size(129, 121);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
@@ -91,9 +90,9 @@ namespace Loop0708_2
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Loop0708_2.Properties.Resources.festival_noodle;
-            this.pictureBox4.Location = new System.Drawing.Point(491, 98);
+            this.pictureBox4.Location = new System.Drawing.Point(493, 98);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(132, 121);
+            this.pictureBox4.Size = new System.Drawing.Size(129, 121);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
@@ -101,9 +100,9 @@ namespace Loop0708_2
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Loop0708_2.Properties.Resources.knife_noodle;
-            this.pictureBox3.Location = new System.Drawing.Point(329, 98);
+            this.pictureBox3.Location = new System.Drawing.Point(333, 98);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(130, 121);
+            this.pictureBox3.Size = new System.Drawing.Size(129, 121);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
@@ -111,9 +110,9 @@ namespace Loop0708_2
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Loop0708_2.Properties.Resources.soybean_soup;
-            this.pictureBox2.Location = new System.Drawing.Point(170, 98);
+            this.pictureBox2.Location = new System.Drawing.Point(171, 98);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(132, 121);
+            this.pictureBox2.Size = new System.Drawing.Size(129, 121);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -133,7 +132,7 @@ namespace Loop0708_2
             // 
             this.kimchi_button.Location = new System.Drawing.Point(12, 225);
             this.kimchi_button.Name = "kimchi_button";
-            this.kimchi_button.Size = new System.Drawing.Size(132, 32);
+            this.kimchi_button.Size = new System.Drawing.Size(129, 32);
             this.kimchi_button.TabIndex = 6;
             this.kimchi_button.Text = "김치찌개 5000원";
             this.kimchi_button.UseVisualStyleBackColor = true;
@@ -141,43 +140,43 @@ namespace Loop0708_2
             // 
             // soy_button
             // 
-            this.soy_button.Location = new System.Drawing.Point(170, 225);
+            this.soy_button.Location = new System.Drawing.Point(173, 225);
             this.soy_button.Name = "soy_button";
-            this.soy_button.Size = new System.Drawing.Size(132, 32);
+            this.soy_button.Size = new System.Drawing.Size(129, 32);
             this.soy_button.TabIndex = 7;
             this.soy_button.Text = "된장찌개 5000원";
             this.soy_button.UseVisualStyleBackColor = true;
-            this.soy_button.Click += new System.EventHandler(this.soy_button_Click);
+            this.soy_button.Click += new System.EventHandler(this.kimchi_button_Click);
             // 
             // knife_button
             // 
-            this.knife_button.Location = new System.Drawing.Point(327, 225);
+            this.knife_button.Location = new System.Drawing.Point(334, 225);
             this.knife_button.Name = "knife_button";
-            this.knife_button.Size = new System.Drawing.Size(132, 32);
+            this.knife_button.Size = new System.Drawing.Size(129, 32);
             this.knife_button.TabIndex = 8;
             this.knife_button.Text = "칼국수 4500원";
             this.knife_button.UseVisualStyleBackColor = true;
-            this.knife_button.Click += new System.EventHandler(this.button2_Click);
+            this.knife_button.Click += new System.EventHandler(this.kimchi_button_Click);
             // 
             // fest_button
             // 
-            this.fest_button.Location = new System.Drawing.Point(491, 225);
+            this.fest_button.Location = new System.Drawing.Point(493, 225);
             this.fest_button.Name = "fest_button";
-            this.fest_button.Size = new System.Drawing.Size(132, 32);
+            this.fest_button.Size = new System.Drawing.Size(129, 32);
             this.fest_button.TabIndex = 9;
             this.fest_button.Text = "잔치국수 4000원";
             this.fest_button.UseVisualStyleBackColor = true;
-            this.fest_button.Click += new System.EventHandler(this.button3_Click);
+            this.fest_button.Click += new System.EventHandler(this.kimchi_button_Click);
             // 
             // bibim_button
             // 
-            this.bibim_button.Location = new System.Drawing.Point(656, 225);
+            this.bibim_button.Location = new System.Drawing.Point(655, 225);
             this.bibim_button.Name = "bibim_button";
-            this.bibim_button.Size = new System.Drawing.Size(132, 32);
+            this.bibim_button.Size = new System.Drawing.Size(129, 32);
             this.bibim_button.TabIndex = 10;
             this.bibim_button.Text = "비빔밥 5000원";
             this.bibim_button.UseVisualStyleBackColor = true;
-            this.bibim_button.Click += new System.EventHandler(this.button4_Click);
+            this.bibim_button.Click += new System.EventHandler(this.kimchi_button_Click);
             // 
             // text1
             // 
@@ -194,7 +193,7 @@ namespace Loop0708_2
             this.menu_output.AutoSize = true;
             this.menu_output.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.menu_output.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.menu_output.Location = new System.Drawing.Point(352, 349);
+            this.menu_output.Location = new System.Drawing.Point(345, 349);
             this.menu_output.Name = "menu_output";
             this.menu_output.Size = new System.Drawing.Size(0, 24);
             this.menu_output.TabIndex = 12;
@@ -204,7 +203,7 @@ namespace Loop0708_2
             this.payment.AutoSize = true;
             this.payment.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.payment.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.payment.Location = new System.Drawing.Point(354, 441);
+            this.payment.Location = new System.Drawing.Point(341, 441);
             this.payment.Name = "payment";
             this.payment.Size = new System.Drawing.Size(0, 19);
             this.payment.TabIndex = 13;
@@ -214,7 +213,7 @@ namespace Loop0708_2
             // 
             this.text2.AutoSize = true;
             this.text2.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.text2.Location = new System.Drawing.Point(352, 401);
+            this.text2.Location = new System.Drawing.Point(352, 408);
             this.text2.Name = "text2";
             this.text2.Size = new System.Drawing.Size(65, 16);
             this.text2.TabIndex = 14;
@@ -232,7 +231,7 @@ namespace Loop0708_2
             // 
             // price_input
             // 
-            this.price_input.Location = new System.Drawing.Point(300, 515);
+            this.price_input.Location = new System.Drawing.Point(300, 521);
             this.price_input.Name = "price_input";
             this.price_input.Size = new System.Drawing.Size(100, 21);
             this.price_input.TabIndex = 16;
@@ -253,7 +252,7 @@ namespace Loop0708_2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(403, 518);
+            this.label2.Location = new System.Drawing.Point(403, 524);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(25, 16);
             this.label2.TabIndex = 18;
@@ -273,7 +272,7 @@ namespace Loop0708_2
             // 
             this.kimchi_num.AutoSize = true;
             this.kimchi_num.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.kimchi_num.Location = new System.Drawing.Point(72, 270);
+            this.kimchi_num.Location = new System.Drawing.Point(58, 269);
             this.kimchi_num.Name = "kimchi_num";
             this.kimchi_num.Size = new System.Drawing.Size(17, 16);
             this.kimchi_num.TabIndex = 20;
@@ -283,7 +282,7 @@ namespace Loop0708_2
             // 
             this.soy_num.AutoSize = true;
             this.soy_num.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.soy_num.Location = new System.Drawing.Point(225, 269);
+            this.soy_num.Location = new System.Drawing.Point(216, 268);
             this.soy_num.Name = "soy_num";
             this.soy_num.Size = new System.Drawing.Size(17, 16);
             this.soy_num.TabIndex = 21;
@@ -293,7 +292,7 @@ namespace Loop0708_2
             // 
             this.knife_num.AutoSize = true;
             this.knife_num.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.knife_num.Location = new System.Drawing.Point(385, 269);
+            this.knife_num.Location = new System.Drawing.Point(375, 268);
             this.knife_num.Name = "knife_num";
             this.knife_num.Size = new System.Drawing.Size(17, 16);
             this.knife_num.TabIndex = 22;
@@ -303,7 +302,7 @@ namespace Loop0708_2
             // 
             this.fest_num.AutoSize = true;
             this.fest_num.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.fest_num.Location = new System.Drawing.Point(550, 271);
+            this.fest_num.Location = new System.Drawing.Point(535, 270);
             this.fest_num.Name = "fest_num";
             this.fest_num.Size = new System.Drawing.Size(17, 16);
             this.fest_num.TabIndex = 23;
@@ -313,7 +312,7 @@ namespace Loop0708_2
             // 
             this.rice_num.AutoSize = true;
             this.rice_num.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.rice_num.Location = new System.Drawing.Point(715, 270);
+            this.rice_num.Location = new System.Drawing.Point(693, 269);
             this.rice_num.Name = "rice_num";
             this.rice_num.Size = new System.Drawing.Size(17, 16);
             this.rice_num.TabIndex = 24;
@@ -324,7 +323,7 @@ namespace Loop0708_2
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(105, 269);
+            this.label3.Location = new System.Drawing.Point(93, 269);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(25, 16);
             this.label3.TabIndex = 25;
@@ -334,7 +333,7 @@ namespace Loop0708_2
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label4.Location = new System.Drawing.Point(265, 269);
+            this.label4.Location = new System.Drawing.Point(251, 269);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(25, 16);
             this.label4.TabIndex = 26;
@@ -344,7 +343,7 @@ namespace Loop0708_2
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label5.Location = new System.Drawing.Point(429, 269);
+            this.label5.Location = new System.Drawing.Point(410, 269);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(25, 16);
             this.label5.TabIndex = 27;
@@ -354,7 +353,7 @@ namespace Loop0708_2
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label6.Location = new System.Drawing.Point(589, 269);
+            this.label6.Location = new System.Drawing.Point(570, 269);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(25, 16);
             this.label6.TabIndex = 28;
@@ -364,7 +363,7 @@ namespace Loop0708_2
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label7.Location = new System.Drawing.Point(752, 269);
+            this.label7.Location = new System.Drawing.Point(728, 269);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(25, 16);
             this.label7.TabIndex = 29;
@@ -373,7 +372,7 @@ namespace Loop0708_2
             // payprice
             // 
             this.payprice.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.payprice.Location = new System.Drawing.Point(433, 516);
+            this.payprice.Location = new System.Drawing.Point(433, 522);
             this.payprice.Name = "payprice";
             this.payprice.Size = new System.Drawing.Size(54, 23);
             this.payprice.TabIndex = 30;
@@ -381,22 +380,11 @@ namespace Loop0708_2
             this.payprice.UseVisualStyleBackColor = true;
             this.payprice.Click += new System.EventHandler(this.payprice_Click);
             // 
-            // output
-            // 
-            this.output.AutoSize = true;
-            this.output.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.output.Location = new System.Drawing.Point(589, 550);
-            this.output.Name = "output";
-            this.output.Size = new System.Drawing.Size(65, 16);
-            this.output.TabIndex = 31;
-            this.output.Text = "○ 가격";
-            // 
             // MainFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 598);
-            this.Controls.Add(this.output);
             this.Controls.Add(this.payprice);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -474,7 +462,6 @@ namespace Loop0708_2
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button payprice;
-        private System.Windows.Forms.Label output;
     }
 }
 
