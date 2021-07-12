@@ -126,7 +126,7 @@ namespace control0707_2
         private void equal_button_Click(object sender, EventArgs e)
         {
             num_2 = result;
-            /*            num_1 = temp.ToString();*/
+            num_1 = temp.ToString();
 
             double output_num = 0;
 
@@ -221,10 +221,9 @@ namespace control0707_2
             else
                 {
                     temp = double.Parse(result);
-                     num_1 = temp.ToString();
-                     oper = "+";
-                        output.Text = "+";
-                     result = "";
+                    oper = "+";
+                    output.Text = "+";
+                    result = "";
                 }
             
 

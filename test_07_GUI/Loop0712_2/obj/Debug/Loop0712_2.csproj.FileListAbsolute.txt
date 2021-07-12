@@ -1,0 +1,9 @@
+C:\c#_work\test_07_GUI\Loop0712_2\bin\Debug\Loop0712_2.exe.config
+C:\c#_work\test_07_GUI\Loop0712_2\bin\Debug\Loop0712_2.exe
+C:\c#_work\test_07_GUI\Loop0712_2\bin\Debug\Loop0712_2.pdb
+C:\c#_work\test_07_GUI\Loop0712_2\obj\Debug\Loop0712_2.MainFrame.resources
+C:\c#_work\test_07_GUI\Loop0712_2\obj\Debug\Loop0712_2.Properties.Resources.resources
+C:\c#_work\test_07_GUI\Loop0712_2\obj\Debug\Loop0712_2.csproj.GenerateResource.cache
+C:\c#_work\test_07_GUI\Loop0712_2\obj\Debug\Loop0712_2.csproj.CoreCompileInputs.cache
+C:\c#_work\test_07_GUI\Loop0712_2\obj\Debug\Loop0712_2.exe
+C:\c#_work\test_07_GUI\Loop0712_2\obj\Debug\Loop0712_2.pdb
