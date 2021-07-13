@@ -1,0 +1,10 @@
+C:\c#_work\test_08_GUI\kakao0713\bin\Debug\kakao0713.exe.config
+C:\c#_work\test_08_GUI\kakao0713\bin\Debug\kakao0713.exe
+C:\c#_work\test_08_GUI\kakao0713\bin\Debug\kakao0713.pdb
+C:\c#_work\test_08_GUI\kakao0713\obj\Debug\kakao0713.csproj.AssemblyReference.cache
+C:\c#_work\test_08_GUI\kakao0713\obj\Debug\kakao0713.MainFrame.resources
+C:\c#_work\test_08_GUI\kakao0713\obj\Debug\kakao0713.Properties.Resources.resources
+C:\c#_work\test_08_GUI\kakao0713\obj\Debug\kakao0713.csproj.GenerateResource.cache
+C:\c#_work\test_08_GUI\kakao0713\obj\Debug\kakao0713.csproj.CoreCompileInputs.cache
+C:\c#_work\test_08_GUI\kakao0713\obj\Debug\kakao0713.exe
+C:\c#_work\test_08_GUI\kakao0713\obj\Debug\kakao0713.pdb
