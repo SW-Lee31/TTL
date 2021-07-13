@@ -1,0 +1,10 @@
+C:\c#_work\test_08_GUI\array0713\bin\Debug\array0713.exe.config
+C:\c#_work\test_08_GUI\array0713\bin\Debug\array0713.exe
+C:\c#_work\test_08_GUI\array0713\bin\Debug\array0713.pdb
+C:\c#_work\test_08_GUI\array0713\obj\Debug\array0713.csproj.AssemblyReference.cache
+C:\c#_work\test_08_GUI\array0713\obj\Debug\array0713.MainFrame.resources
+C:\c#_work\test_08_GUI\array0713\obj\Debug\array0713.Properties.Resources.resources
+C:\c#_work\test_08_GUI\array0713\obj\Debug\array0713.csproj.GenerateResource.cache
+C:\c#_work\test_08_GUI\array0713\obj\Debug\array0713.csproj.CoreCompileInputs.cache
+C:\c#_work\test_08_GUI\array0713\obj\Debug\array0713.exe
+C:\c#_work\test_08_GUI\array0713\obj\Debug\array0713.pdb
