@@ -1,0 +1,10 @@
+C:\c#_work\test_09_GUI\2D_array0714_lottery\bin\Debug\2D_array0714_lottery.exe.config
+C:\c#_work\test_09_GUI\2D_array0714_lottery\bin\Debug\2D_array0714_lottery.exe
+C:\c#_work\test_09_GUI\2D_array0714_lottery\bin\Debug\2D_array0714_lottery.pdb
+C:\c#_work\test_09_GUI\2D_array0714_lottery\obj\Debug\_2D_array0714_lottery.MainFrame.resources
+C:\c#_work\test_09_GUI\2D_array0714_lottery\obj\Debug\_2D_array0714_lottery.Properties.Resources.resources
+C:\c#_work\test_09_GUI\2D_array0714_lottery\obj\Debug\2D_array0714_lottery.csproj.GenerateResource.cache
+C:\c#_work\test_09_GUI\2D_array0714_lottery\obj\Debug\2D_array0714_lottery.csproj.CoreCompileInputs.cache
+C:\c#_work\test_09_GUI\2D_array0714_lottery\obj\Debug\2D_array0714_lottery.exe
+C:\c#_work\test_09_GUI\2D_array0714_lottery\obj\Debug\2D_array0714_lottery.pdb
+C:\c#_work\test_09_GUI\2D_array0714_lottery\obj\Debug\2D_array0714_lottery.csproj.AssemblyReference.cache

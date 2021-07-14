@@ -36,7 +36,7 @@ namespace Loop0712
             while (while_index < 10)
             {
                 Console.WriteLine("while 반복문 실행 문장 : {0}", while_index);
-                while_index++;
+                /*while_index++;*/
             }
 
             Console.WriteLine("while_index 의 값은 while문을 벗어난 현재 : {0}입니다.", while_index);
@@ -322,11 +322,7 @@ namespace Loop0712
                 Console.WriteLine();
                 index_1++;
                 index_2 = 2;
-            }
-
-
-
-            
+            } 
         }
     }
 }

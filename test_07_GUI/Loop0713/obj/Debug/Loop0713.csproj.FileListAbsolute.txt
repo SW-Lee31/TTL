@@ -1,0 +1,10 @@
+C:\c#_work\test_07_GUI\Loop0713\bin\Debug\Loop0713.exe.config
+C:\c#_work\test_07_GUI\Loop0713\bin\Debug\Loop0713.exe
+C:\c#_work\test_07_GUI\Loop0713\bin\Debug\Loop0713.pdb
+C:\c#_work\test_07_GUI\Loop0713\obj\Debug\Loop0713.csproj.AssemblyReference.cache
+C:\c#_work\test_07_GUI\Loop0713\obj\Debug\Loop0713.MainFrame.resources
+C:\c#_work\test_07_GUI\Loop0713\obj\Debug\Loop0713.Properties.Resources.resources
+C:\c#_work\test_07_GUI\Loop0713\obj\Debug\Loop0713.csproj.GenerateResource.cache
+C:\c#_work\test_07_GUI\Loop0713\obj\Debug\Loop0713.csproj.CoreCompileInputs.cache
+C:\c#_work\test_07_GUI\Loop0713\obj\Debug\Loop0713.exe
+C:\c#_work\test_07_GUI\Loop0713\obj\Debug\Loop0713.pdb
