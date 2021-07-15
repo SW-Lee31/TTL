@@ -30,7 +30,7 @@ namespace split0713
         private void InitializeComponent()
         {
             this.output = new System.Windows.Forms.Label();
-            this.na_button = new System.Windows.Forms.Button();
+            this.div_button = new System.Windows.Forms.Button();
             this.multi_button = new System.Windows.Forms.Button();
             this.minus_button = new System.Windows.Forms.Button();
             this.plus_button = new System.Windows.Forms.Button();
@@ -63,27 +63,27 @@ namespace split0713
             this.output.TabIndex = 35;
             this.output.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // na_button
+            // div_button
             // 
-            this.na_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.na_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.na_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.na_button.Location = new System.Drawing.Point(307, 296);
-            this.na_button.Name = "na_button";
-            this.na_button.Size = new System.Drawing.Size(47, 48);
-            this.na_button.TabIndex = 34;
-            this.na_button.Text = "÷";
-            this.na_button.UseVisualStyleBackColor = false;
-            this.na_button.Click += new System.EventHandler(this.na_button_Click);
+            this.div_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.div_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.div_button.ForeColor = System.Drawing.SystemColors.Window;
+            this.div_button.Location = new System.Drawing.Point(310, 341);
+            this.div_button.Name = "div_button";
+            this.div_button.Size = new System.Drawing.Size(60, 59);
+            this.div_button.TabIndex = 34;
+            this.div_button.Text = "÷";
+            this.div_button.UseVisualStyleBackColor = false;
+            this.div_button.Click += new System.EventHandler(this.div_button_Click);
             // 
             // multi_button
             // 
             this.multi_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.multi_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.multi_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.multi_button.Location = new System.Drawing.Point(250, 296);
+            this.multi_button.Location = new System.Drawing.Point(244, 341);
             this.multi_button.Name = "multi_button";
-            this.multi_button.Size = new System.Drawing.Size(47, 48);
+            this.multi_button.Size = new System.Drawing.Size(60, 59);
             this.multi_button.TabIndex = 33;
             this.multi_button.Text = "x";
             this.multi_button.UseVisualStyleBackColor = false;
@@ -94,9 +94,9 @@ namespace split0713
             this.minus_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.minus_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.minus_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.minus_button.Location = new System.Drawing.Point(307, 231);
+            this.minus_button.Location = new System.Drawing.Point(310, 258);
             this.minus_button.Name = "minus_button";
-            this.minus_button.Size = new System.Drawing.Size(47, 48);
+            this.minus_button.Size = new System.Drawing.Size(60, 59);
             this.minus_button.TabIndex = 32;
             this.minus_button.Text = "-";
             this.minus_button.UseVisualStyleBackColor = false;
@@ -107,9 +107,9 @@ namespace split0713
             this.plus_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.plus_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.plus_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.plus_button.Location = new System.Drawing.Point(250, 231);
+            this.plus_button.Location = new System.Drawing.Point(244, 258);
             this.plus_button.Name = "plus_button";
-            this.plus_button.Size = new System.Drawing.Size(47, 48);
+            this.plus_button.Size = new System.Drawing.Size(60, 59);
             this.plus_button.TabIndex = 31;
             this.plus_button.Text = "+";
             this.plus_button.UseVisualStyleBackColor = false;
@@ -120,9 +120,9 @@ namespace split0713
             this.equal_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.equal_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.equal_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.equal_button.Location = new System.Drawing.Point(277, 177);
+            this.equal_button.Location = new System.Drawing.Point(273, 177);
             this.equal_button.Name = "equal_button";
-            this.equal_button.Size = new System.Drawing.Size(47, 48);
+            this.equal_button.Size = new System.Drawing.Size(62, 55);
             this.equal_button.TabIndex = 30;
             this.equal_button.Text = "=";
             this.equal_button.UseVisualStyleBackColor = false;
@@ -137,7 +137,7 @@ namespace split0713
             this.num0_button.TabIndex = 29;
             this.num0_button.Text = "0";
             this.num0_button.UseVisualStyleBackColor = true;
-            this.num0_button.Click += new System.EventHandler(this.num0_button_Click);
+            this.num0_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num9_button
             // 
@@ -148,7 +148,7 @@ namespace split0713
             this.num9_button.TabIndex = 28;
             this.num9_button.Text = "9";
             this.num9_button.UseVisualStyleBackColor = true;
-            this.num9_button.Click += new System.EventHandler(this.num9_button_Click);
+            this.num9_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num8_button
             // 
@@ -159,7 +159,7 @@ namespace split0713
             this.num8_button.TabIndex = 27;
             this.num8_button.Text = "8";
             this.num8_button.UseVisualStyleBackColor = true;
-            this.num8_button.Click += new System.EventHandler(this.num8_button_Click);
+            this.num8_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num7_button
             // 
@@ -170,7 +170,7 @@ namespace split0713
             this.num7_button.TabIndex = 26;
             this.num7_button.Text = "7";
             this.num7_button.UseVisualStyleBackColor = true;
-            this.num7_button.Click += new System.EventHandler(this.num7_button_Click);
+            this.num7_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num6_button
             // 
@@ -181,7 +181,7 @@ namespace split0713
             this.num6_button.TabIndex = 25;
             this.num6_button.Text = "6";
             this.num6_button.UseVisualStyleBackColor = true;
-            this.num6_button.Click += new System.EventHandler(this.num6_button_Click);
+            this.num6_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num5_button
             // 
@@ -192,7 +192,7 @@ namespace split0713
             this.num5_button.TabIndex = 24;
             this.num5_button.Text = "5";
             this.num5_button.UseVisualStyleBackColor = true;
-            this.num5_button.Click += new System.EventHandler(this.num5_button_Click);
+            this.num5_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num4_button
             // 
@@ -203,7 +203,7 @@ namespace split0713
             this.num4_button.TabIndex = 23;
             this.num4_button.Text = "4";
             this.num4_button.UseVisualStyleBackColor = true;
-            this.num4_button.Click += new System.EventHandler(this.num4_button_Click);
+            this.num4_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num3_button
             // 
@@ -214,7 +214,7 @@ namespace split0713
             this.num3_button.TabIndex = 22;
             this.num3_button.Text = "3";
             this.num3_button.UseVisualStyleBackColor = true;
-            this.num3_button.Click += new System.EventHandler(this.num3_button_Click);
+            this.num3_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num2_button
             // 
@@ -225,7 +225,7 @@ namespace split0713
             this.num2_button.TabIndex = 21;
             this.num2_button.Text = "2";
             this.num2_button.UseVisualStyleBackColor = true;
-            this.num2_button.Click += new System.EventHandler(this.num2_button_Click);
+            this.num2_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // num1_button
             // 
@@ -268,7 +268,7 @@ namespace split0713
             this.dot_button.TabIndex = 36;
             this.dot_button.Text = ".";
             this.dot_button.UseVisualStyleBackColor = true;
-            this.dot_button.Click += new System.EventHandler(this.dot_button_Click);
+            this.dot_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // route_button
             // 
@@ -283,16 +283,16 @@ namespace split0713
             // 
             // clear_button
             // 
-            this.clear_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.clear_button.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.clear_button.Font = new System.Drawing.Font("굴림", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.clear_button.ForeColor = System.Drawing.SystemColors.Window;
-            this.clear_button.Location = new System.Drawing.Point(276, 350);
+            this.clear_button.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.clear_button.Location = new System.Drawing.Point(26, 80);
             this.clear_button.Name = "clear_button";
-            this.clear_button.Size = new System.Drawing.Size(47, 48);
+            this.clear_button.Size = new System.Drawing.Size(55, 59);
             this.clear_button.TabIndex = 39;
             this.clear_button.Text = "C";
             this.clear_button.UseVisualStyleBackColor = false;
-            this.clear_button.Click += new System.EventHandler(this.clear_button_Click);
+            this.clear_button.Click += new System.EventHandler(this.num1_button_Click);
             // 
             // MainFrame
             // 
@@ -303,7 +303,7 @@ namespace split0713
             this.Controls.Add(this.route_button);
             this.Controls.Add(this.dot_button);
             this.Controls.Add(this.output);
-            this.Controls.Add(this.na_button);
+            this.Controls.Add(this.div_button);
             this.Controls.Add(this.multi_button);
             this.Controls.Add(this.minus_button);
             this.Controls.Add(this.plus_button);
@@ -331,7 +331,7 @@ namespace split0713
         #endregion
 
         private System.Windows.Forms.Label output;
-        private System.Windows.Forms.Button na_button;
+        private System.Windows.Forms.Button div_button;
         private System.Windows.Forms.Button multi_button;
         private System.Windows.Forms.Button minus_button;
         private System.Windows.Forms.Button plus_button;

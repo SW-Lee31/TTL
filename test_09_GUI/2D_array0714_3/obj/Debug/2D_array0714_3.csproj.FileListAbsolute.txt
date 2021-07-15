@@ -7,3 +7,4 @@ C:\c#_work\test_09_GUI\2D_array0714_3\obj\Debug\2D_array0714_3.csproj.GenerateRe
 C:\c#_work\test_09_GUI\2D_array0714_3\obj\Debug\2D_array0714_3.csproj.CoreCompileInputs.cache
 C:\c#_work\test_09_GUI\2D_array0714_3\obj\Debug\2D_array0714_3.exe
 C:\c#_work\test_09_GUI\2D_array0714_3\obj\Debug\2D_array0714_3.pdb
+C:\c#_work\test_09_GUI\2D_array0714_3\obj\Debug\2D_array0714_3.csproj.AssemblyReference.cache

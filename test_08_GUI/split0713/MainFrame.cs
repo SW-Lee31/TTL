@@ -31,121 +31,74 @@ namespace split0713
 
         private void num1_button_Click(object sender, EventArgs e)
         {
-            input_value += "1";
-            output.Text = input_value;
+            string input_button = ((Control)sender).Name.ToString();
 
-            if (input_value == ".")
+            Console.WriteLine(input_button);
+
+            switch (input_button)
             {
-                input_value += "1";
-                output.Text = input_value;
-            }
-        }
+                case "num1_button":
+                    input_value += "1";
+                    output.Text = input_value;
+                    break;
 
-        private void num2_button_Click(object sender, EventArgs e)
-        {
-            input_value += "2";
-            output.Text = input_value;
+                case "num2_button":
+                    input_value += "2";
+                    output.Text = input_value;
+                    break;
 
-            if (input_value == ".")
-            {
-                input_value += "2";
-                output.Text = input_value;
-            }
-        }
+                case "num3_button":
+                    input_value += "3";
+                    output.Text = input_value;
+                    break;
 
-        private void num3_button_Click(object sender, EventArgs e)
-        {
-            input_value += "3";
-            output.Text = input_value;
+                case "num4_button":
+                    input_value += "4";
+                    output.Text = input_value;
+                    break;
 
-            if (input_value == ".")
-            {
-                input_value += "3";
-                output.Text = input_value;
-            }
-        }
+                case "num5_button":
+                    input_value += "5";
+                    output.Text = input_value;
+                    break;
 
-        private void num4_button_Click(object sender, EventArgs e)
-        {
-            input_value += "4";
-            output.Text = input_value;
+                case "num6_button":
+                    input_value += "6";
+                    output.Text = input_value;
+                    break;
 
-            if (input_value == ".")
-            {
-                input_value += "4";
-                output.Text = input_value;
-            }
-        }
+                case "num7_button":
+                    input_value += "7";
+                    output.Text = input_value;
+                    break;
 
-        private void num5_button_Click(object sender, EventArgs e)
-        {
-            input_value += "5";
-            output.Text = input_value;
+                case "num8_button":
+                    input_value += "8";
+                    output.Text = input_value;
+                    break;
 
-            if (input_value == ".")
-            {
-                input_value += "5";
-                output.Text = input_value;
-            }
-        }
+                case "num9_button":
+                    input_value += "9";
+                    output.Text = input_value;
+                    break;
 
-        private void num6_button_Click(object sender, EventArgs e)
-        {
-            input_value += "6";
-            output.Text = input_value;
+                case "num0_button":
+                    input_value += "0";
+                    output.Text = input_value;
+                    break;
 
-            if (input_value == ".")
-            {
-                input_value += "6";
-                output.Text = input_value;
-            }
-        }
+                case "clear_button":
+                    temp = 0;
+                    num_1 = 0;
+                    num_2 = 0;
+                    input_value = "";
+                    output.Text = "";
+                    break;
 
-        private void num7_button_Click(object sender, EventArgs e)
-        {
-            input_value += "7";
-            output.Text = input_value;
-
-            if (input_value == ".")
-            {
-                input_value += "7";
-                output.Text = input_value;
-            }
-        }
-
-        private void num8_button_Click(object sender, EventArgs e)
-        {
-            input_value += "8";
-            output.Text = input_value;
-
-            if (input_value == ".")
-            {
-                input_value += "8";
-                output.Text = input_value;
-            }
-        }
-
-        private void num9_button_Click(object sender, EventArgs e)
-        {
-            input_value += "9";
-            output.Text = input_value;
-
-            if (input_value == ".")
-            {
-                input_value += "9";
-                output.Text = input_value;
-            }
-        }
-
-        private void num0_button_Click(object sender, EventArgs e)
-        {
-            input_value += "0";
-            output.Text = input_value;
-
-            if (input_value == ".")
-            {
-                input_value += "0";
-                output.Text = input_value;
+                case "dot_button":
+                    input_value += ".";
+                    output.Text = input_value;
+                    break;
             }
         }
 
@@ -162,7 +115,6 @@ namespace split0713
             }
 
             output.Text = input_value;
-
 
             string[] words = input_value.Split(' ');
 
@@ -380,83 +332,6 @@ namespace split0713
             input_value = "";
         }
 
-        private void na_button_Click(object sender, EventArgs e)
-        {
-            if (temp == 0)
-            {
-                input_value += " ÷";
-            }
-
-            else
-            {
-                input_value += "÷ ";
-            }
-
-            output.Text = input_value;
-
-
-            string[] words = input_value.Split(' ');
-
-            if (words[1] == "÷")
-            {
-                foreach (var word in words)
-                {
-                    Console.WriteLine("<{0}>", word);
-                    switch (word)
-                    {
-                        case "+":
-                            oper = "+";
-                            break;
-
-                        case "-":
-                            oper = "-";
-                            break;
-
-                        case "x":
-                            oper = "*";
-                            break;
-
-                        case "÷":
-                            oper = "/";
-                            break;
-                    }
-                }
-                
-                if (temp == 0)
-                {
-                    num_1 = double.Parse(words[0]);
-                    Console.WriteLine("num_1 = {0}, oper = {1}", num_1, oper);
-                }
-            }
-
-            else
-            {
-                foreach (var word in words)
-                {
-                    Console.WriteLine("<{0}>", word);
-                    switch (word)
-                    {
-                        case "+":
-                            oper = "+";
-                            break;
-
-                        case "-":
-                            oper = "-";
-                            break;
-
-                        case "x":
-                            oper = "*";
-                            break;
-
-                        case "÷":
-                            oper = "/";
-                            break;
-                    }
-                }
-            }
-            input_value = "";
-        }
-
         private void equal_button_Click(object sender, EventArgs e)
         {
             num_2 = double.Parse(input_value);
@@ -519,20 +394,80 @@ namespace split0713
             Application.Exit();
         }
 
-        private void dot_button_Click(object sender, EventArgs e)
+        private void div_button_Click(object sender, EventArgs e)
         {
             if (temp == 0)
             {
-                input_value += ".";
-                output.Text = input_value;
+                input_value += " ÷";
             }
 
             else
             {
-                input_value += ".";
-                output.Text = input_value;
+                input_value += "÷ ";
             }
 
+            output.Text = input_value;
+
+            string[] words = input_value.Split(' ');
+
+            if (words[1] == "÷")
+            {
+                foreach (var word in words)
+                {
+                    Console.WriteLine("<{0}>", word);
+                    switch (word)
+                    {
+                        case "+":
+                            oper = "+";
+                            break;
+
+                        case "-":
+                            oper = "-";
+                            break;
+
+                        case "x":
+                            oper = "*";
+                            break;
+
+                        case "÷":
+                            oper = "/";
+                            break;
+                    }
+                }
+
+                if (temp == 0)
+                {
+                    num_1 = double.Parse(words[0]);
+                    Console.WriteLine("num_1 = {0}, oper = {1}", num_1, oper);
+                }
+            }
+
+            else
+            {
+                foreach (var word in words)
+                {
+                    Console.WriteLine("<{0}>", word);
+                    switch (word)
+                    {
+                        case "+":
+                            oper = "+";
+                            break;
+
+                        case "-":
+                            oper = "-";
+                            break;
+
+                        case "x":
+                            oper = "*";
+                            break;
+
+                        case "÷":
+                            oper = "/";
+                            break;
+                    }
+                }
+            }
+            input_value = "";
         }
 
         private void route_button_Click(object sender, EventArgs e)
@@ -550,15 +485,6 @@ namespace split0713
             }
 
             output.Text = "결과는 : " + temp.ToString();
-        }
-
-        private void clear_button_Click(object sender, EventArgs e)
-        {
-            temp = 0;
-            num_1 = 0;
-            num_2 = 0;
-            input_value = "";
-            output.Text = "";
         }
     }
 }

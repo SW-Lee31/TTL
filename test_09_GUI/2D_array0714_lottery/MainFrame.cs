@@ -22,27 +22,34 @@ namespace _2D_array0714_lottery
         private void MainFrame_Load(object sender, EventArgs e)
         {
             int[] lottery_arr = new int[7];
-            int[] lottery_compare = new int[7]
-            {
-                0, 0, 0, 0, 0, 0, 0
-            };
 
-
+            // 메소드 활용 없이 중복체크
+            
             for (int i = 0; i < lottery_arr.Length; i++)
             {
-                lottery_arr[i] = ran.Next(1, 46);
+                int lottery = ran.Next(1, 46);
+                lottery_arr[i] = lottery;
 
                 for (int j = 0; j < i; j++)
                 {
-                    if (lottery_arr[i] == lottery_arr[j])
+                    if (lottery_arr[j] == lottery_arr[i])
                     {
                         i--;
-                        break;
+                        continue;
                     }
                 }
+            }
+
+            Console.WriteLine();
+
+            for (int i = 0; i < lottery_arr.Length; i++)
+            {
                 Console.Write(lottery_arr[i] + " ");
             }
         }
+
+
+
 
         private void operate_button_Click(object sender, EventArgs e)
         {

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D_array0714_3", "2D_array0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D_array0714_lottery", "2D_array0714_lottery\2D_array0714_lottery.csproj", "{A94B032C-FB59-4802-AB12-CAD1306D1899}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array0715", "array0715\array0715.csproj", "{8914FA4E-2230-460B-BF4B-B2FD0F1F4064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A94B032C-FB59-4802-AB12-CAD1306D1899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A94B032C-FB59-4802-AB12-CAD1306D1899}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A94B032C-FB59-4802-AB12-CAD1306D1899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8914FA4E-2230-460B-BF4B-B2FD0F1F4064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8914FA4E-2230-460B-BF4B-B2FD0F1F4064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8914FA4E-2230-460B-BF4B-B2FD0F1F4064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8914FA4E-2230-460B-BF4B-B2FD0F1F4064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
