@@ -1,0 +1,10 @@
+C:\c#_work\test_10_GUI\Method0716_11_sum\bin\Debug\Method0716_11_sum.exe.config
+C:\c#_work\test_10_GUI\Method0716_11_sum\bin\Debug\Method0716_11_sum.exe
+C:\c#_work\test_10_GUI\Method0716_11_sum\bin\Debug\Method0716_11_sum.pdb
+C:\c#_work\test_10_GUI\Method0716_11_sum\obj\Debug\Method0716_11_sum.csproj.AssemblyReference.cache
+C:\c#_work\test_10_GUI\Method0716_11_sum\obj\Debug\Method0716_11_sum.MainFrame.resources
+C:\c#_work\test_10_GUI\Method0716_11_sum\obj\Debug\Method0716_11_sum.Properties.Resources.resources
+C:\c#_work\test_10_GUI\Method0716_11_sum\obj\Debug\Method0716_11_sum.csproj.GenerateResource.cache
+C:\c#_work\test_10_GUI\Method0716_11_sum\obj\Debug\Method0716_11_sum.csproj.CoreCompileInputs.cache
+C:\c#_work\test_10_GUI\Method0716_11_sum\obj\Debug\Method0716_11_sum.exe
+C:\c#_work\test_10_GUI\Method0716_11_sum\obj\Debug\Method0716_11_sum.pdb

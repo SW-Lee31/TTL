@@ -1,0 +1,10 @@
+C:\c#_work\test_10_GUI\Method0716_3\bin\Debug\Method0716_3.exe.config
+C:\c#_work\test_10_GUI\Method0716_3\bin\Debug\Method0716_3.exe
+C:\c#_work\test_10_GUI\Method0716_3\bin\Debug\Method0716_3.pdb
+C:\c#_work\test_10_GUI\Method0716_3\obj\Debug\Method0716_3.csproj.AssemblyReference.cache
+C:\c#_work\test_10_GUI\Method0716_3\obj\Debug\Method0716_3.MainFrame.resources
+C:\c#_work\test_10_GUI\Method0716_3\obj\Debug\Method0716_3.Properties.Resources.resources
+C:\c#_work\test_10_GUI\Method0716_3\obj\Debug\Method0716_3.csproj.GenerateResource.cache
+C:\c#_work\test_10_GUI\Method0716_3\obj\Debug\Method0716_3.csproj.CoreCompileInputs.cache
+C:\c#_work\test_10_GUI\Method0716_3\obj\Debug\Method0716_3.exe
+C:\c#_work\test_10_GUI\Method0716_3\obj\Debug\Method0716_3.pdb

@@ -1,0 +1,9 @@
+C:\c#_work\test_10_GUI\Method0716_8_lottery\bin\Debug\Method0716_8_lottery.exe.config
+C:\c#_work\test_10_GUI\Method0716_8_lottery\bin\Debug\Method0716_8_lottery.exe
+C:\c#_work\test_10_GUI\Method0716_8_lottery\bin\Debug\Method0716_8_lottery.pdb
+C:\c#_work\test_10_GUI\Method0716_8_lottery\obj\Debug\Method0716_8_lottery.MainFrame.resources
+C:\c#_work\test_10_GUI\Method0716_8_lottery\obj\Debug\Method0716_8_lottery.Properties.Resources.resources
+C:\c#_work\test_10_GUI\Method0716_8_lottery\obj\Debug\Method0716_8_lottery.csproj.GenerateResource.cache
+C:\c#_work\test_10_GUI\Method0716_8_lottery\obj\Debug\Method0716_8_lottery.csproj.CoreCompileInputs.cache
+C:\c#_work\test_10_GUI\Method0716_8_lottery\obj\Debug\Method0716_8_lottery.exe
+C:\c#_work\test_10_GUI\Method0716_8_lottery\obj\Debug\Method0716_8_lottery.pdb

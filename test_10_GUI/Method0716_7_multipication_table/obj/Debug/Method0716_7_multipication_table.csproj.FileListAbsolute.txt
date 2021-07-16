@@ -1,0 +1,9 @@
+C:\c#_work\test_10_GUI\Method0716_7_multipication_table\bin\Debug\Method0716_7_multipication_table.exe.config
+C:\c#_work\test_10_GUI\Method0716_7_multipication_table\bin\Debug\Method0716_7_multipication_table.exe
+C:\c#_work\test_10_GUI\Method0716_7_multipication_table\bin\Debug\Method0716_7_multipication_table.pdb
+C:\c#_work\test_10_GUI\Method0716_7_multipication_table\obj\Debug\Method0716_7_multipication_table.MainFrame.resources
+C:\c#_work\test_10_GUI\Method0716_7_multipication_table\obj\Debug\Method0716_7_multipication_table.Properties.Resources.resources
+C:\c#_work\test_10_GUI\Method0716_7_multipication_table\obj\Debug\Method0716_7_multipication_table.csproj.GenerateResource.cache
+C:\c#_work\test_10_GUI\Method0716_7_multipication_table\obj\Debug\Method0716_7_multipication_table.csproj.CoreCompileInputs.cache
+C:\c#_work\test_10_GUI\Method0716_7_multipication_table\obj\Debug\Method0716_7_multipication_table.exe
+C:\c#_work\test_10_GUI\Method0716_7_multipication_table\obj\Debug\Method0716_7_multipication_table.pdb

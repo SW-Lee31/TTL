@@ -1,0 +1,10 @@
+C:\c#_work\test_10_GUI\Method0716_6_recursive\bin\Debug\Method0716_6_recursive.exe.config
+C:\c#_work\test_10_GUI\Method0716_6_recursive\bin\Debug\Method0716_6_recursive.exe
+C:\c#_work\test_10_GUI\Method0716_6_recursive\bin\Debug\Method0716_6_recursive.pdb
+C:\c#_work\test_10_GUI\Method0716_6_recursive\obj\Debug\Method0716_6_recursive.MainFrame.resources
+C:\c#_work\test_10_GUI\Method0716_6_recursive\obj\Debug\Method0716_6_recursive.Properties.Resources.resources
+C:\c#_work\test_10_GUI\Method0716_6_recursive\obj\Debug\Method0716_6_recursive.csproj.GenerateResource.cache
+C:\c#_work\test_10_GUI\Method0716_6_recursive\obj\Debug\Method0716_6_recursive.csproj.CoreCompileInputs.cache
+C:\c#_work\test_10_GUI\Method0716_6_recursive\obj\Debug\Method0716_6_recursive.exe
+C:\c#_work\test_10_GUI\Method0716_6_recursive\obj\Debug\Method0716_6_recursive.pdb
+C:\c#_work\test_10_GUI\Method0716_6_recursive\obj\Debug\Method0716_6_recursive.csproj.AssemblyReference.cache

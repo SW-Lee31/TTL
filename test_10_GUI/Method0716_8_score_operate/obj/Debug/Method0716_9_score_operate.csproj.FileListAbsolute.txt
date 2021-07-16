@@ -1,0 +1,10 @@
+C:\c#_work\test_10_GUI\Method0716_8_score_operate\bin\Debug\Method0716_8_score_operate.exe.config
+C:\c#_work\test_10_GUI\Method0716_8_score_operate\bin\Debug\Method0716_8_score_operate.exe
+C:\c#_work\test_10_GUI\Method0716_8_score_operate\bin\Debug\Method0716_8_score_operate.pdb
+C:\c#_work\test_10_GUI\Method0716_8_score_operate\obj\Debug\Method0716_9_score_operate.csproj.AssemblyReference.cache
+C:\c#_work\test_10_GUI\Method0716_8_score_operate\obj\Debug\Method0716_8_score_operate.MainFrame.resources
+C:\c#_work\test_10_GUI\Method0716_8_score_operate\obj\Debug\Method0716_8_score_operate.Properties.Resources.resources
+C:\c#_work\test_10_GUI\Method0716_8_score_operate\obj\Debug\Method0716_9_score_operate.csproj.GenerateResource.cache
+C:\c#_work\test_10_GUI\Method0716_8_score_operate\obj\Debug\Method0716_9_score_operate.csproj.CoreCompileInputs.cache
+C:\c#_work\test_10_GUI\Method0716_8_score_operate\obj\Debug\Method0716_8_score_operate.exe
+C:\c#_work\test_10_GUI\Method0716_8_score_operate\obj\Debug\Method0716_8_score_operate.pdb

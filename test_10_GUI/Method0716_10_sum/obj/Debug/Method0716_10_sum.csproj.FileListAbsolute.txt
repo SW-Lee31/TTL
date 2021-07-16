@@ -1,0 +1,4 @@
+C:\c#_work\test_10_GUI\Method0716_10_sum\obj\Debug\_2D_array0714_3.MainFrame.resources
+C:\c#_work\test_10_GUI\Method0716_10_sum\obj\Debug\Method0716_10_sum.Properties.Resources.resources
+C:\c#_work\test_10_GUI\Method0716_10_sum\obj\Debug\Method0716_10_sum.csproj.GenerateResource.cache
+C:\c#_work\test_10_GUI\Method0716_10_sum\obj\Debug\Method0716_10_sum.csproj.CoreCompileInputs.cache
