@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\test_11_GUI\Method0719_04_Input_multiple_table\bin\Debug\Method0719_04_Input_multiple_table.exe.config
+C:\Users\User\source\repos\test_11_GUI\Method0719_04_Input_multiple_table\bin\Debug\Method0719_04_Input_multiple_table.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_04_Input_multiple_table\bin\Debug\Method0719_04_Input_multiple_table.pdb
+C:\Users\User\source\repos\test_11_GUI\Method0719_04_Input_multiple_table\obj\Debug\Method0719_04_Input_multiple_table.MainFrame.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_04_Input_multiple_table\obj\Debug\Method0719_04_Input_multiple_table.Properties.Resources.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_04_Input_multiple_table\obj\Debug\Method0719_04_Input_multiple_table.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_04_Input_multiple_table\obj\Debug\Method0719_04_Input_multiple_table.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_04_Input_multiple_table\obj\Debug\Method0719_04_Input_multiple_table.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_04_Input_multiple_table\obj\Debug\Method0719_04_Input_multiple_table.pdb

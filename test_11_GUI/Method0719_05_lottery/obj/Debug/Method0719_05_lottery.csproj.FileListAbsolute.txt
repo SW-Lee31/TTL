@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\test_11_GUI\Method0719_05_lottery\bin\Debug\Method0719_05_lottery.exe.config
+C:\Users\User\source\repos\test_11_GUI\Method0719_05_lottery\bin\Debug\Method0719_05_lottery.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_05_lottery\bin\Debug\Method0719_05_lottery.pdb
+C:\Users\User\source\repos\test_11_GUI\Method0719_05_lottery\obj\Debug\Method0719_05_lottery.MainFrame.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_05_lottery\obj\Debug\Method0719_05_lottery.Properties.Resources.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_05_lottery\obj\Debug\Method0719_05_lottery.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_05_lottery\obj\Debug\Method0719_05_lottery.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_05_lottery\obj\Debug\Method0719_05_lottery.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_05_lottery\obj\Debug\Method0719_05_lottery.pdb

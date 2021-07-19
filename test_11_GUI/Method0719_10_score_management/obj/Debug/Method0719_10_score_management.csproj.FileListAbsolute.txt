@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test_11_GUI\Method0719_10_score_management\bin\Debug\Method0719_10_score_management.exe.config
+C:\Users\User\source\repos\test_11_GUI\Method0719_10_score_management\bin\Debug\Method0719_10_score_management.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_10_score_management\bin\Debug\Method0719_10_score_management.pdb
+C:\Users\User\source\repos\test_11_GUI\Method0719_10_score_management\obj\Debug\Method0719_10_score_management.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_10_score_management\obj\Debug\Method0719_10_score_management.MainFrame.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_10_score_management\obj\Debug\Method0719_10_score_management.Properties.Resources.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_10_score_management\obj\Debug\Method0719_10_score_management.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_10_score_management\obj\Debug\Method0719_10_score_management.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_10_score_management\obj\Debug\Method0719_10_score_management.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_10_score_management\obj\Debug\Method0719_10_score_management.pdb

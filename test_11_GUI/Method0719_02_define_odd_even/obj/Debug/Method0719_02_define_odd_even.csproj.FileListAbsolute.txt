@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test_11_GUI\Method0719_02_define_odd_even\bin\Debug\Method0719_02_define_odd_even.exe.config
+C:\Users\User\source\repos\test_11_GUI\Method0719_02_define_odd_even\bin\Debug\Method0719_02_define_odd_even.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_02_define_odd_even\bin\Debug\Method0719_02_define_odd_even.pdb
+C:\Users\User\source\repos\test_11_GUI\Method0719_02_define_odd_even\obj\Debug\Method0719_02_define_odd_even.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_02_define_odd_even\obj\Debug\Method0719_02_define_odd_even.MainFrame.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_02_define_odd_even\obj\Debug\Method0719_02_define_odd_even.Properties.Resources.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_02_define_odd_even\obj\Debug\Method0719_02_define_odd_even.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_02_define_odd_even\obj\Debug\Method0719_02_define_odd_even.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_02_define_odd_even\obj\Debug\Method0719_02_define_odd_even.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_02_define_odd_even\obj\Debug\Method0719_02_define_odd_even.pdb

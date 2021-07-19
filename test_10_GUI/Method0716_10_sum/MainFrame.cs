@@ -11,7 +11,7 @@ using System.IO;
 
 namespace Method0716_10_sum
 {
-    
+
     public partial class MainFrame : Form
     {
         StreamWriter writer = new StreamWriter(@"c:\\c#_work\test_10_GUI\test.txt");
@@ -21,21 +21,6 @@ namespace Method0716_10_sum
         int index = 0;
         const int INDEX_NUM = 50;
 
-        string[] first_name = new string[]
-        {
-                "김", "박", "이", "최", "장", "정", "심", "황", "양"
-        };
-
-        string[] middle_name = new string[]
-        {
-                "상", "준", "희", "건", "정", "제", "창", "건", "호"
-        };
-
-        string[] last_name = new string[]
-        {
-                "원", "혁", "환", "윤", "훈", "진", "헌", "현", "영"
-        };
-
         public MainFrame()
         {
             InitializeComponent();
@@ -43,11 +28,26 @@ namespace Method0716_10_sum
 
         private void MainFrame_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         string Create_name()
         {
+            string[] first_name = new string[]
+            {
+                "김", "박", "이", "최", "장", "정", "심", "황", "양"
+            };
+
+            string[] middle_name = new string[]
+            {
+                "상", "준", "희", "건", "정", "제", "창", "건", "호"
+            };
+
+            string[] last_name = new string[]
+            {
+                "원", "혁", "환", "윤", "훈", "진", "헌", "현", "영"
+            };
+
             name_collection += first_name[ran.Next(9)];
             name_collection += middle_name[ran.Next(9)];
             name_collection += last_name[ran.Next(9)];
@@ -76,7 +76,7 @@ namespace Method0716_10_sum
 
             return name_choosed;
         }
-        
+
         string Drop_name(int index)
         {
             string name_dropped;
@@ -124,6 +124,7 @@ namespace Method0716_10_sum
 
         private void commit_button_Click(object sender, EventArgs e)
         {
+            name_output.Text = "The elements are loaded in \'test.txt\'";
             Commit();
         }
 

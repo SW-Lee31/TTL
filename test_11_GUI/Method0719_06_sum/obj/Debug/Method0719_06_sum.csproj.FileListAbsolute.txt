@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\test_11_GUI\Method0719_06_sum\bin\Debug\Method0719_06_sum.exe.config
+C:\Users\User\source\repos\test_11_GUI\Method0719_06_sum\bin\Debug\Method0719_06_sum.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_06_sum\bin\Debug\Method0719_06_sum.pdb
+C:\Users\User\source\repos\test_11_GUI\Method0719_06_sum\obj\Debug\Method0719_06_sum.MainFrame.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_06_sum\obj\Debug\Method0719_06_sum.Properties.Resources.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_06_sum\obj\Debug\Method0719_06_sum.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_06_sum\obj\Debug\Method0719_06_sum.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_06_sum\obj\Debug\Method0719_06_sum.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_06_sum\obj\Debug\Method0719_06_sum.pdb

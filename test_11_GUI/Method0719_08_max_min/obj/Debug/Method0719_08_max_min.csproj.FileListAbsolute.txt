@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test_11_GUI\Method0719_08_max_min\bin\Debug\Method0719_08_max_min.exe.config
+C:\Users\User\source\repos\test_11_GUI\Method0719_08_max_min\bin\Debug\Method0719_08_max_min.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_08_max_min\bin\Debug\Method0719_08_max_min.pdb
+C:\Users\User\source\repos\test_11_GUI\Method0719_08_max_min\obj\Debug\Method0719_08_max_min.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_08_max_min\obj\Debug\Method0719_08_max_min.MainFrame.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_08_max_min\obj\Debug\Method0719_08_max_min.Properties.Resources.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_08_max_min\obj\Debug\Method0719_08_max_min.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_08_max_min\obj\Debug\Method0719_08_max_min.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_08_max_min\obj\Debug\Method0719_08_max_min.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_08_max_min\obj\Debug\Method0719_08_max_min.pdb

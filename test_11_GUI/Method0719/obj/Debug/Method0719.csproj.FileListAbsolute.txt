@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test_11_GUI\Method0719\bin\Debug\Method0719.exe.config
+C:\Users\User\source\repos\test_11_GUI\Method0719\bin\Debug\Method0719.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719\bin\Debug\Method0719.pdb
+C:\Users\User\source\repos\test_11_GUI\Method0719\obj\Debug\Method0719.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719\obj\Debug\Method0719.MainFrame.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719\obj\Debug\Method0719.Properties.Resources.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719\obj\Debug\Method0719.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719\obj\Debug\Method0719.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719\obj\Debug\Method0719.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719\obj\Debug\Method0719.pdb

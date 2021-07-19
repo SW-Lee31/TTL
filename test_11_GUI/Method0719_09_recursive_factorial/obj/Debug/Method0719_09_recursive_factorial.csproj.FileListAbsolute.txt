@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\test_11_GUI\Method0719_09_recursive_factorial\bin\Debug\Method0719_09_recursive_factorial.exe.config
+C:\Users\User\source\repos\test_11_GUI\Method0719_09_recursive_factorial\bin\Debug\Method0719_09_recursive_factorial.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_09_recursive_factorial\bin\Debug\Method0719_09_recursive_factorial.pdb
+C:\Users\User\source\repos\test_11_GUI\Method0719_09_recursive_factorial\obj\Debug\Method0719_09_recursive_factorial.MainFrame.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_09_recursive_factorial\obj\Debug\Method0719_09_recursive_factorial.Properties.Resources.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_09_recursive_factorial\obj\Debug\Method0719_09_recursive_factorial.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_09_recursive_factorial\obj\Debug\Method0719_09_recursive_factorial.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_09_recursive_factorial\obj\Debug\Method0719_09_recursive_factorial.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_09_recursive_factorial\obj\Debug\Method0719_09_recursive_factorial.pdb

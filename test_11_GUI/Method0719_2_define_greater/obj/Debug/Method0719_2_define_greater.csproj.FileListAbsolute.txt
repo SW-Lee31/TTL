@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test_11_GUI\Method0719_2_define_greater\bin\Debug\Method0719_2_define_greater.exe.config
+C:\Users\User\source\repos\test_11_GUI\Method0719_2_define_greater\bin\Debug\Method0719_2_define_greater.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_2_define_greater\bin\Debug\Method0719_2_define_greater.pdb
+C:\Users\User\source\repos\test_11_GUI\Method0719_2_define_greater\obj\Debug\Method0719_2_define_greater.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_2_define_greater\obj\Debug\Method0719_2_define_greater.MainFrame.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_2_define_greater\obj\Debug\Method0719_2_define_greater.Properties.Resources.resources
+C:\Users\User\source\repos\test_11_GUI\Method0719_2_define_greater\obj\Debug\Method0719_2_define_greater.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_2_define_greater\obj\Debug\Method0719_2_define_greater.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_11_GUI\Method0719_2_define_greater\obj\Debug\Method0719_2_define_greater.exe
+C:\Users\User\source\repos\test_11_GUI\Method0719_2_define_greater\obj\Debug\Method0719_2_define_greater.pdb

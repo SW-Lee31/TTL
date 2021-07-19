@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method0716", "Method0716\Method0716.csproj", "{EB78D0B3-89C5-413F-976C-477A8C0F46A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method0716_02", "Method0716_2\Method0716_02.csproj", "{8810D6C7-A631-479A-82E6-D4BE497D04B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method0716_02_simple_caluculator", "Method0716_2\Method0716_02_simple_caluculator.csproj", "{8810D6C7-A631-479A-82E6-D4BE497D04B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method0716_03_define_greater", "Method0716_3\Method0716_03_define_greater.csproj", "{F7730E54-1C6D-439A-910D-DBE7531C8E99}"
 EndProject

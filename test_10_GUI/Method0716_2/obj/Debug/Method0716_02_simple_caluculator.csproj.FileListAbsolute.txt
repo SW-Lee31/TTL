@@ -1,0 +1,10 @@
+C:\c#_work\test_10_GUI\Method0716_2\bin\Debug\Method0716_2.exe.config
+C:\c#_work\test_10_GUI\Method0716_2\bin\Debug\Method0716_2.exe
+C:\c#_work\test_10_GUI\Method0716_2\bin\Debug\Method0716_2.pdb
+C:\c#_work\test_10_GUI\Method0716_2\obj\Debug\Method0716_02_simple_caluculator.csproj.AssemblyReference.cache
+C:\c#_work\test_10_GUI\Method0716_2\obj\Debug\Method0716_2.MainFrame.resources
+C:\c#_work\test_10_GUI\Method0716_2\obj\Debug\Method0716_2.Properties.Resources.resources
+C:\c#_work\test_10_GUI\Method0716_2\obj\Debug\Method0716_02_simple_caluculator.csproj.GenerateResource.cache
+C:\c#_work\test_10_GUI\Method0716_2\obj\Debug\Method0716_02_simple_caluculator.csproj.CoreCompileInputs.cache
+C:\c#_work\test_10_GUI\Method0716_2\obj\Debug\Method0716_2.exe
+C:\c#_work\test_10_GUI\Method0716_2\obj\Debug\Method0716_2.pdb
