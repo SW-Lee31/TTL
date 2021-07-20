@@ -1,0 +1,6 @@
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_padovan\bin\Debug\Algorithm_Cs_padovan.exe.config
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_padovan\bin\Debug\Algorithm_Cs_padovan.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_padovan\bin\Debug\Algorithm_Cs_padovan.pdb
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_padovan\obj\Debug\Algorithm_Cs_padovan.csproj.CoreCompileInputs.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_padovan\obj\Debug\Algorithm_Cs_padovan.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_padovan\obj\Debug\Algorithm_Cs_padovan.pdb

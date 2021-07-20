@@ -1,0 +1,7 @@
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_tile\bin\Debug\Algorithm_Cs_tile.exe.config
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_tile\bin\Debug\Algorithm_Cs_tile.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_tile\bin\Debug\Algorithm_Cs_tile.pdb
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_tile\obj\Debug\Algorithm_Cs_tile.csproj.AssemblyReference.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_tile\obj\Debug\Algorithm_Cs_tile.csproj.CoreCompileInputs.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_tile\obj\Debug\Algorithm_Cs_tile.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_tile\obj\Debug\Algorithm_Cs_tile.pdb

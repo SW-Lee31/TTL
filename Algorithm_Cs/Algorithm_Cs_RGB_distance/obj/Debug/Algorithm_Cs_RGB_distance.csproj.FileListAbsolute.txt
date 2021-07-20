@@ -1,0 +1,7 @@
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_RGB_distance\bin\Debug\Algorithm_Cs_RGB_distance.exe.config
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_RGB_distance\bin\Debug\Algorithm_Cs_RGB_distance.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_RGB_distance\bin\Debug\Algorithm_Cs_RGB_distance.pdb
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_RGB_distance\obj\Debug\Algorithm_Cs_RGB_distance.csproj.AssemblyReference.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_RGB_distance\obj\Debug\Algorithm_Cs_RGB_distance.csproj.CoreCompileInputs.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_RGB_distance\obj\Debug\Algorithm_Cs_RGB_distance.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_RGB_distance\obj\Debug\Algorithm_Cs_RGB_distance.pdb

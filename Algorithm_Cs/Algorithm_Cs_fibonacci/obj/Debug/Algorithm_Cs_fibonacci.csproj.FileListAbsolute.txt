@@ -1,0 +1,7 @@
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_fibonacci\bin\Debug\Algorithm_Cs_fibonacci.exe.config
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_fibonacci\bin\Debug\Algorithm_Cs_fibonacci.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_fibonacci\bin\Debug\Algorithm_Cs_fibonacci.pdb
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_fibonacci\obj\Debug\Algorithm_Cs_fibonacci.csproj.AssemblyReference.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_fibonacci\obj\Debug\Algorithm_Cs_fibonacci.csproj.CoreCompileInputs.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_fibonacci\obj\Debug\Algorithm_Cs_fibonacci.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_fibonacci\obj\Debug\Algorithm_Cs_fibonacci.pdb
