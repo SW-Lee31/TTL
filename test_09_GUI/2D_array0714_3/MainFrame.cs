@@ -35,9 +35,6 @@ namespace _2D_array0714_3
                 "원", "혁", "환", "윤", "훈", "진", "헌", "현", "영"
         };
 
-
-
-
         public MainFrame()
         {
             InitializeComponent();

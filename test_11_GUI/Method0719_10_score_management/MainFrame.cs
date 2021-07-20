@@ -17,7 +17,7 @@ namespace Method0719_10_score_management
         const int SUBJECT = 6;
         enum PERSON_NAME
         {
-            김일식, 김두식, 이삼식, 박사식, 최오식
+            강일식, 김두식, 이삼식, 박사식, 최오식
         }
 
         enum SUBJECT_NAME
@@ -39,11 +39,16 @@ namespace Method0719_10_score_management
                score_list[i] =  Person_record();
             }
 
+            Console.WriteLine();
+            Console.WriteLine("#################### 점수 공개 #######################");
+            Console.WriteLine();
+
             for (int i = 0; i < score_list.Length; i++)
             {
+                Console.Write("{0}의 점수입니다. --> ", Enum.GetName(typeof(PERSON_NAME), i));
                 for (int j = 0; j < score_list[i].Length; j++)
                 {
-                    Console.Write("{0}의 점수입니다 --> {1} : {2}    ", Enum.GetName(typeof(PERSON_NAME), i), Enum.GetName(typeof(SUBJECT_NAME), j), score_list[i][j]);
+                    Console.Write("{0} : {1} 점    ", Enum.GetName(typeof(SUBJECT_NAME), j), score_list[i][j]);
                 }
                 Console.WriteLine();
             }
@@ -70,14 +75,14 @@ namespace Method0719_10_score_management
             }
 
             Console.WriteLine();
-            Console.WriteLine("#################### 점수 결과 #######################");
+            Console.WriteLine("#################### 학점 결과 #######################");
             Console.WriteLine();
             Score_decision(avg_arr);
         }
 
         double Create_score()
         {
-            double score = ran.Next(30, 100);
+            double score = ran.Next(45, 100);
 
             return score;
         }

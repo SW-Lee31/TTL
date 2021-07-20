@@ -46,7 +46,7 @@ namespace Method0719_06_sum
             }
 
             Console.WriteLine("입력숫자의 홀수의 합은 {0}, 짝수의 합은 {1}입니다. ", odd_sum, even_sum);
-        }
+        } 
         
 
         int[] Odd_sum(int start_num, int last_num)

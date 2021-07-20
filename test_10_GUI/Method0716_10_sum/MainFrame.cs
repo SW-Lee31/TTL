@@ -106,7 +106,8 @@ namespace Method0716_10_sum
         private void name_create_button_Click(object sender, EventArgs e)
         {
             string C_name = Create_name();
-            name_output.Text = C_name + " is created";
+            name_output.Text = "";
+            name_output_show.Text = C_name + " is created";
             Clear();
             Insert_name(index, C_name);
             index++;
@@ -114,22 +115,26 @@ namespace Method0716_10_sum
 
         private void print_button_Click(object sender, EventArgs e)
         {
-            name_output.Text = Choose_name(int.Parse(print_index_input.Text)) + "is the name you searched";
+            name_output_show.Text = "";
+            name_output.Text = Choose_name(int.Parse(print_index_input.Text)) + " is the name you searched";
         }
 
         private void drop_button_Click(object sender, EventArgs e)
         {
-            name_output.Text = Drop_name(int.Parse(drop_index_input.Text)) + "is the name you dropped";
+            name_output_show.Text = "";
+            name_output.Text = Drop_name(int.Parse(drop_index_input.Text)) + " is the name you dropped";
         }
 
         private void commit_button_Click(object sender, EventArgs e)
         {
+            name_output_show.Text = "";
             name_output.Text = "The elements are loaded in \'test.txt\'";
             Commit();
         }
 
         private void delete_button_Click(object sender, EventArgs e)
         {
+            name_output_show.Text = "";
             Delete_all();
             name_output.Text = "All elements are deleted";
             index = 0;

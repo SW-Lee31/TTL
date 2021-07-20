@@ -43,6 +43,7 @@ namespace Method0716_10_sum
             this.exit_button = new System.Windows.Forms.Button();
             this.name_create_button = new System.Windows.Forms.Button();
             this.title = new System.Windows.Forms.Label();
+            this.name_output_show = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // text4
@@ -85,13 +86,14 @@ namespace Method0716_10_sum
             // 
             this.name_output.AutoSize = true;
             this.name_output.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.name_output.Location = new System.Drawing.Point(84, 585);
+            this.name_output.Location = new System.Drawing.Point(58, 585);
             this.name_output.Name = "name_output";
             this.name_output.Size = new System.Drawing.Size(0, 25);
             this.name_output.TabIndex = 27;
             // 
             // text3
             // 
+            this.text3.AutoEllipsis = true;
             this.text3.AutoSize = true;
             this.text3.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.text3.Location = new System.Drawing.Point(34, 541);
@@ -191,11 +193,21 @@ namespace Method0716_10_sum
             this.title.TabIndex = 17;
             this.title.Text = "Name Management Program V1.0.1";
             // 
+            // name_output_show
+            // 
+            this.name_output_show.AutoSize = true;
+            this.name_output_show.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.name_output_show.Location = new System.Drawing.Point(134, 583);
+            this.name_output_show.Name = "name_output_show";
+            this.name_output_show.Size = new System.Drawing.Size(0, 25);
+            this.name_output_show.TabIndex = 31;
+            // 
             // MainFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(435, 656);
+            this.Controls.Add(this.name_output_show);
             this.Controls.Add(this.text4);
             this.Controls.Add(this.commit_button);
             this.Controls.Add(this.delete_button);
@@ -234,6 +246,7 @@ namespace Method0716_10_sum
         private System.Windows.Forms.Button exit_button;
         private System.Windows.Forms.Button name_create_button;
         private System.Windows.Forms.Label title;
+        private System.Windows.Forms.Label name_output_show;
     }
 }
 
