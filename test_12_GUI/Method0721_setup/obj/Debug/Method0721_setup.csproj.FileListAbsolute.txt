@@ -1,0 +1,10 @@
+C:\c#_work\test_12_GUI\Method0721_setup\obj\Debug\Method0721_setup.csproj.AssemblyReference.cache
+C:\c#_work\test_12_GUI\Method0721_setup\obj\Debug\Method0721_setup.MainFrame.resources
+C:\c#_work\test_12_GUI\Method0721_setup\obj\Debug\Method0721_setup.Properties.Resources.resources
+C:\c#_work\test_12_GUI\Method0721_setup\obj\Debug\Method0721_setup.csproj.GenerateResource.cache
+C:\c#_work\test_12_GUI\Method0721_setup\obj\Debug\Method0721_setup.csproj.CoreCompileInputs.cache
+C:\c#_work\test_12_GUI\Method0721_setup\bin\Debug\Method0721_setup.exe.config
+C:\c#_work\test_12_GUI\Method0721_setup\bin\Debug\Method0721_setup.exe
+C:\c#_work\test_12_GUI\Method0721_setup\bin\Debug\Method0721_setup.pdb
+C:\c#_work\test_12_GUI\Method0721_setup\obj\Debug\Method0721_setup.exe
+C:\c#_work\test_12_GUI\Method0721_setup\obj\Debug\Method0721_setup.pdb

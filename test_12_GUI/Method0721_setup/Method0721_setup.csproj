@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{032DA0B0-969A-460B-B844-1439FBC2F143}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Class0720</RootNamespace>
-    <AssemblyName>Class0720</AssemblyName>
+    <ProjectGuid>{DAF9ED64-FF2C-4B4F-926D-80DE06DEC1E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Method0721_setup</RootNamespace>
+    <AssemblyName>Method0721_setup</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,7 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainFrame.cs" />
+    <Compile Include="MainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainFrame.Designer.cs">
       <DependentUpon>MainFrame.cs</DependentUpon>
     </Compile>
