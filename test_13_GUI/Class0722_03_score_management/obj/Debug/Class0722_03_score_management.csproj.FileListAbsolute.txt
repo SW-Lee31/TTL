@@ -1,0 +1,10 @@
+C:\c#_work\test_13_GUI\Class0722_03_score_management\bin\Debug\Class0722_03_score_management.exe.config
+C:\c#_work\test_13_GUI\Class0722_03_score_management\bin\Debug\Class0722_03_score_management.exe
+C:\c#_work\test_13_GUI\Class0722_03_score_management\bin\Debug\Class0722_03_score_management.pdb
+C:\c#_work\test_13_GUI\Class0722_03_score_management\obj\Debug\Class0722_03_score_management.csproj.AssemblyReference.cache
+C:\c#_work\test_13_GUI\Class0722_03_score_management\obj\Debug\Class0722_03_score_management.MainFrame.resources
+C:\c#_work\test_13_GUI\Class0722_03_score_management\obj\Debug\Class0722_03_score_management.Properties.Resources.resources
+C:\c#_work\test_13_GUI\Class0722_03_score_management\obj\Debug\Class0722_03_score_management.csproj.GenerateResource.cache
+C:\c#_work\test_13_GUI\Class0722_03_score_management\obj\Debug\Class0722_03_score_management.csproj.CoreCompileInputs.cache
+C:\c#_work\test_13_GUI\Class0722_03_score_management\obj\Debug\Class0722_03_score_management.exe
+C:\c#_work\test_13_GUI\Class0722_03_score_management\obj\Debug\Class0722_03_score_management.pdb

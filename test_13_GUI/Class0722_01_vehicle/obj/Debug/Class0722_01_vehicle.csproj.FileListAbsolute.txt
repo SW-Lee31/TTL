@@ -1,0 +1,9 @@
+C:\c#_work\test_13_GUI\Class0722_01_vehicle\bin\Debug\Class0722_01_vehicle.exe.config
+C:\c#_work\test_13_GUI\Class0722_01_vehicle\bin\Debug\Class0722_01_vehicle.exe
+C:\c#_work\test_13_GUI\Class0722_01_vehicle\bin\Debug\Class0722_01_vehicle.pdb
+C:\c#_work\test_13_GUI\Class0722_01_vehicle\obj\Debug\Class0722_01_vehicle.MainFrame.resources
+C:\c#_work\test_13_GUI\Class0722_01_vehicle\obj\Debug\Class0722_01_vehicle.Properties.Resources.resources
+C:\c#_work\test_13_GUI\Class0722_01_vehicle\obj\Debug\Class0722_01_vehicle.csproj.GenerateResource.cache
+C:\c#_work\test_13_GUI\Class0722_01_vehicle\obj\Debug\Class0722_01_vehicle.csproj.CoreCompileInputs.cache
+C:\c#_work\test_13_GUI\Class0722_01_vehicle\obj\Debug\Class0722_01_vehicle.exe
+C:\c#_work\test_13_GUI\Class0722_01_vehicle\obj\Debug\Class0722_01_vehicle.pdb

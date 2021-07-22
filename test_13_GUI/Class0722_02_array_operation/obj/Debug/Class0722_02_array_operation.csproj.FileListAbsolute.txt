@@ -1,0 +1,9 @@
+C:\c#_work\test_13_GUI\Class0722_02_array_operation\bin\Debug\Class0722_02_array_operation.exe.config
+C:\c#_work\test_13_GUI\Class0722_02_array_operation\bin\Debug\Class0722_02_array_operation.exe
+C:\c#_work\test_13_GUI\Class0722_02_array_operation\bin\Debug\Class0722_02_array_operation.pdb
+C:\c#_work\test_13_GUI\Class0722_02_array_operation\obj\Debug\Class0722_02_array_operation.MainFrame.resources
+C:\c#_work\test_13_GUI\Class0722_02_array_operation\obj\Debug\Class0722_02_array_operation.Properties.Resources.resources
+C:\c#_work\test_13_GUI\Class0722_02_array_operation\obj\Debug\Class0722_02_array_operation.csproj.GenerateResource.cache
+C:\c#_work\test_13_GUI\Class0722_02_array_operation\obj\Debug\Class0722_02_array_operation.csproj.CoreCompileInputs.cache
+C:\c#_work\test_13_GUI\Class0722_02_array_operation\obj\Debug\Class0722_02_array_operation.exe
+C:\c#_work\test_13_GUI\Class0722_02_array_operation\obj\Debug\Class0722_02_array_operation.pdb

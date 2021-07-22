@@ -1,0 +1,10 @@
+C:\c#_work\test_13_GUI\Class0722\bin\Debug\Class0722.exe.config
+C:\c#_work\test_13_GUI\Class0722\bin\Debug\Class0722.exe
+C:\c#_work\test_13_GUI\Class0722\bin\Debug\Class0722.pdb
+C:\c#_work\test_13_GUI\Class0722\obj\Debug\Class0722.csproj.AssemblyReference.cache
+C:\c#_work\test_13_GUI\Class0722\obj\Debug\Class0722.MainFrame.resources
+C:\c#_work\test_13_GUI\Class0722\obj\Debug\Class0722.Properties.Resources.resources
+C:\c#_work\test_13_GUI\Class0722\obj\Debug\Class0722.csproj.GenerateResource.cache
+C:\c#_work\test_13_GUI\Class0722\obj\Debug\Class0722.csproj.CoreCompileInputs.cache
+C:\c#_work\test_13_GUI\Class0722\obj\Debug\Class0722.exe
+C:\c#_work\test_13_GUI\Class0722\obj\Debug\Class0722.pdb
