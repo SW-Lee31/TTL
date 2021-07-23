@@ -1,0 +1,10 @@
+C:\c#_work\test_14_GUI\Class0723_02_library_management\bin\Debug\Class0723_02_library_management.exe.config
+C:\c#_work\test_14_GUI\Class0723_02_library_management\bin\Debug\Class0723_02_library_management.exe
+C:\c#_work\test_14_GUI\Class0723_02_library_management\bin\Debug\Class0723_02_library_management.pdb
+C:\c#_work\test_14_GUI\Class0723_02_library_management\obj\Debug\Class0723_02_library_management.csproj.AssemblyReference.cache
+C:\c#_work\test_14_GUI\Class0723_02_library_management\obj\Debug\Class0723_02_library_management.MainFrame.resources
+C:\c#_work\test_14_GUI\Class0723_02_library_management\obj\Debug\Class0723_02_library_management.Properties.Resources.resources
+C:\c#_work\test_14_GUI\Class0723_02_library_management\obj\Debug\Class0723_02_library_management.csproj.GenerateResource.cache
+C:\c#_work\test_14_GUI\Class0723_02_library_management\obj\Debug\Class0723_02_library_management.csproj.CoreCompileInputs.cache
+C:\c#_work\test_14_GUI\Class0723_02_library_management\obj\Debug\Class0723_02_library_management.exe
+C:\c#_work\test_14_GUI\Class0723_02_library_management\obj\Debug\Class0723_02_library_management.pdb

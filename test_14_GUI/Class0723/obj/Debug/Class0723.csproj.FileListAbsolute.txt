@@ -1,0 +1,10 @@
+C:\c#_work\test_14_GUI\Class0723\bin\Debug\Class0723.exe.config
+C:\c#_work\test_14_GUI\Class0723\bin\Debug\Class0723.exe
+C:\c#_work\test_14_GUI\Class0723\bin\Debug\Class0723.pdb
+C:\c#_work\test_14_GUI\Class0723\obj\Debug\Class0723.csproj.AssemblyReference.cache
+C:\c#_work\test_14_GUI\Class0723\obj\Debug\Class0723.MainFrame.resources
+C:\c#_work\test_14_GUI\Class0723\obj\Debug\Class0723.Properties.Resources.resources
+C:\c#_work\test_14_GUI\Class0723\obj\Debug\Class0723.csproj.GenerateResource.cache
+C:\c#_work\test_14_GUI\Class0723\obj\Debug\Class0723.csproj.CoreCompileInputs.cache
+C:\c#_work\test_14_GUI\Class0723\obj\Debug\Class0723.exe
+C:\c#_work\test_14_GUI\Class0723\obj\Debug\Class0723.pdb

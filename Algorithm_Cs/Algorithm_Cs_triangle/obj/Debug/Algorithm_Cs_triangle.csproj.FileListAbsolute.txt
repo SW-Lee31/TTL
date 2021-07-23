@@ -1,0 +1,10 @@
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_triangle\bin\Debug\Algorithm_Cs_triangle.exe.config
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_triangle\bin\Debug\Algorithm_Cs_triangle.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_triangle\bin\Debug\Algorithm_Cs_triangle.pdb
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_triangle\obj\Debug\Algorithm_Cs_triangle.MainFrame.resources
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_triangle\obj\Debug\Algorithm_Cs_triangle.Properties.Resources.resources
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_triangle\obj\Debug\Algorithm_Cs_triangle.csproj.GenerateResource.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_triangle\obj\Debug\Algorithm_Cs_triangle.csproj.CoreCompileInputs.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_triangle\obj\Debug\Algorithm_Cs_triangle.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_triangle\obj\Debug\Algorithm_Cs_triangle.pdb
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_triangle\obj\Debug\Algorithm_Cs_triangle.csproj.AssemblyReference.cache

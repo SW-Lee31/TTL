@@ -1,0 +1,10 @@
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Integer_Triangle\obj\Debug\Algorithm_Cs_Integer_Triangle.csproj.AssemblyReference.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Integer_Triangle\obj\Debug\Algorithm_Cs_Integer_Triangle.MainFrame.resources
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Integer_Triangle\obj\Debug\Algorithm_Cs_Integer_Triangle.Properties.Resources.resources
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Integer_Triangle\obj\Debug\Algorithm_Cs_Integer_Triangle.csproj.GenerateResource.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Integer_Triangle\obj\Debug\Algorithm_Cs_Integer_Triangle.csproj.CoreCompileInputs.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Integer_Triangle\bin\Debug\Algorithm_Cs_Integer_Triangle.exe.config
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Integer_Triangle\bin\Debug\Algorithm_Cs_Integer_Triangle.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Integer_Triangle\bin\Debug\Algorithm_Cs_Integer_Triangle.pdb
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Integer_Triangle\obj\Debug\Algorithm_Cs_Integer_Triangle.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Integer_Triangle\obj\Debug\Algorithm_Cs_Integer_Triangle.pdb

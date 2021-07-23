@@ -1,0 +1,10 @@
+C:\c#_work\test_14_GUI\Class0723_04_Park_management\bin\Debug\Class0723_04_Park_management.exe.config
+C:\c#_work\test_14_GUI\Class0723_04_Park_management\bin\Debug\Class0723_04_Park_management.exe
+C:\c#_work\test_14_GUI\Class0723_04_Park_management\bin\Debug\Class0723_04_Park_management.pdb
+C:\c#_work\test_14_GUI\Class0723_04_Park_management\obj\Debug\Class0723_04_Park_management_SWL31.carApp.csproj.AssemblyReference.cache
+C:\c#_work\test_14_GUI\Class0723_04_Park_management\obj\Debug\Class0723_04_Park_management.MainFrame.resources
+C:\c#_work\test_14_GUI\Class0723_04_Park_management\obj\Debug\Class0723_04_Park_management.Properties.Resources.resources
+C:\c#_work\test_14_GUI\Class0723_04_Park_management\obj\Debug\Class0723_04_Park_management_SWL31.carApp.csproj.GenerateResource.cache
+C:\c#_work\test_14_GUI\Class0723_04_Park_management\obj\Debug\Class0723_04_Park_management_SWL31.carApp.csproj.CoreCompileInputs.cache
+C:\c#_work\test_14_GUI\Class0723_04_Park_management\obj\Debug\Class0723_04_Park_management.exe
+C:\c#_work\test_14_GUI\Class0723_04_Park_management\obj\Debug\Class0723_04_Park_management.pdb
