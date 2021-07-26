@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test_15_GUI\Class0726\bin\Debug\Class0726.exe.config
+C:\Users\User\source\repos\test_15_GUI\Class0726\bin\Debug\Class0726.exe
+C:\Users\User\source\repos\test_15_GUI\Class0726\bin\Debug\Class0726.pdb
+C:\Users\User\source\repos\test_15_GUI\Class0726\obj\Debug\Class0726.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726\obj\Debug\Class0726.MainFrame.resources
+C:\Users\User\source\repos\test_15_GUI\Class0726\obj\Debug\Class0726.Properties.Resources.resources
+C:\Users\User\source\repos\test_15_GUI\Class0726\obj\Debug\Class0726.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726\obj\Debug\Class0726.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726\obj\Debug\Class0726.exe
+C:\Users\User\source\repos\test_15_GUI\Class0726\obj\Debug\Class0726.pdb

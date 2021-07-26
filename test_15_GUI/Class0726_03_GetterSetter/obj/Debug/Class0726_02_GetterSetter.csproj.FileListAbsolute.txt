@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_GetterSetter\bin\Debug\Class0726_03_GetterSetter.exe.config
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_GetterSetter\bin\Debug\Class0726_03_GetterSetter.exe
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_GetterSetter\bin\Debug\Class0726_03_GetterSetter.pdb
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_GetterSetter\obj\Debug\Class0726_03_GetterSetter.MainFrame.resources
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_GetterSetter\obj\Debug\Class0726_03_GetterSetter.Properties.Resources.resources
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_GetterSetter\obj\Debug\Class0726_02_GetterSetter.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_GetterSetter\obj\Debug\Class0726_02_GetterSetter.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_GetterSetter\obj\Debug\Class0726_03_GetterSetter.exe
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_GetterSetter\obj\Debug\Class0726_03_GetterSetter.pdb

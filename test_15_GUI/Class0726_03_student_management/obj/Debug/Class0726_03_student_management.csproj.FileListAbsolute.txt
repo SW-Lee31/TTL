@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_student_management\bin\Debug\Class0726_03_student_management.exe.config
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_student_management\bin\Debug\Class0726_03_student_management.exe
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_student_management\bin\Debug\Class0726_03_student_management.pdb
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_student_management\obj\Debug\Class0726_03_student_management.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_student_management\obj\Debug\Class0726_03_student_management.MainFrame.resources
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_student_management\obj\Debug\Class0726_03_student_management.Properties.Resources.resources
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_student_management\obj\Debug\Class0726_03_student_management.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_student_management\obj\Debug\Class0726_03_student_management.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_student_management\obj\Debug\Class0726_03_student_management.exe
+C:\Users\User\source\repos\test_15_GUI\Class0726_03_student_management\obj\Debug\Class0726_03_student_management.pdb

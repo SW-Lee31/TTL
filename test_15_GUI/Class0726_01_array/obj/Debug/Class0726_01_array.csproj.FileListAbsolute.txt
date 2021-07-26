@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test_15_GUI\Class0726_01_array\bin\Debug\Class0726_01_array.exe.config
+C:\Users\User\source\repos\test_15_GUI\Class0726_01_array\bin\Debug\Class0726_01_array.exe
+C:\Users\User\source\repos\test_15_GUI\Class0726_01_array\bin\Debug\Class0726_01_array.pdb
+C:\Users\User\source\repos\test_15_GUI\Class0726_01_array\obj\Debug\Class0726_01_array.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_01_array\obj\Debug\Class0726_01_array.MainFrame.resources
+C:\Users\User\source\repos\test_15_GUI\Class0726_01_array\obj\Debug\Class0726_01_array.Properties.Resources.resources
+C:\Users\User\source\repos\test_15_GUI\Class0726_01_array\obj\Debug\Class0726_01_array.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_01_array\obj\Debug\Class0726_01_array.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_01_array\obj\Debug\Class0726_01_array.exe
+C:\Users\User\source\repos\test_15_GUI\Class0726_01_array\obj\Debug\Class0726_01_array.pdb

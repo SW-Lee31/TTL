@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\test_15_GUI\Class0726_04_student_score\obj\Debug\Class0726_04_student_score.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_04_student_score\obj\Debug\Class0726_04_student_score.MainFrame.resources
+C:\Users\User\source\repos\test_15_GUI\Class0726_04_student_score\obj\Debug\Class0726_04_student_score.Properties.Resources.resources
+C:\Users\User\source\repos\test_15_GUI\Class0726_04_student_score\obj\Debug\Class0726_04_student_score.csproj.GenerateResource.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_04_student_score\obj\Debug\Class0726_04_student_score.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\test_15_GUI\Class0726_04_student_score\bin\Debug\Class0726_04_student_score.exe.config
+C:\Users\User\source\repos\test_15_GUI\Class0726_04_student_score\bin\Debug\Class0726_04_student_score.exe
+C:\Users\User\source\repos\test_15_GUI\Class0726_04_student_score\bin\Debug\Class0726_04_student_score.pdb
+C:\Users\User\source\repos\test_15_GUI\Class0726_04_student_score\obj\Debug\Class0726_04_student_score.exe
+C:\Users\User\source\repos\test_15_GUI\Class0726_04_student_score\obj\Debug\Class0726_04_student_score.pdb
