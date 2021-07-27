@@ -1,0 +1,10 @@
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Stack\obj\Debug\Algorithm_Cs_Stack.csproj.AssemblyReference.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Stack\obj\Debug\Algorithm_Cs_Stack.MainFrame.resources
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Stack\obj\Debug\Algorithm_Cs_Stack.Properties.Resources.resources
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Stack\obj\Debug\Algorithm_Cs_Stack.csproj.GenerateResource.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Stack\obj\Debug\Algorithm_Cs_Stack.csproj.CoreCompileInputs.cache
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Stack\bin\Debug\Algorithm_Cs_Stack.exe.config
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Stack\bin\Debug\Algorithm_Cs_Stack.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Stack\bin\Debug\Algorithm_Cs_Stack.pdb
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Stack\obj\Debug\Algorithm_Cs_Stack.exe
+C:\c#_work\Algorithm_Cs\Algorithm_Cs_Stack\obj\Debug\Algorithm_Cs_Stack.pdb

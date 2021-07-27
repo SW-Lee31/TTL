@@ -8,3 +8,13 @@ C:\Users\User\source\repos\test_15_GUI\Class0726_05_parking_management\obj\Debug
 C:\Users\User\source\repos\test_15_GUI\Class0726_05_parking_management\obj\Debug\Class0726_05_parking_management.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\test_15_GUI\Class0726_05_parking_management\obj\Debug\Class0726_05_parking_management.exe
 C:\Users\User\source\repos\test_15_GUI\Class0726_05_parking_management\obj\Debug\Class0726_05_parking_management.pdb
+C:\c#_work\test_15_GUI\Class0726_05_parking_management\bin\Debug\Class0726_05_parking_management.exe.config
+C:\c#_work\test_15_GUI\Class0726_05_parking_management\bin\Debug\Class0726_05_parking_management.exe
+C:\c#_work\test_15_GUI\Class0726_05_parking_management\bin\Debug\Class0726_05_parking_management.pdb
+C:\c#_work\test_15_GUI\Class0726_05_parking_management\obj\Debug\Class0726_05_parking_management.MainFrame.resources
+C:\c#_work\test_15_GUI\Class0726_05_parking_management\obj\Debug\Class0726_05_parking_management.Properties.Resources.resources
+C:\c#_work\test_15_GUI\Class0726_05_parking_management\obj\Debug\Class0726_05_parking_management.csproj.GenerateResource.cache
+C:\c#_work\test_15_GUI\Class0726_05_parking_management\obj\Debug\Class0726_05_parking_management.csproj.CoreCompileInputs.cache
+C:\c#_work\test_15_GUI\Class0726_05_parking_management\obj\Debug\Class0726_05_parking_management.exe
+C:\c#_work\test_15_GUI\Class0726_05_parking_management\obj\Debug\Class0726_05_parking_management.pdb
+C:\c#_work\test_15_GUI\Class0726_05_parking_management\obj\Debug\Class0726_05_parking_management.csproj.AssemblyReference.cache

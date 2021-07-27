@@ -1,0 +1,15 @@
+C:\c#_work\test_16_GUI\Class0727_03_Winform\bin\Debug\Class0727_03_Winform.exe.config
+C:\c#_work\test_16_GUI\Class0727_03_Winform\bin\Debug\Class0727_03_Winform.exe
+C:\c#_work\test_16_GUI\Class0727_03_Winform\bin\Debug\Class0727_03_Winform.pdb
+C:\c#_work\test_16_GUI\Class0727_03_Winform\bin\Debug\CxFlatUI.dll
+C:\c#_work\test_16_GUI\Class0727_03_Winform\bin\Debug\MaterialSkin.dll
+C:\c#_work\test_16_GUI\Class0727_03_Winform\bin\Debug\SunnyUI.Common.dll
+C:\c#_work\test_16_GUI\Class0727_03_Winform\bin\Debug\SunnyUI.dll
+C:\c#_work\test_16_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.csproj.AssemblyReference.cache
+C:\c#_work\test_16_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.Properties.Resources.resources
+C:\c#_work\test_16_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.MainUI.resources
+C:\c#_work\test_16_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.csproj.GenerateResource.cache
+C:\c#_work\test_16_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.csproj.CoreCompileInputs.cache
+C:\c#_work\test_16_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.csproj.CopyComplete
+C:\c#_work\test_16_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.exe
+C:\c#_work\test_16_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.pdb

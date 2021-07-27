@@ -22,7 +22,7 @@ namespace Algorithm_Cs_triangle
             Console.Write("삼각형의 크기를 지정해주세요 : ");
             int tri_size = int.Parse(Console.ReadLine());
 
-            int[][] final_tri =  make_triangle(tri_size);
+            int[][] final_tri = make_triangle(tri_size);
 
             for (int i = 0; i < final_tri.Length; i++)
             {
@@ -40,7 +40,7 @@ namespace Algorithm_Cs_triangle
         int[][] make_triangle(int tri_size)
         {
             int[][] final_tri = new int[tri_size][];
-            
+
             for (int i = 0; i < final_tri.Length; i++)
             {
                 final_tri[i] = new int[i + 1];
@@ -62,26 +62,36 @@ namespace Algorithm_Cs_triangle
 
         int max(int[][] final_tri)
         {
-            int temp = final_tri[0][0];
-
             for (int i = 1; i < final_tri.Length; i++)
             {
-                for (int j = 0; j < final_tri[i - 1].Length; j++)
+                for (int j = 0; j < i + 1; j++)
                 {
-                    if (temp + final_tri[i][j] > temp + final_tri[i][j + 1])
+                    if (j == 0)
                     {
-                        temp += final_tri[i][j];
+                        final_tri[i][j] += final_tri[i - 1][j];
+                    }
+
+                    else if (j == i)
+                    {
+                        final_tri[i][j] += final_tri[i - 1][j - 1];
                     }
 
                     else
                     {
-                        temp += final_tri[i][j + 1];
-                        j++;
+                        if (final_tri[i][j] > final_tri[i][j - 1])
+                        {
+                            final_tri[i][j] += final_tri[i][j];
+                        }
+
+                        else
+                        {
+                            final_tri[i][j] += final_tri[i][j - 1];
+                        }
                     }
                 }
             }
 
-            return temp;
+            return max(final_tri[-1]);
         }
 
 
