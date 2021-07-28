@@ -118,16 +118,64 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="kawasaki1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\kawasaki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iambrella" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\iambrella.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aprilia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\aprilia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kawasaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\kawasaki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Mainimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Mainimage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resource\Mainimage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mainimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Mainimage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="harley1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\harley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mainimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\Mainimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="moto_guzzi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\moto guzzi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="road" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\road.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="jawa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jawa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\haley.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="harley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\harley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bmw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\bmw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suzuki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\suzuki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karasaki_model1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\karasaki_model1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karasaki_model2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\karasaki_model2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karasaki_model3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\karasaki_model3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karasaki_model4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\karasaki_model4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suzuki_model1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\suzuki_model1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suzuki_model2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\suzuki_model2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suzuki_model3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\suzuki_model3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suzuki_model4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\suzuki_model4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

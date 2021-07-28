@@ -60,6 +60,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UI\Add_car.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Add_car.Designer.cs">
+      <DependentUpon>Add_car.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Add_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Add_customer.Designer.cs">
+      <DependentUpon>Add_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Salary_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Salary_info.Designer.cs">
+      <DependentUpon>Salary_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Sign_in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Sign_in.Designer.cs">
+      <DependentUpon>Sign_in.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\MainUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +92,31 @@
     </Compile>
     <Compile Include="Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\MainUI_02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainUI_02.Designer.cs">
+      <DependentUpon>MainUI_02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainUI_03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainUI_03.Designer.cs">
+      <DependentUpon>MainUI_03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainUI_04_metro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainUI_04_metro.Designer.cs">
+      <DependentUpon>MainUI_04_metro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Sign_up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Sign_up.Designer.cs">
+      <DependentUpon>Sign_up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Common.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -78,8 +127,32 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UI\Add_car.resx">
+      <DependentUpon>Add_car.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Add_customer.resx">
+      <DependentUpon>Add_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Salary_info.resx">
+      <DependentUpon>Salary_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Sign_in.resx">
+      <DependentUpon>Sign_in.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\MainUI.resx">
       <DependentUpon>MainUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainUI_02.resx">
+      <DependentUpon>MainUI_02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainUI_03.resx">
+      <DependentUpon>MainUI_03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainUI_04_metro.resx">
+      <DependentUpon>MainUI_04_metro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Sign_up.resx">
+      <DependentUpon>Sign_up.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -96,14 +169,32 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\Mainimage.jpg" />
+    <None Include="Resource\Mainimage.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\Sportage.jpg" />
+    <None Include="Resource\Sportage.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="images\road.jpg" />
-    <None Include="images\Mainimage.png" />
+    <None Include="Resource\suzuki_model4.jpg" />
+    <None Include="Resource\suzuki_model3.jpg" />
+    <None Include="Resource\suzuki_model2.jpg" />
+    <None Include="Resource\suzuki_model1.jpg" />
+    <None Include="Resource\karasaki_model4.jpg" />
+    <None Include="Resource\karasaki_model3.jpg" />
+    <None Include="Resource\karasaki_model2.jpg" />
+    <None Include="Resource\karasaki_model1.jpg" />
+    <None Include="Resource\suzuki.jpg" />
+    <None Include="Resource\kawasaki.jpg" />
+    <None Include="Resource\moto guzzi.png" />
+    <None Include="Resource\road.jpg" />
+    <None Include="Resource\Mainimage.png" />
+    <None Include="Resource\aprilia.png" />
+    <None Include="Resource\bmw.png" />
+    <None Include="Resource\haley.jpg" />
+    <None Include="Resource\iambrella.png" />
+    <None Include="Resource\jawa.png" />
+    <None Include="Resource\kawasaki.png" />
+    <None Include="Resource\harley.png" />
     <Content Include="ReadMePng\APIKeys.png" />
     <Content Include="ReadMePng\Deploy.png" />
     <Content Include="ReadMePng\MetaData.png" />
@@ -113,5 +204,6 @@
     <Content Include="ReadMePng\Options.png" />
     <Content Include="ReadMePng\类库上右键.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Class0727_03_Winform.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Class0727_03_Winform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainUI());
+            Application.Run(new MainUI_03());
         }
     }
 }

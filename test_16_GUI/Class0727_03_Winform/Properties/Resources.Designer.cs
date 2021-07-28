@@ -63,6 +63,136 @@ namespace Class0727_03_Winform.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap aprilia {
+            get {
+                object obj = ResourceManager.GetObject("aprilia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap bmw {
+            get {
+                object obj = ResourceManager.GetObject("bmw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap haley {
+            get {
+                object obj = ResourceManager.GetObject("haley", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap harley {
+            get {
+                object obj = ResourceManager.GetObject("harley", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap harley1 {
+            get {
+                object obj = ResourceManager.GetObject("harley1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap iambrella {
+            get {
+                object obj = ResourceManager.GetObject("iambrella", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap jawa {
+            get {
+                object obj = ResourceManager.GetObject("jawa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap karasaki_model1 {
+            get {
+                object obj = ResourceManager.GetObject("karasaki_model1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap karasaki_model2 {
+            get {
+                object obj = ResourceManager.GetObject("karasaki_model2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap karasaki_model3 {
+            get {
+                object obj = ResourceManager.GetObject("karasaki_model3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap karasaki_model4 {
+            get {
+                object obj = ResourceManager.GetObject("karasaki_model4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap kawasaki {
+            get {
+                object obj = ResourceManager.GetObject("kawasaki", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap kawasaki1 {
+            get {
+                object obj = ResourceManager.GetObject("kawasaki1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap Mainimage {
             get {
                 object obj = ResourceManager.GetObject("Mainimage", resourceCulture);
@@ -73,9 +203,9 @@ namespace Class0727_03_Winform.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap Mainimage1 {
+        internal static System.Drawing.Bitmap moto_guzzi {
             get {
-                object obj = ResourceManager.GetObject("Mainimage1", resourceCulture);
+                object obj = ResourceManager.GetObject("moto_guzzi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +213,9 @@ namespace Class0727_03_Winform.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap Mainimage2 {
+        internal static System.Drawing.Bitmap suzuki {
             get {
-                object obj = ResourceManager.GetObject("Mainimage2", resourceCulture);
+                object obj = ResourceManager.GetObject("suzuki", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +223,39 @@ namespace Class0727_03_Winform.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
-        internal static System.Drawing.Bitmap road {
+        internal static System.Drawing.Bitmap suzuki_model1 {
             get {
-                object obj = ResourceManager.GetObject("road", resourceCulture);
+                object obj = ResourceManager.GetObject("suzuki_model1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap suzuki_model2 {
+            get {
+                object obj = ResourceManager.GetObject("suzuki_model2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap suzuki_model3 {
+            get {
+                object obj = ResourceManager.GetObject("suzuki_model3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap suzuki_model4 {
+            get {
+                object obj = ResourceManager.GetObject("suzuki_model4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

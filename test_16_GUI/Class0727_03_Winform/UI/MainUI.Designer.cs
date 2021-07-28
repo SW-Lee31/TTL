@@ -29,23 +29,35 @@ namespace Class0727_03_Winform
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainUI));
             this.menu_button_group = new Sunny.UI.UIRadioButtonGroup();
-            this.uiButton2 = new Sunny.UI.UIButton();
-            this.uiButton3 = new Sunny.UI.UIButton();
-            this.uiButton4 = new Sunny.UI.UIButton();
-            this.uiButton5 = new Sunny.UI.UIButton();
-            this.uiButton6 = new Sunny.UI.UIButton();
+            this.uiButton1 = new Sunny.UI.UIButton();
             this.menu = new Sunny.UI.UILabel();
+            this.uiButton6 = new Sunny.UI.UIButton();
+            this.uiButton5 = new Sunny.UI.UIButton();
+            this.uiButton4 = new Sunny.UI.UIButton();
+            this.uiButton3 = new Sunny.UI.UIButton();
+            this.uiButton2 = new Sunny.UI.UIButton();
             this.title = new Sunny.UI.UISymbolLabel();
             this.button_maximum = new Sunny.UI.UISymbolButton();
             this.button_close = new Sunny.UI.UISymbolButton();
             this.button_minimum = new Sunny.UI.UISymbolButton();
-            this.uiButton1 = new Sunny.UI.UIButton();
+            this.text1 = new Sunny.UI.UILabel();
+            this.cxFlatPictureBox6 = new CxFlatUI.CxFlatPictureBox();
+            this.cxFlatPictureBox5 = new CxFlatUI.CxFlatPictureBox();
+            this.cxFlatPictureBox4 = new CxFlatUI.CxFlatPictureBox();
+            this.cxFlatPictureBox3 = new CxFlatUI.CxFlatPictureBox();
+            this.cxFlatPictureBox2 = new CxFlatUI.CxFlatPictureBox();
+            this.cxFlatPictureBox1 = new CxFlatUI.CxFlatPictureBox();
             this.motorcycle_img = new CxFlatUI.CxFlatPictureBox();
-            this.road_img = new CxFlatUI.CxFlatPictureBox();
             this.menu_button_group.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motorcycle_img)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.road_img)).BeginInit();
             this.SuspendLayout();
             // 
             // menu_button_group
@@ -57,7 +69,7 @@ namespace Class0727_03_Winform
             this.menu_button_group.Controls.Add(this.uiButton4);
             this.menu_button_group.Controls.Add(this.uiButton3);
             this.menu_button_group.Controls.Add(this.uiButton2);
-            this.menu_button_group.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.menu_button_group.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.menu_button_group.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.menu_button_group.Location = new System.Drawing.Point(0, 64);
             this.menu_button_group.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -68,133 +80,26 @@ namespace Class0727_03_Winform
             this.menu_button_group.Size = new System.Drawing.Size(193, 600);
             this.menu_button_group.Style = Sunny.UI.UIStyle.Custom;
             this.menu_button_group.TabIndex = 2;
+            this.menu_button_group.Text = null;
             this.menu_button_group.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // uiButton2
+            // uiButton1
             // 
-            this.uiButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton2.FillColor = System.Drawing.Color.Gray;
-            this.uiButton2.FillHoverColor = System.Drawing.Color.Black;
-            this.uiButton2.FillPressColor = System.Drawing.Color.Silver;
-            this.uiButton2.FillSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.uiButton2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton2.ForeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton2.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton2.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton2.Location = new System.Drawing.Point(-2, 141);
-            this.uiButton2.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton2.Name = "uiButton2";
-            this.uiButton2.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
-            this.uiButton2.RectColor = System.Drawing.Color.Transparent;
-            this.uiButton2.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton2.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton2.RectSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton2.Size = new System.Drawing.Size(194, 63);
-            this.uiButton2.Style = Sunny.UI.UIStyle.Custom;
-            this.uiButton2.TabIndex = 1;
-            this.uiButton2.Text = "uiButton2";
-            // 
-            // uiButton3
-            // 
-            this.uiButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton3.FillColor = System.Drawing.Color.Gray;
-            this.uiButton3.FillHoverColor = System.Drawing.Color.Black;
-            this.uiButton3.FillPressColor = System.Drawing.Color.Silver;
-            this.uiButton3.FillSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.uiButton3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton3.ForeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton3.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton3.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton3.Location = new System.Drawing.Point(-1, 210);
-            this.uiButton3.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton3.Name = "uiButton3";
-            this.uiButton3.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
-            this.uiButton3.RectColor = System.Drawing.Color.Transparent;
-            this.uiButton3.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton3.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton3.RectSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton3.Size = new System.Drawing.Size(194, 63);
-            this.uiButton3.Style = Sunny.UI.UIStyle.Custom;
-            this.uiButton3.TabIndex = 2;
-            this.uiButton3.Text = "uiButton3";
-            // 
-            // uiButton4
-            // 
-            this.uiButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton4.FillColor = System.Drawing.Color.Gray;
-            this.uiButton4.FillHoverColor = System.Drawing.Color.Black;
-            this.uiButton4.FillPressColor = System.Drawing.Color.Silver;
-            this.uiButton4.FillSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.uiButton4.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton4.ForeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton4.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton4.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton4.Location = new System.Drawing.Point(-1, 279);
-            this.uiButton4.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton4.Name = "uiButton4";
-            this.uiButton4.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
-            this.uiButton4.RectColor = System.Drawing.Color.Transparent;
-            this.uiButton4.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton4.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton4.RectSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton4.Size = new System.Drawing.Size(194, 63);
-            this.uiButton4.Style = Sunny.UI.UIStyle.Custom;
-            this.uiButton4.TabIndex = 3;
-            this.uiButton4.Text = "uiButton4";
-            // 
-            // uiButton5
-            // 
-            this.uiButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton5.FillColor = System.Drawing.Color.Gray;
-            this.uiButton5.FillHoverColor = System.Drawing.Color.Black;
-            this.uiButton5.FillPressColor = System.Drawing.Color.Silver;
-            this.uiButton5.FillSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.uiButton5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton5.ForeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton5.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton5.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton5.Location = new System.Drawing.Point(-1, 348);
-            this.uiButton5.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton5.Name = "uiButton5";
-            this.uiButton5.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
-            this.uiButton5.RectColor = System.Drawing.Color.Transparent;
-            this.uiButton5.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton5.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton5.RectSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton5.Size = new System.Drawing.Size(194, 63);
-            this.uiButton5.Style = Sunny.UI.UIStyle.Custom;
-            this.uiButton5.TabIndex = 4;
-            this.uiButton5.Text = "uiButton5";
-            // 
-            // uiButton6
-            // 
-            this.uiButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton6.FillColor = System.Drawing.Color.Gray;
-            this.uiButton6.FillHoverColor = System.Drawing.Color.Black;
-            this.uiButton6.FillPressColor = System.Drawing.Color.Silver;
-            this.uiButton6.FillSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.uiButton6.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton6.ForeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton6.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton6.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton6.Location = new System.Drawing.Point(-1, 417);
-            this.uiButton6.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton6.Name = "uiButton6";
-            this.uiButton6.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
-            this.uiButton6.RectColor = System.Drawing.Color.Transparent;
-            this.uiButton6.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton6.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton6.RectSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton6.Size = new System.Drawing.Size(194, 63);
-            this.uiButton6.Style = Sunny.UI.UIStyle.Custom;
-            this.uiButton6.TabIndex = 5;
-            this.uiButton6.Text = "uiButton6";
+            this.uiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiButton1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiButton1.Location = new System.Drawing.Point(-1, 72);
+            this.uiButton1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiButton1.Name = "uiButton1";
+            this.uiButton1.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiButton1.Size = new System.Drawing.Size(194, 63);
+            this.uiButton1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiButton1.TabIndex = 6;
+            this.uiButton1.Text = "uiButton1";
             // 
             // menu
             // 
             this.menu.BackColor = System.Drawing.Color.Transparent;
             this.menu.Font = new System.Drawing.Font("Microsoft YaHei", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menu.ForeColor = System.Drawing.Color.DimGray;
             this.menu.Location = new System.Drawing.Point(0, 12);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(190, 46);
@@ -202,6 +107,71 @@ namespace Class0727_03_Winform
             this.menu.TabIndex = 3;
             this.menu.Text = "MENU";
             this.menu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // uiButton6
+            // 
+            this.uiButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiButton6.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiButton6.Location = new System.Drawing.Point(-1, 417);
+            this.uiButton6.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiButton6.Name = "uiButton6";
+            this.uiButton6.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiButton6.Size = new System.Drawing.Size(194, 63);
+            this.uiButton6.Style = Sunny.UI.UIStyle.Custom;
+            this.uiButton6.TabIndex = 5;
+            this.uiButton6.Text = "uiButton6";
+            // 
+            // uiButton5
+            // 
+            this.uiButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiButton5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiButton5.Location = new System.Drawing.Point(-1, 348);
+            this.uiButton5.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiButton5.Name = "uiButton5";
+            this.uiButton5.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiButton5.Size = new System.Drawing.Size(194, 63);
+            this.uiButton5.Style = Sunny.UI.UIStyle.Custom;
+            this.uiButton5.TabIndex = 4;
+            this.uiButton5.Text = "uiButton5";
+            // 
+            // uiButton4
+            // 
+            this.uiButton4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiButton4.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiButton4.Location = new System.Drawing.Point(-1, 279);
+            this.uiButton4.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiButton4.Name = "uiButton4";
+            this.uiButton4.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiButton4.Size = new System.Drawing.Size(194, 63);
+            this.uiButton4.Style = Sunny.UI.UIStyle.Custom;
+            this.uiButton4.TabIndex = 3;
+            this.uiButton4.Text = "uiButton4";
+            // 
+            // uiButton3
+            // 
+            this.uiButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiButton3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiButton3.Location = new System.Drawing.Point(-1, 210);
+            this.uiButton3.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiButton3.Name = "uiButton3";
+            this.uiButton3.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiButton3.Size = new System.Drawing.Size(194, 63);
+            this.uiButton3.Style = Sunny.UI.UIStyle.Custom;
+            this.uiButton3.TabIndex = 2;
+            this.uiButton3.Text = "uiButton3";
+            // 
+            // uiButton2
+            // 
+            this.uiButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiButton2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiButton2.Location = new System.Drawing.Point(-2, 141);
+            this.uiButton2.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiButton2.Name = "uiButton2";
+            this.uiButton2.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiButton2.Size = new System.Drawing.Size(194, 63);
+            this.uiButton2.Style = Sunny.UI.UIStyle.Custom;
+            this.uiButton2.TabIndex = 1;
+            this.uiButton2.Text = "uiButton2";
             // 
             // title
             // 
@@ -241,6 +211,7 @@ namespace Class0727_03_Winform
             this.button_maximum.Style = Sunny.UI.UIStyle.Custom;
             this.button_maximum.Symbol = 62160;
             this.button_maximum.TabIndex = 14;
+            this.button_maximum.Click += new System.EventHandler(this.button_maximum_Click);
             // 
             // button_close
             // 
@@ -287,69 +258,124 @@ namespace Class0727_03_Winform
             this.button_minimum.Style = Sunny.UI.UIStyle.Custom;
             this.button_minimum.Symbol = 62161;
             this.button_minimum.TabIndex = 12;
+            this.button_minimum.Click += new System.EventHandler(this.button_minimum_Click);
             // 
-            // uiButton1
+            // text1
             // 
-            this.uiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton1.FillColor = System.Drawing.Color.Gray;
-            this.uiButton1.FillHoverColor = System.Drawing.Color.Black;
-            this.uiButton1.FillPressColor = System.Drawing.Color.Silver;
-            this.uiButton1.FillSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.uiButton1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton1.ForeHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton1.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton1.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton1.Location = new System.Drawing.Point(-1, 72);
-            this.uiButton1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton1.Name = "uiButton1";
-            this.uiButton1.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
-            this.uiButton1.RectColor = System.Drawing.Color.Transparent;
-            this.uiButton1.RectHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton1.RectPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton1.RectSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.uiButton1.Size = new System.Drawing.Size(194, 63);
-            this.uiButton1.Style = Sunny.UI.UIStyle.Custom;
-            this.uiButton1.TabIndex = 6;
-            this.uiButton1.Text = "uiButton1";
+            this.text1.BackColor = System.Drawing.Color.Transparent;
+            this.text1.Font = new System.Drawing.Font("Microsoft Yi Baiti", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text1.ForeColor = System.Drawing.Color.Black;
+            this.text1.Location = new System.Drawing.Point(199, 274);
+            this.text1.Name = "text1";
+            this.text1.Size = new System.Drawing.Size(600, 46);
+            this.text1.Style = Sunny.UI.UIStyle.Custom;
+            this.text1.TabIndex = 7;
+            this.text1.Text = "----------- BRANDS -----------";
+            this.text1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // cxFlatPictureBox6
+            // 
+            this.cxFlatPictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.cxFlatPictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("cxFlatPictureBox6.Image")));
+            this.cxFlatPictureBox6.Location = new System.Drawing.Point(712, 340);
+            this.cxFlatPictureBox6.Name = "cxFlatPictureBox6";
+            this.cxFlatPictureBox6.Size = new System.Drawing.Size(71, 66);
+            this.cxFlatPictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cxFlatPictureBox6.TabIndex = 21;
+            this.cxFlatPictureBox6.TabStop = false;
+            // 
+            // cxFlatPictureBox5
+            // 
+            this.cxFlatPictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("cxFlatPictureBox5.Image")));
+            this.cxFlatPictureBox5.Location = new System.Drawing.Point(611, 340);
+            this.cxFlatPictureBox5.Name = "cxFlatPictureBox5";
+            this.cxFlatPictureBox5.Size = new System.Drawing.Size(71, 66);
+            this.cxFlatPictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cxFlatPictureBox5.TabIndex = 20;
+            this.cxFlatPictureBox5.TabStop = false;
+            // 
+            // cxFlatPictureBox4
+            // 
+            this.cxFlatPictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("cxFlatPictureBox4.Image")));
+            this.cxFlatPictureBox4.Location = new System.Drawing.Point(510, 340);
+            this.cxFlatPictureBox4.Name = "cxFlatPictureBox4";
+            this.cxFlatPictureBox4.Size = new System.Drawing.Size(71, 66);
+            this.cxFlatPictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cxFlatPictureBox4.TabIndex = 19;
+            this.cxFlatPictureBox4.TabStop = false;
+            // 
+            // cxFlatPictureBox3
+            // 
+            this.cxFlatPictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.cxFlatPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("cxFlatPictureBox3.Image")));
+            this.cxFlatPictureBox3.Location = new System.Drawing.Point(409, 340);
+            this.cxFlatPictureBox3.Name = "cxFlatPictureBox3";
+            this.cxFlatPictureBox3.Size = new System.Drawing.Size(71, 66);
+            this.cxFlatPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cxFlatPictureBox3.TabIndex = 18;
+            this.cxFlatPictureBox3.TabStop = false;
+            // 
+            // cxFlatPictureBox2
+            // 
+            this.cxFlatPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("cxFlatPictureBox2.Image")));
+            this.cxFlatPictureBox2.Location = new System.Drawing.Point(308, 340);
+            this.cxFlatPictureBox2.Name = "cxFlatPictureBox2";
+            this.cxFlatPictureBox2.Size = new System.Drawing.Size(71, 66);
+            this.cxFlatPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cxFlatPictureBox2.TabIndex = 17;
+            this.cxFlatPictureBox2.TabStop = false;
+            // 
+            // cxFlatPictureBox1
+            // 
+            this.cxFlatPictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.cxFlatPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("cxFlatPictureBox1.Image")));
+            this.cxFlatPictureBox1.Location = new System.Drawing.Point(207, 340);
+            this.cxFlatPictureBox1.Name = "cxFlatPictureBox1";
+            this.cxFlatPictureBox1.Size = new System.Drawing.Size(71, 66);
+            this.cxFlatPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cxFlatPictureBox1.TabIndex = 16;
+            this.cxFlatPictureBox1.TabStop = false;
             // 
             // motorcycle_img
             // 
-            this.motorcycle_img.Image = global::Class0727_03_Winform.Properties.Resources.Mainimage2;
-            this.motorcycle_img.Location = new System.Drawing.Point(200, 93);
+            this.motorcycle_img.Image = ((System.Drawing.Image)(resources.GetObject("motorcycle_img.Image")));
+            this.motorcycle_img.Location = new System.Drawing.Point(187, 64);
             this.motorcycle_img.Name = "motorcycle_img";
-            this.motorcycle_img.Size = new System.Drawing.Size(351, 175);
+            this.motorcycle_img.Size = new System.Drawing.Size(622, 204);
             this.motorcycle_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.motorcycle_img.TabIndex = 15;
             this.motorcycle_img.TabStop = false;
-            // 
-            // road_img
-            // 
-            this.road_img.Image = global::Class0727_03_Winform.Properties.Resources.road;
-            this.road_img.Location = new System.Drawing.Point(192, 64);
-            this.road_img.Name = "road_img";
-            this.road_img.Size = new System.Drawing.Size(603, 273);
-            this.road_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.road_img.TabIndex = 16;
-            this.road_img.TabStop = false;
             // 
             // MainUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 545);
+            this.ClientSize = new System.Drawing.Size(798, 545);
             this.ControlBox = false;
-            this.Controls.Add(this.motorcycle_img);
-            this.Controls.Add(this.road_img);
+            this.Controls.Add(this.cxFlatPictureBox6);
+            this.Controls.Add(this.cxFlatPictureBox5);
+            this.Controls.Add(this.cxFlatPictureBox4);
+            this.Controls.Add(this.cxFlatPictureBox3);
+            this.Controls.Add(this.cxFlatPictureBox2);
+            this.Controls.Add(this.cxFlatPictureBox1);
+            this.Controls.Add(this.text1);
             this.Controls.Add(this.button_maximum);
             this.Controls.Add(this.button_close);
             this.Controls.Add(this.button_minimum);
             this.Controls.Add(this.title);
             this.Controls.Add(this.menu_button_group);
+            this.Controls.Add(this.motorcycle_img);
             this.Name = "MainUI";
+            this.Text = "V1.0.0";
             this.Load += new System.EventHandler(this.MainUI_Load);
             this.menu_button_group.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.motorcycle_img)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.road_img)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -368,7 +394,13 @@ namespace Class0727_03_Winform
         private Sunny.UI.UISymbolButton button_minimum;
         private Sunny.UI.UIButton uiButton1;
         private CxFlatUI.CxFlatPictureBox motorcycle_img;
-        private CxFlatUI.CxFlatPictureBox road_img;
+        private Sunny.UI.UILabel text1;
+        private CxFlatUI.CxFlatPictureBox cxFlatPictureBox1;
+        private CxFlatUI.CxFlatPictureBox cxFlatPictureBox2;
+        private CxFlatUI.CxFlatPictureBox cxFlatPictureBox3;
+        private CxFlatUI.CxFlatPictureBox cxFlatPictureBox4;
+        private CxFlatUI.CxFlatPictureBox cxFlatPictureBox5;
+        private CxFlatUI.CxFlatPictureBox cxFlatPictureBox6;
     }
 }
 

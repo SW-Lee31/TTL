@@ -1,4 +1,5 @@
-﻿using MaterialSkin;
+﻿using Class0727_03_Winform.Util;
+using MaterialSkin;
 using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
@@ -21,10 +22,10 @@ namespace Class0727_03_Winform
 
         private void MainUI_Load(object sender, EventArgs e)
         {
-            initTheme();
+            Common.InitTheme(this);
         }
 
-        void initTheme()
+        /*void initTheme()
         {
             var skin = MaterialSkinManager.Instance;
             skin.AddFormToManage(this);
@@ -35,7 +36,7 @@ namespace Class0727_03_Winform
                 Primary.Teal300,
                 Accent.Teal100,
                 TextShade.BLACK);
-        }
+        }*/
 
         private void button_close_Click(object sender, EventArgs e)
         {
@@ -44,6 +45,16 @@ namespace Class0727_03_Winform
             {
                 Application.Exit();
             }
+        }
+
+        private void button_minimum_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
+
+        private void button_maximum_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Maximized;
         }
     }
 }
