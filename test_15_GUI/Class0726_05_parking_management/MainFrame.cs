@@ -14,7 +14,7 @@ namespace Class0726_05_parking_management
     {
         Random ran = new Random();
 
-        const int num_people = 10;
+        const int num_people = 50;
 
         string name;
         string p_num;

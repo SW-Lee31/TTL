@@ -1,0 +1,10 @@
+C:\c#_work\test_16_GUI\Class0727_01_sigletone\obj\Debug\Class0727_01_sigletone.csproj.AssemblyReference.cache
+C:\c#_work\test_16_GUI\Class0727_01_sigletone\obj\Debug\Class0727_01_sigletone.MainFrame.resources
+C:\c#_work\test_16_GUI\Class0727_01_sigletone\obj\Debug\Class0727_01_sigletone.Properties.Resources.resources
+C:\c#_work\test_16_GUI\Class0727_01_sigletone\obj\Debug\Class0727_01_sigletone.csproj.GenerateResource.cache
+C:\c#_work\test_16_GUI\Class0727_01_sigletone\obj\Debug\Class0727_01_sigletone.csproj.CoreCompileInputs.cache
+C:\c#_work\test_16_GUI\Class0727_01_sigletone\bin\Debug\Class0727_01_sigletone.exe.config
+C:\c#_work\test_16_GUI\Class0727_01_sigletone\bin\Debug\Class0727_01_sigletone.exe
+C:\c#_work\test_16_GUI\Class0727_01_sigletone\bin\Debug\Class0727_01_sigletone.pdb
+C:\c#_work\test_16_GUI\Class0727_01_sigletone\obj\Debug\Class0727_01_sigletone.exe
+C:\c#_work\test_16_GUI\Class0727_01_sigletone\obj\Debug\Class0727_01_sigletone.pdb
