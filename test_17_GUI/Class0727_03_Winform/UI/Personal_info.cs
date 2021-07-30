@@ -49,7 +49,7 @@ namespace Class0727_03_Winform.UI
 
             for (int i = 0; i < cusapt.Cus_list[INDEX - 1].Sub_path.Count; i++)
             {
-                if (i == (cusapt.Cus_list[INDEX - 1].Sub_path.Count - 1))
+                if (i == (cusapt.Cus_list[INDEX - 1].Sub_path.Count - 2))
                 {
                     sub_path_str += cusapt.Cus_list[INDEX - 1].Sub_path[cusapt.Cus_list[INDEX - 1].Sub_path.Count - 1];
                 }
