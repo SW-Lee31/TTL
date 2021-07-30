@@ -1,4 +1,5 @@
-﻿using Class0727_03_Winform.Util;
+﻿using Class0727_03_Winform.Adapter;
+using Class0727_03_Winform.Util;
 using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,8 @@ namespace Class0727_03_Winform.UI
 {
     public partial class MainUI_03 : MaterialForm
     {
+        CusAdpater cusadp = new CusAdpater();
+
         public MainUI_03()
         {
             InitializeComponent();
@@ -66,6 +69,9 @@ namespace Class0727_03_Winform.UI
 
         private void but_personal_info_Click(object sender, EventArgs e)
         {
+            new Personal_info(cusadp).Show();
+
+            /*cusadp.Show_cus_list_added_info();*/
             /*MainUI_02 personal_info = new MainUI_02();*/
             // 기존의(전) 창을 선택 X - focus가 자기자신에게만 해당
             /*personal_info.ShowDialog();*/
@@ -73,7 +79,7 @@ namespace Class0727_03_Winform.UI
 
         private void but_add_customer_Click(object sender, EventArgs e)
         {
-            new Add_customer().Show();
+            new Add_customer(cusadp).Show();
         }
 
         private void but_add_car_Click(object sender, EventArgs e)

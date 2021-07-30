@@ -25,3 +25,5 @@ C:\c#_work\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.pdb
 C:\c#_work\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.UI.UserControl_Home.resources
 C:\c#_work\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.UI.UserControl_secure.resources
 C:\c#_work\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.UI.UserControl_PC_manage.resources
+C:\c#_work\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.UI.UserControl_Signin.resources
+C:\c#_work\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.UI.Personal_info.resources

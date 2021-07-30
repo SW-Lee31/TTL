@@ -17,7 +17,7 @@ namespace Class0727_03_Winform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main_user());
+            Application.Run(new MainUI_03());
         }
     }
 }

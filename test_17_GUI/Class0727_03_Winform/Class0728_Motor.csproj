@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5CB743D6-ED8D-4B55-AF3F-9B120400E49A}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>Class0727_03_Winform</RootNamespace>
     <AssemblyName>Class0727_03_Winform</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CxFlatUI, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
@@ -60,6 +63,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\CusAdpater.cs" />
+    <Compile Include="Model\Customer.cs" />
     <Compile Include="UI\Add_car.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +82,12 @@
     </Compile>
     <Compile Include="UI\Main_user.Designer.cs">
       <DependentUpon>Main_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Personal_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Personal_info.Designer.cs">
+      <DependentUpon>Personal_info.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Salary_info.cs">
       <SubType>Form</SubType>
@@ -165,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Main_user.resx">
       <DependentUpon>Main_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Personal_info.resx">
+      <DependentUpon>Personal_info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Salary_info.resx">
       <DependentUpon>Salary_info.cs</DependentUpon>

@@ -255,6 +255,7 @@ namespace Class0727_03_Winform.UI
             this.Controls.Add(this.uiLabel6);
             this.Controls.Add(this.but_back);
             this.Controls.Add(this.title);
+            this.Location = new System.Drawing.Point(12, 10);
             this.Name = "Salary_info";
             this.Load += new System.EventHandler(this.Salary_info_Load);
             ((System.ComponentModel.ISupportInitialize)(this.output_preview)).EndInit();
