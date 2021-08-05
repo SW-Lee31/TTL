@@ -63,7 +63,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\CarAdapter.cs" />
     <Compile Include="Adapter\CusAdpater.cs" />
+    <Compile Include="Model\Car.cs" />
     <Compile Include="Model\Customer.cs" />
     <Compile Include="UI\Add_car.cs">
       <SubType>Form</SubType>

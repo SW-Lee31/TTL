@@ -15,7 +15,7 @@ namespace Class0727_03_Winform.UI
 {
     partial class Personal_info : MaterialForm
     {
-        CusAdpater cusapt = new CusAdpater();
+        CusAdpater cusapt;
         static int INDEX;
 
         public Personal_info()

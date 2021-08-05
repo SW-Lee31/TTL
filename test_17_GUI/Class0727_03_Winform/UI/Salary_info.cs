@@ -1,4 +1,5 @@
-﻿using Class0727_03_Winform.Util;
+﻿using Class0727_03_Winform.Adapter;
+using Class0727_03_Winform.Util;
 using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
@@ -12,11 +13,19 @@ using System.Windows.Forms;
 
 namespace Class0727_03_Winform.UI
 {
-    public partial class Salary_info : MaterialForm
+    partial class Salary_info : MaterialForm
     {
+        CarAdapter carapt;
+
         public Salary_info()
         {
             InitializeComponent();
+        }
+
+        public Salary_info(CarAdapter carapt)
+        {
+            InitializeComponent();
+            this.carapt = carapt;
         }
 
         private void Salary_info_Load(object sender, EventArgs e)
@@ -26,7 +35,7 @@ namespace Class0727_03_Winform.UI
 
         private void but_submit_Click(object sender, EventArgs e)
         {
-            string date = DateTime.Now.ToString("yyyyMMdd");
+            /*string date = DateTime.Now.ToString("yyyyMMdd");
 
             string serial_num = input_serial.Text;
 
@@ -91,6 +100,24 @@ namespace Class0727_03_Winform.UI
                 default:
                     MessageBox.Show("No data about inputed serial number");
                     break;
+            }*/
+
+            string se_num = input_serial.Text;
+
+            for (int i = 0; i < carapt.Order_list.Count; i++)
+            {
+                if (se_num == carapt.Order_list[i].Se_num)
+                {
+                    output_name.Text = carapt.Order_list[i].Model;
+                    output_date.Text = carapt.Order_list[i].Date;
+                    output_buyer.Text = carapt.Order_list[i].Cus_name;
+                    /*output_preview.Image = */
+                }
+
+                else
+                {
+                    MessageBox.Show("No Data of inputed Serial number");
+                }
             }
         }
 

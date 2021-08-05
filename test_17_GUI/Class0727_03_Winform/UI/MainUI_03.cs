@@ -16,6 +16,7 @@ namespace Class0727_03_Winform.UI
     public partial class MainUI_03 : MaterialForm
     {
         CusAdpater cusadp = new CusAdpater();
+        CarAdapter caradp = new CarAdapter();
 
         public MainUI_03()
         {
@@ -84,12 +85,12 @@ namespace Class0727_03_Winform.UI
 
         private void but_add_car_Click(object sender, EventArgs e)
         {
-            new Add_car().Show();
+            new Add_car(cusadp, caradp).Show();
         }
 
         private void but_car_salary_Click(object sender, EventArgs e)
         {
-            new Salary_info().Show();
+            new Salary_info(caradp).Show();
         }
     }
 }
