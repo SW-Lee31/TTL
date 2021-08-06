@@ -173,10 +173,9 @@ namespace Class0727_03_Winform.UI
 
         void month_make()
         {
-            string[] month_elements = new string[]
+            int[] month_elements = new int[]
             {
-                "January", "Ferbuary", "March", "April", "May", "June",
-                "July", "August", "September", "October", "November", "December"
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
             };
             for (int i = 0; i <= 11; i++)
             {

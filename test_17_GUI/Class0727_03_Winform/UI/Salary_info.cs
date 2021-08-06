@@ -35,6 +35,10 @@ namespace Class0727_03_Winform.UI
 
         private void but_submit_Click(object sender, EventArgs e)
         {
+            output_buyer.Text = "";
+            output_date.Text = "";
+            output_name.Text = "";
+
             /*string date = DateTime.Now.ToString("yyyyMMdd");
 
             string serial_num = input_serial.Text;
@@ -113,11 +117,11 @@ namespace Class0727_03_Winform.UI
                     output_buyer.Text = carapt.Order_list[i].Cus_name;
                     /*output_preview.Image = */
                 }
+            }
 
-                else
-                {
-                    MessageBox.Show("No Data of inputed Serial number");
-                }
+            if (output_name.Text == "")
+            {
+                MessageBox.Show("No data matches with inputed serial number");
             }
         }
 
