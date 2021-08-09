@@ -22,9 +22,9 @@ namespace Class0727_03_Winform.UI
         string brand;
         string model;
         string color;
-        string se_num;
         string cus_name;
         string date;
+        List<string> se_num = new List<string>();
 
         public Add_car()
         {
@@ -65,14 +65,14 @@ namespace Class0727_03_Winform.UI
             model = input_model.Text;
             color = input_color.Text;
             cus_name = input_cusname.Text;
-            se_num = input_senum.Text;
+            se_num.Add(input_senum.Text);
             DateTime dateTime = input_date.Value;
             date = string.Format("{0}년 {1}월 {2}일", dateTime.Year, dateTime.Month, dateTime.Day);
 
             Car car_index = new Car(brand, model, color, cus_name, se_num, date);
 
             carapt.Add_order_list(car_index);
-            carapt.show_list();
+            /*carapt.show_list();*/
         }
 
         private void input_model_SelectedIndexChanged(object sender, EventArgs e)
@@ -138,55 +138,82 @@ namespace Class0727_03_Winform.UI
             switch (model)
             {
                 case "Suzuki Model no.1":
-                    model_img = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\suzuki_model1.jpg");
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model1.jpg");
                     output_preview.Image = model_img;
                     input_color.Items.Add("Blue");
                     break;
 
                 case "Suzuki Model no.2":
-                    model_img = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\suzuki_model2.jpg");
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model2.jpg");
                     output_preview.Image = model_img;
                     input_color.Items.Add("Black");
                     input_color.Items.Add("Red");
                     break;
 
                 case "Suzuki Model no.3":
-                    model_img = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\suzuki_model3.jpg");
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model3.jpg");
                     output_preview.Image = model_img;
                     input_color.Items.Add("Black");
                     break;
 
                 case "Suzuki Model no.4":
-                    model_img = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\suzuki_model4.jpg");
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model4.jpg");
                     output_preview.Image = model_img;
                     input_color.Items.Add("Chrom");
                     input_color.Items.Add("Black");
                     break;
 
                 case "Karasaki Model no.1":
-                    model_img = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\karasaki_model1.jpg");
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model1.jpg");
                     output_preview.Image = model_img;
                     input_color.Items.Add("Black/Green");
                     break;
 
                 case "Karasaki Model no.2":
-                    model_img = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\karasaki_model2.jpg");
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model2.jpg");
                     output_preview.Image = model_img;
                     input_color.Items.Add("Sand");
                     break;
 
                 case "Karasaki Model no.3":
-                    model_img = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\karasaki_model3.jpg");
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model3.jpg");
                     output_preview.Image = model_img;
                     input_color.Items.Add("Chrom");
                     input_color.Items.Add("Black");
                     break;
 
                 case "Karasaki Model no.4":
-                    model_img = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\karasaki_model4.jpg");
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model4.jpg");
                     output_preview.Image = model_img;
                     input_color.Items.Add("Chrom");
                     input_color.Items.Add("Green");
+                    break;
+
+                case "Harley Model no.1":
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model1.jpg");
+                    output_preview.Image = model_img;
+                    input_color.Items.Add("Black");
+                    break;
+
+                case "Harley Model no.2":
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model2.jpg");
+                    output_preview.Image = model_img;
+                    input_color.Items.Add("Black");
+                    input_color.Items.Add("chrom");
+                    break;
+
+                case "Harley Model no.3":
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model3.jpg");
+                    output_preview.Image = model_img;
+                    input_color.Items.Add("Black");
+                    input_color.Items.Add("White");
+                    break;
+
+                case "Harley Model no.4":
+                    model_img = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model4.jpg");
+                    output_preview.Image = model_img;
+                    input_color.Items.Add("Black");
+                    input_color.Items.Add("Brown");
                     break;
             }
         }

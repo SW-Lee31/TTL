@@ -38,84 +38,73 @@ namespace Class0727_03_Winform.UI
             output_buyer.Text = "";
             output_date.Text = "";
             output_name.Text = "";
-
-            /*string date = DateTime.Now.ToString("yyyyMMdd");
-
-            string serial_num = input_serial.Text;
-
-            switch (serial_num)
-            {
-                case "aaa1111":
-                    output_preview.Image = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\suzuki_model1.jpg");
-                    output_name.Text = "Suzuki model num.1";
-                    output_buyer.Text = "Lee sang won";
-                    output_date.Text = date;
-                    break;
-
-                case "aaa1112":
-                    output_preview.Image = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\suzuki_model2.jpg");
-                    output_name.Text = "Suzuki model num.2";
-                    output_buyer.Text = "James Dean";
-                    output_date.Text = date;
-                    break;
-
-                case "aaa1113":
-                    output_preview.Image = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\suzuki_model3.jpg");
-                    output_name.Text = "Suzuki model num.3";
-                    output_buyer.Text = "Paul Phenix";
-                    output_date.Text = date;
-                    break;
-
-                case "aaa1114":
-                    output_preview.Image = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\suzuki_model4.jpg");
-                    output_name.Text = "Suzuki model num.4";
-                    output_buyer.Text = "Hobs Smith";
-                    output_date.Text = date;
-                    break;
-
-                case "aab1111":
-                    output_preview.Image = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\karasaki_model1.jpg");
-                    output_name.Text = "karasaki model num.1";
-                    output_buyer.Text = "Kharl Drogo";
-                    output_date.Text = date;
-                    break;
-
-                case "aab1112":
-                    output_preview.Image = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\karasaki_model2.jpg");
-                    output_name.Text = "karasaki model num.2";
-                    output_buyer.Text = "Lee sang won";
-                    output_date.Text = date;
-                    break;
-
-                case "aab1113":
-                    output_preview.Image = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\karasaki_model3.jpg");
-                    output_name.Text = "karasaki model num.3";
-                    output_buyer.Text = "Tom Swaltzki";
-                    output_date.Text = date;
-                    break;
-
-                case "aab1114":
-                    output_preview.Image = Image.FromFile(@"C:\c#_work\test_16_GUI\Class0727_03_Winform\Resource\karasaki_model4.jpg");
-                    output_name.Text = "karasaki model num.4";
-                    output_buyer.Text = "Ivan volsachik";
-                    output_date.Text = date;
-                    break;
-
-                default:
-                    MessageBox.Show("No data about inputed serial number");
-                    break;
-            }*/
+            output_preview.Image = null;
 
             string se_num = input_serial.Text;
 
             for (int i = 0; i < carapt.Order_list.Count; i++)
             {
-                if (se_num == carapt.Order_list[i].Se_num)
+                for (int j = 0; j < carapt.Order_list[i].Se_num.Count; j++)
                 {
-                    output_name.Text = carapt.Order_list[i].Model;
-                    output_date.Text = carapt.Order_list[i].Date;
-                    output_buyer.Text = carapt.Order_list[i].Cus_name;
-                    /*output_preview.Image = */
+                    if (se_num == carapt.Order_list[i].Se_num[j])
+                    {
+                        output_name.Text = carapt.Order_list[i].Model;
+                        output_date.Text = carapt.Order_list[i].Date;
+                        output_buyer.Text = carapt.Order_list[i].Cus_name;
+                        /*output_preview.Image = */
+                    }
+                }
+                
+
+                switch (carapt.Order_list[i].Model)
+                {
+                    case "Suzuki Model no.1":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model1.jpg");
+                        break;
+
+                    case "Suzuki Model no.2":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model2.jpg");
+                        break;
+
+                    case "Suzuki Model no.3":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model3.jpg");
+                        break;
+
+                    case "Suzuki Model no.4":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model4.jpg");
+                        break;
+
+                    case "Karasaki Model no.1":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model1.jpg");
+                        break;
+
+                    case "Karasaki Model no.2":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model2.jpg");
+                        break;
+
+                    case "Karasaki Model no.3":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model3.jpg");
+                        break;
+
+                    case "Karasaki Model no.4":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model4.jpg");
+                        break;
+
+                    case "Harley Model no.1":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model1.jpg");
+                        break;
+
+                    case "Harley Model no.2":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model2.jpg");
+                        break;
+
+                    case "Harley Model no.3":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model3.jpg");
+                        break;
+
+                    case "Harley Model no.4":
+                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model4.jpg");
+                        break;
                 }
             }
 

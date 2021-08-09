@@ -65,7 +65,7 @@ namespace Class0727_03_Winform.UI
 
         private void but_admin_Click(object sender, EventArgs e)
         {
-            new Sign_in().ShowDialog();
+            new Sign_in(cusadp, caradp).ShowDialog();
         }
 
         private void but_personal_info_Click(object sender, EventArgs e)

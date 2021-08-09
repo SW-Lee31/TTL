@@ -155,7 +155,7 @@ namespace Class0727_03_Winform.UI
             this.uiLabel4.BackColor = System.Drawing.Color.Transparent;
             this.uiLabel4.Font = new System.Drawing.Font("양재벨라체M", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.uiLabel4.ForeColor = System.Drawing.Color.Black;
-            this.uiLabel4.Location = new System.Drawing.Point(12, 397);
+            this.uiLabel4.Location = new System.Drawing.Point(89, 397);
             this.uiLabel4.Name = "uiLabel4";
             this.uiLabel4.Size = new System.Drawing.Size(211, 23);
             this.uiLabel4.Style = Sunny.UI.UIStyle.Custom;
@@ -193,7 +193,7 @@ namespace Class0727_03_Winform.UI
             this.output_path.BackColor = System.Drawing.Color.Transparent;
             this.output_path.Font = new System.Drawing.Font("양재벨라체M", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.output_path.ForeColor = System.Drawing.Color.Black;
-            this.output_path.Location = new System.Drawing.Point(333, 397);
+            this.output_path.Location = new System.Drawing.Point(325, 397);
             this.output_path.Name = "output_path";
             this.output_path.Size = new System.Drawing.Size(46, 19);
             this.output_path.TabIndex = 96;
@@ -241,11 +241,21 @@ namespace Class0727_03_Winform.UI
             // uiSymbolButton1
             // 
             this.uiSymbolButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton1.FillColor = System.Drawing.Color.Silver;
+            this.uiSymbolButton1.FillHoverColor = System.Drawing.Color.Gray;
+            this.uiSymbolButton1.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.uiSymbolButton1.FillSelectedColor = System.Drawing.Color.Silver;
             this.uiSymbolButton1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton1.Location = new System.Drawing.Point(616, 213);
+            this.uiSymbolButton1.ForeColor = System.Drawing.Color.Black;
+            this.uiSymbolButton1.Location = new System.Drawing.Point(616, 160);
             this.uiSymbolButton1.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolButton1.Name = "uiSymbolButton1";
-            this.uiSymbolButton1.Size = new System.Drawing.Size(42, 181);
+            this.uiSymbolButton1.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton1.RectHoverColor = System.Drawing.Color.Silver;
+            this.uiSymbolButton1.RectPressColor = System.Drawing.Color.Gray;
+            this.uiSymbolButton1.RectSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.uiSymbolButton1.Size = new System.Drawing.Size(42, 194);
+            this.uiSymbolButton1.Style = Sunny.UI.UIStyle.Custom;
             this.uiSymbolButton1.Symbol = 61701;
             this.uiSymbolButton1.TabIndex = 99;
             this.uiSymbolButton1.Click += new System.EventHandler(this.uiSymbolButton1_Click);
@@ -253,11 +263,21 @@ namespace Class0727_03_Winform.UI
             // uiSymbolButton2
             // 
             this.uiSymbolButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiSymbolButton2.FillColor = System.Drawing.Color.Silver;
+            this.uiSymbolButton2.FillHoverColor = System.Drawing.Color.Gray;
+            this.uiSymbolButton2.FillPressColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.uiSymbolButton2.FillSelectedColor = System.Drawing.Color.Silver;
             this.uiSymbolButton2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton2.Location = new System.Drawing.Point(12, 213);
+            this.uiSymbolButton2.ForeColor = System.Drawing.Color.Black;
+            this.uiSymbolButton2.Location = new System.Drawing.Point(12, 160);
             this.uiSymbolButton2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolButton2.Name = "uiSymbolButton2";
-            this.uiSymbolButton2.Size = new System.Drawing.Size(42, 181);
+            this.uiSymbolButton2.RectColor = System.Drawing.Color.Transparent;
+            this.uiSymbolButton2.RectHoverColor = System.Drawing.Color.Silver;
+            this.uiSymbolButton2.RectPressColor = System.Drawing.Color.Gray;
+            this.uiSymbolButton2.RectSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.uiSymbolButton2.Size = new System.Drawing.Size(42, 194);
+            this.uiSymbolButton2.Style = Sunny.UI.UIStyle.Custom;
             this.uiSymbolButton2.Symbol = 61700;
             this.uiSymbolButton2.TabIndex = 100;
             this.uiSymbolButton2.Click += new System.EventHandler(this.uiSymbolButton2_Click);

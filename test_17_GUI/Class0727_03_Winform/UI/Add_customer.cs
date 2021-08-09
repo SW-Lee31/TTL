@@ -132,9 +132,10 @@ namespace Class0727_03_Winform.UI
                 }
             }
 
-            Customer cust_001 = new Customer(name, digit, addr, date_str, birth, gender, sub_path_result_arr);
+            Customer cust_elements = new Customer(name, digit, addr, date_str, birth, gender, sub_path_result_arr);
+            MessageBox.Show("Successfully Loaded data");
             /*cust_001.show_personal_info();*/
-            cusadp.Addcustomer(cust_001);
+            cusadp.Addcustomer(cust_elements);
             /*cusadp.Show_cus_list_added_info();*/
         }
 

@@ -1,4 +1,6 @@
-﻿using Class0727_03_Winform.Util;
+﻿using Class0727_03_Winform.Adapter;
+using Class0727_03_Winform.Model;
+using Class0727_03_Winform.Util;
 using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
@@ -12,13 +14,21 @@ using System.Windows.Forms;
 
 namespace Class0727_03_Winform.UI
 {
-    public partial class Sign_in : MaterialForm
+     partial class Sign_in : MaterialForm
     {
+        CusAdpater cusapt;
+        CarAdapter carapt;
         public Sign_in()
         {
             InitializeComponent();
         }
 
+        public Sign_in(CusAdpater cusapt, CarAdapter carapt)
+        {
+            InitializeComponent();
+            this.cusapt = cusapt;
+            this.carapt = carapt;
+        }
 
 
         private void Add_customer_Load(object sender, EventArgs e)
@@ -47,7 +57,7 @@ namespace Class0727_03_Winform.UI
             {
                 if (input_pw.Text == "1234")
                 {
-                    new MainUI_04_metro().ShowDialog();
+                    new MainUI_04_metro(cusapt, carapt).ShowDialog();
                     Close();
                 } 
                 else

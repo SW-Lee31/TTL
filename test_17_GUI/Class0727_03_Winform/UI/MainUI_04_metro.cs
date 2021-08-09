@@ -1,4 +1,6 @@
-﻿using MaterialSkin.Controls;
+﻿using Class0727_03_Winform.Adapter;
+using Class0727_03_Winform.Model;
+using MaterialSkin.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,11 +13,21 @@ using System.Windows.Forms;
 
 namespace Class0727_03_Winform.UI
 {
-    public partial class MainUI_04_metro : MaterialForm
+    partial class MainUI_04_metro : MaterialForm
     {
+        CusAdpater cusapt;
+        CarAdapter carapt;
+
         public MainUI_04_metro()
         {
             InitializeComponent();
+        }
+
+        public MainUI_04_metro(CusAdpater cusapt, CarAdapter carapt)
+        {
+            InitializeComponent();
+            this.cusapt = cusapt;
+            this.carapt = carapt;
         }
 
         private void site_link_Click(object sender, EventArgs e)
@@ -36,6 +48,11 @@ namespace Class0727_03_Winform.UI
         private void button_minimum_Click_1(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        private void uiHeaderButton4_Click(object sender, EventArgs e)
+        {
+            new Admin_customer_management(cusapt, carapt).Show();
         }
     }
 }

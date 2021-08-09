@@ -31,11 +31,6 @@ namespace Class0727_03_Winform.UI
         {
             this.menu = new Sunny.UI.UILabel();
             this.panel_1 = new Sunny.UI.UIPanel();
-            this.button_maximum = new Sunny.UI.UISymbolButton();
-            this.button_close = new Sunny.UI.UISymbolButton();
-            this.button_minimum = new Sunny.UI.UISymbolButton();
-            this.title = new Sunny.UI.UISymbolLabel();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.uiHeaderButton8 = new Sunny.UI.UIHeaderButton();
             this.uiHeaderButton7 = new Sunny.UI.UIHeaderButton();
             this.uiHeaderButton6 = new Sunny.UI.UIHeaderButton();
@@ -44,6 +39,11 @@ namespace Class0727_03_Winform.UI
             this.uiHeaderButton3 = new Sunny.UI.UIHeaderButton();
             this.uiHeaderButton2 = new Sunny.UI.UIHeaderButton();
             this.uiHeaderButton1 = new Sunny.UI.UIHeaderButton();
+            this.button_maximum = new Sunny.UI.UISymbolButton();
+            this.button_close = new Sunny.UI.UISymbolButton();
+            this.button_minimum = new Sunny.UI.UISymbolButton();
+            this.title = new Sunny.UI.UISymbolLabel();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel_1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,7 +81,193 @@ namespace Class0727_03_Winform.UI
             this.panel_1.Size = new System.Drawing.Size(395, 492);
             this.panel_1.Style = Sunny.UI.UIStyle.Custom;
             this.panel_1.TabIndex = 69;
+            this.panel_1.Text = null;
             this.panel_1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // uiHeaderButton8
+            // 
+            this.uiHeaderButton8.BackColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton8.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
+            this.uiHeaderButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uiHeaderButton8.CircleColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton8.CircleHoverColor = System.Drawing.Color.White;
+            this.uiHeaderButton8.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiHeaderButton8.Location = new System.Drawing.Point(79, 382);
+            this.uiHeaderButton8.Margin = new System.Windows.Forms.Padding(10);
+            this.uiHeaderButton8.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiHeaderButton8.Name = "uiHeaderButton8";
+            this.uiHeaderButton8.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
+            this.uiHeaderButton8.Radius = 60;
+            this.uiHeaderButton8.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.uiHeaderButton8.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.uiHeaderButton8.Size = new System.Drawing.Size(118, 88);
+            this.uiHeaderButton8.Style = Sunny.UI.UIStyle.Custom;
+            this.uiHeaderButton8.Symbol = 61573;
+            this.uiHeaderButton8.SymbolColor = System.Drawing.Color.Black;
+            this.uiHeaderButton8.TabIndex = 77;
+            this.uiHeaderButton8.Text = "설정";
+            // 
+            // uiHeaderButton7
+            // 
+            this.uiHeaderButton7.BackColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton7.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
+            this.uiHeaderButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uiHeaderButton7.CircleColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton7.CircleHoverColor = System.Drawing.Color.White;
+            this.uiHeaderButton7.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiHeaderButton7.Location = new System.Drawing.Point(211, 382);
+            this.uiHeaderButton7.Margin = new System.Windows.Forms.Padding(10);
+            this.uiHeaderButton7.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiHeaderButton7.Name = "uiHeaderButton7";
+            this.uiHeaderButton7.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
+            this.uiHeaderButton7.Radius = 60;
+            this.uiHeaderButton7.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.uiHeaderButton7.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.uiHeaderButton7.Size = new System.Drawing.Size(118, 88);
+            this.uiHeaderButton7.Style = Sunny.UI.UIStyle.Custom;
+            this.uiHeaderButton7.Symbol = 361953;
+            this.uiHeaderButton7.SymbolColor = System.Drawing.Color.Black;
+            this.uiHeaderButton7.TabIndex = 76;
+            this.uiHeaderButton7.Text = "매출 동향 조회";
+            // 
+            // uiHeaderButton6
+            // 
+            this.uiHeaderButton6.BackColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton6.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
+            this.uiHeaderButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uiHeaderButton6.CircleColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton6.CircleHoverColor = System.Drawing.Color.White;
+            this.uiHeaderButton6.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiHeaderButton6.Location = new System.Drawing.Point(211, 277);
+            this.uiHeaderButton6.Margin = new System.Windows.Forms.Padding(10);
+            this.uiHeaderButton6.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiHeaderButton6.Name = "uiHeaderButton6";
+            this.uiHeaderButton6.Padding = new System.Windows.Forms.Padding(0, 10, 0, 15);
+            this.uiHeaderButton6.Radius = 60;
+            this.uiHeaderButton6.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.uiHeaderButton6.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.uiHeaderButton6.Size = new System.Drawing.Size(118, 88);
+            this.uiHeaderButton6.Style = Sunny.UI.UIStyle.Custom;
+            this.uiHeaderButton6.Symbol = 61555;
+            this.uiHeaderButton6.SymbolColor = System.Drawing.Color.Black;
+            this.uiHeaderButton6.TabIndex = 75;
+            this.uiHeaderButton6.Text = "일정 관리";
+            // 
+            // uiHeaderButton5
+            // 
+            this.uiHeaderButton5.BackColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton5.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
+            this.uiHeaderButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uiHeaderButton5.CircleColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton5.CircleHoverColor = System.Drawing.Color.White;
+            this.uiHeaderButton5.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiHeaderButton5.Location = new System.Drawing.Point(79, 277);
+            this.uiHeaderButton5.Margin = new System.Windows.Forms.Padding(10);
+            this.uiHeaderButton5.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiHeaderButton5.Name = "uiHeaderButton5";
+            this.uiHeaderButton5.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
+            this.uiHeaderButton5.Radius = 60;
+            this.uiHeaderButton5.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.uiHeaderButton5.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.uiHeaderButton5.Size = new System.Drawing.Size(118, 88);
+            this.uiHeaderButton5.Style = Sunny.UI.UIStyle.Custom;
+            this.uiHeaderButton5.Symbol = 61508;
+            this.uiHeaderButton5.SymbolColor = System.Drawing.Color.Black;
+            this.uiHeaderButton5.TabIndex = 74;
+            this.uiHeaderButton5.Text = "주문 관리";
+            // 
+            // uiHeaderButton4
+            // 
+            this.uiHeaderButton4.BackColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton4.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
+            this.uiHeaderButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uiHeaderButton4.CircleColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton4.CircleHoverColor = System.Drawing.Color.White;
+            this.uiHeaderButton4.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiHeaderButton4.Location = new System.Drawing.Point(211, 172);
+            this.uiHeaderButton4.Margin = new System.Windows.Forms.Padding(10);
+            this.uiHeaderButton4.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiHeaderButton4.Name = "uiHeaderButton4";
+            this.uiHeaderButton4.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
+            this.uiHeaderButton4.Radius = 60;
+            this.uiHeaderButton4.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.uiHeaderButton4.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.uiHeaderButton4.Size = new System.Drawing.Size(118, 88);
+            this.uiHeaderButton4.Style = Sunny.UI.UIStyle.Custom;
+            this.uiHeaderButton4.Symbol = 62140;
+            this.uiHeaderButton4.SymbolColor = System.Drawing.Color.Black;
+            this.uiHeaderButton4.TabIndex = 73;
+            this.uiHeaderButton4.Text = "고객 정보 관리";
+            this.uiHeaderButton4.Click += new System.EventHandler(this.uiHeaderButton4_Click);
+            // 
+            // uiHeaderButton3
+            // 
+            this.uiHeaderButton3.BackColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton3.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
+            this.uiHeaderButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uiHeaderButton3.CircleColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton3.CircleHoverColor = System.Drawing.Color.White;
+            this.uiHeaderButton3.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiHeaderButton3.Location = new System.Drawing.Point(79, 172);
+            this.uiHeaderButton3.Margin = new System.Windows.Forms.Padding(10);
+            this.uiHeaderButton3.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiHeaderButton3.Name = "uiHeaderButton3";
+            this.uiHeaderButton3.Padding = new System.Windows.Forms.Padding(0, 10, 0, 15);
+            this.uiHeaderButton3.Radius = 60;
+            this.uiHeaderButton3.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.uiHeaderButton3.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.uiHeaderButton3.Size = new System.Drawing.Size(118, 88);
+            this.uiHeaderButton3.Style = Sunny.UI.UIStyle.Custom;
+            this.uiHeaderButton3.Symbol = 61717;
+            this.uiHeaderButton3.SymbolColor = System.Drawing.Color.Black;
+            this.uiHeaderButton3.TabIndex = 72;
+            this.uiHeaderButton3.Text = "차량 정보 관리";
+            // 
+            // uiHeaderButton2
+            // 
+            this.uiHeaderButton2.BackColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton2.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
+            this.uiHeaderButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uiHeaderButton2.CircleColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton2.CircleHoverColor = System.Drawing.Color.White;
+            this.uiHeaderButton2.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiHeaderButton2.Location = new System.Drawing.Point(211, 67);
+            this.uiHeaderButton2.Margin = new System.Windows.Forms.Padding(10);
+            this.uiHeaderButton2.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiHeaderButton2.Name = "uiHeaderButton2";
+            this.uiHeaderButton2.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
+            this.uiHeaderButton2.Radius = 60;
+            this.uiHeaderButton2.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.uiHeaderButton2.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.uiHeaderButton2.Size = new System.Drawing.Size(118, 88);
+            this.uiHeaderButton2.Style = Sunny.UI.UIStyle.Custom;
+            this.uiHeaderButton2.Symbol = 362948;
+            this.uiHeaderButton2.SymbolColor = System.Drawing.Color.Black;
+            this.uiHeaderButton2.TabIndex = 71;
+            this.uiHeaderButton2.Text = "차량 입고 조회";
+            // 
+            // uiHeaderButton1
+            // 
+            this.uiHeaderButton1.BackColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton1.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
+            this.uiHeaderButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uiHeaderButton1.CircleColor = System.Drawing.Color.Transparent;
+            this.uiHeaderButton1.CircleHoverColor = System.Drawing.Color.White;
+            this.uiHeaderButton1.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.uiHeaderButton1.Location = new System.Drawing.Point(79, 67);
+            this.uiHeaderButton1.Margin = new System.Windows.Forms.Padding(10);
+            this.uiHeaderButton1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiHeaderButton1.Name = "uiHeaderButton1";
+            this.uiHeaderButton1.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
+            this.uiHeaderButton1.Radius = 60;
+            this.uiHeaderButton1.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
+            this.uiHeaderButton1.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.uiHeaderButton1.Size = new System.Drawing.Size(118, 88);
+            this.uiHeaderButton1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiHeaderButton1.Symbol = 62004;
+            this.uiHeaderButton1.SymbolColor = System.Drawing.Color.Black;
+            this.uiHeaderButton1.TabIndex = 70;
+            this.uiHeaderButton1.Text = "고객 정보 추가";
             // 
             // button_maximum
             // 
@@ -179,253 +365,6 @@ namespace Class0727_03_Winform.UI
             this.listBox1.ScrollAlwaysVisible = true;
             this.listBox1.Size = new System.Drawing.Size(344, 172);
             this.listBox1.TabIndex = 70;
-            // 
-            // uiHeaderButton8
-            // 
-            this.uiHeaderButton8.BackColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton8.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
-            this.uiHeaderButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uiHeaderButton8.CircleColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton8.CircleHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(140)))), ((int)(((byte)(140)))));
-            this.uiHeaderButton8.FillHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton8.FillPressColor = System.Drawing.Color.White;
-            this.uiHeaderButton8.FillSelectedColor = System.Drawing.Color.White;
-            this.uiHeaderButton8.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiHeaderButton8.ForeColor = System.Drawing.Color.Black;
-            this.uiHeaderButton8.ForeHoverColor = System.Drawing.Color.RoyalBlue;
-            this.uiHeaderButton8.ForePressColor = System.Drawing.Color.MidnightBlue;
-            this.uiHeaderButton8.ForeSelectedColor = System.Drawing.Color.MediumBlue;
-            this.uiHeaderButton8.Location = new System.Drawing.Point(79, 382);
-            this.uiHeaderButton8.Margin = new System.Windows.Forms.Padding(10);
-            this.uiHeaderButton8.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiHeaderButton8.Name = "uiHeaderButton8";
-            this.uiHeaderButton8.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
-            this.uiHeaderButton8.Radius = 60;
-            this.uiHeaderButton8.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
-            this.uiHeaderButton8.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.uiHeaderButton8.Size = new System.Drawing.Size(118, 88);
-            this.uiHeaderButton8.Style = Sunny.UI.UIStyle.Custom;
-            this.uiHeaderButton8.Symbol = 61573;
-            this.uiHeaderButton8.SymbolColor = System.Drawing.Color.Black;
-            this.uiHeaderButton8.TabIndex = 77;
-            this.uiHeaderButton8.Text = "설정";
-            // 
-            // uiHeaderButton7
-            // 
-            this.uiHeaderButton7.BackColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton7.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
-            this.uiHeaderButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uiHeaderButton7.CircleColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton7.CircleHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(230)))), ((int)(((byte)(243)))));
-            this.uiHeaderButton7.FillHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton7.FillPressColor = System.Drawing.Color.White;
-            this.uiHeaderButton7.FillSelectedColor = System.Drawing.Color.White;
-            this.uiHeaderButton7.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiHeaderButton7.ForeColor = System.Drawing.Color.Black;
-            this.uiHeaderButton7.ForeHoverColor = System.Drawing.Color.RoyalBlue;
-            this.uiHeaderButton7.ForePressColor = System.Drawing.Color.MidnightBlue;
-            this.uiHeaderButton7.ForeSelectedColor = System.Drawing.Color.MediumBlue;
-            this.uiHeaderButton7.Location = new System.Drawing.Point(211, 382);
-            this.uiHeaderButton7.Margin = new System.Windows.Forms.Padding(10);
-            this.uiHeaderButton7.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiHeaderButton7.Name = "uiHeaderButton7";
-            this.uiHeaderButton7.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
-            this.uiHeaderButton7.Radius = 60;
-            this.uiHeaderButton7.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
-            this.uiHeaderButton7.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.uiHeaderButton7.Size = new System.Drawing.Size(118, 88);
-            this.uiHeaderButton7.Style = Sunny.UI.UIStyle.Custom;
-            this.uiHeaderButton7.Symbol = 361953;
-            this.uiHeaderButton7.SymbolColor = System.Drawing.Color.Black;
-            this.uiHeaderButton7.TabIndex = 76;
-            this.uiHeaderButton7.Text = "매출 동향 조회";
-            // 
-            // uiHeaderButton6
-            // 
-            this.uiHeaderButton6.BackColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton6.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
-            this.uiHeaderButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uiHeaderButton6.CircleColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton6.CircleHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(190)))), ((int)(((byte)(40)))));
-            this.uiHeaderButton6.FillHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton6.FillPressColor = System.Drawing.Color.White;
-            this.uiHeaderButton6.FillSelectedColor = System.Drawing.Color.White;
-            this.uiHeaderButton6.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiHeaderButton6.ForeColor = System.Drawing.Color.Black;
-            this.uiHeaderButton6.ForeHoverColor = System.Drawing.Color.RoyalBlue;
-            this.uiHeaderButton6.ForePressColor = System.Drawing.Color.MidnightBlue;
-            this.uiHeaderButton6.ForeSelectedColor = System.Drawing.Color.MediumBlue;
-            this.uiHeaderButton6.Location = new System.Drawing.Point(211, 277);
-            this.uiHeaderButton6.Margin = new System.Windows.Forms.Padding(10);
-            this.uiHeaderButton6.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiHeaderButton6.Name = "uiHeaderButton6";
-            this.uiHeaderButton6.Padding = new System.Windows.Forms.Padding(0, 10, 0, 15);
-            this.uiHeaderButton6.Radius = 60;
-            this.uiHeaderButton6.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
-            this.uiHeaderButton6.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.uiHeaderButton6.Size = new System.Drawing.Size(118, 88);
-            this.uiHeaderButton6.Style = Sunny.UI.UIStyle.Custom;
-            this.uiHeaderButton6.Symbol = 61555;
-            this.uiHeaderButton6.SymbolColor = System.Drawing.Color.Black;
-            this.uiHeaderButton6.TabIndex = 75;
-            this.uiHeaderButton6.Text = "일정 관리";
-            // 
-            // uiHeaderButton5
-            // 
-            this.uiHeaderButton5.BackColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton5.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
-            this.uiHeaderButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uiHeaderButton5.CircleColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton5.CircleHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.uiHeaderButton5.FillHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton5.FillPressColor = System.Drawing.Color.White;
-            this.uiHeaderButton5.FillSelectedColor = System.Drawing.Color.White;
-            this.uiHeaderButton5.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiHeaderButton5.ForeColor = System.Drawing.Color.Black;
-            this.uiHeaderButton5.ForeHoverColor = System.Drawing.Color.RoyalBlue;
-            this.uiHeaderButton5.ForePressColor = System.Drawing.Color.MidnightBlue;
-            this.uiHeaderButton5.ForeSelectedColor = System.Drawing.Color.MediumBlue;
-            this.uiHeaderButton5.Location = new System.Drawing.Point(79, 277);
-            this.uiHeaderButton5.Margin = new System.Windows.Forms.Padding(10);
-            this.uiHeaderButton5.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiHeaderButton5.Name = "uiHeaderButton5";
-            this.uiHeaderButton5.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
-            this.uiHeaderButton5.Radius = 60;
-            this.uiHeaderButton5.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
-            this.uiHeaderButton5.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.uiHeaderButton5.Size = new System.Drawing.Size(118, 88);
-            this.uiHeaderButton5.Style = Sunny.UI.UIStyle.Custom;
-            this.uiHeaderButton5.Symbol = 61508;
-            this.uiHeaderButton5.SymbolColor = System.Drawing.Color.Black;
-            this.uiHeaderButton5.TabIndex = 74;
-            this.uiHeaderButton5.Text = "주문 관리";
-            // 
-            // uiHeaderButton4
-            // 
-            this.uiHeaderButton4.BackColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton4.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
-            this.uiHeaderButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uiHeaderButton4.CircleColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton4.CircleHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton4.FillHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton4.FillPressColor = System.Drawing.Color.White;
-            this.uiHeaderButton4.FillSelectedColor = System.Drawing.Color.White;
-            this.uiHeaderButton4.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiHeaderButton4.ForeColor = System.Drawing.Color.Black;
-            this.uiHeaderButton4.ForeHoverColor = System.Drawing.Color.RoyalBlue;
-            this.uiHeaderButton4.ForePressColor = System.Drawing.Color.MidnightBlue;
-            this.uiHeaderButton4.ForeSelectedColor = System.Drawing.Color.MediumBlue;
-            this.uiHeaderButton4.Location = new System.Drawing.Point(211, 172);
-            this.uiHeaderButton4.Margin = new System.Windows.Forms.Padding(10);
-            this.uiHeaderButton4.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiHeaderButton4.Name = "uiHeaderButton4";
-            this.uiHeaderButton4.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
-            this.uiHeaderButton4.Radius = 60;
-            this.uiHeaderButton4.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
-            this.uiHeaderButton4.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.uiHeaderButton4.Size = new System.Drawing.Size(118, 88);
-            this.uiHeaderButton4.Style = Sunny.UI.UIStyle.Custom;
-            this.uiHeaderButton4.Symbol = 62140;
-            this.uiHeaderButton4.SymbolColor = System.Drawing.Color.Black;
-            this.uiHeaderButton4.TabIndex = 73;
-            this.uiHeaderButton4.Text = "고객 정보 관리";
-            // 
-            // uiHeaderButton3
-            // 
-            this.uiHeaderButton3.BackColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton3.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
-            this.uiHeaderButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uiHeaderButton3.CircleColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton3.CircleHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(155)))), ((int)(((byte)(40)))));
-            this.uiHeaderButton3.FillHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton3.FillPressColor = System.Drawing.Color.White;
-            this.uiHeaderButton3.FillSelectedColor = System.Drawing.Color.White;
-            this.uiHeaderButton3.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiHeaderButton3.ForeColor = System.Drawing.Color.Black;
-            this.uiHeaderButton3.ForeHoverColor = System.Drawing.Color.RoyalBlue;
-            this.uiHeaderButton3.ForePressColor = System.Drawing.Color.MidnightBlue;
-            this.uiHeaderButton3.ForeSelectedColor = System.Drawing.Color.MediumBlue;
-            this.uiHeaderButton3.Location = new System.Drawing.Point(79, 172);
-            this.uiHeaderButton3.Margin = new System.Windows.Forms.Padding(10);
-            this.uiHeaderButton3.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiHeaderButton3.Name = "uiHeaderButton3";
-            this.uiHeaderButton3.Padding = new System.Windows.Forms.Padding(0, 10, 0, 15);
-            this.uiHeaderButton3.Radius = 60;
-            this.uiHeaderButton3.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
-            this.uiHeaderButton3.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.uiHeaderButton3.Size = new System.Drawing.Size(118, 88);
-            this.uiHeaderButton3.Style = Sunny.UI.UIStyle.Custom;
-            this.uiHeaderButton3.Symbol = 61717;
-            this.uiHeaderButton3.SymbolColor = System.Drawing.Color.Black;
-            this.uiHeaderButton3.TabIndex = 72;
-            this.uiHeaderButton3.Text = "차량 정보 관리";
-            // 
-            // uiHeaderButton2
-            // 
-            this.uiHeaderButton2.BackColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton2.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
-            this.uiHeaderButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uiHeaderButton2.CircleColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton2.CircleHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(248)))), ((int)(((byte)(232)))));
-            this.uiHeaderButton2.FillHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton2.FillPressColor = System.Drawing.Color.White;
-            this.uiHeaderButton2.FillSelectedColor = System.Drawing.Color.White;
-            this.uiHeaderButton2.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiHeaderButton2.ForeColor = System.Drawing.Color.Black;
-            this.uiHeaderButton2.ForeHoverColor = System.Drawing.Color.RoyalBlue;
-            this.uiHeaderButton2.ForePressColor = System.Drawing.Color.MidnightBlue;
-            this.uiHeaderButton2.ForeSelectedColor = System.Drawing.Color.MediumBlue;
-            this.uiHeaderButton2.Location = new System.Drawing.Point(211, 67);
-            this.uiHeaderButton2.Margin = new System.Windows.Forms.Padding(10);
-            this.uiHeaderButton2.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiHeaderButton2.Name = "uiHeaderButton2";
-            this.uiHeaderButton2.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
-            this.uiHeaderButton2.Radius = 60;
-            this.uiHeaderButton2.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
-            this.uiHeaderButton2.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.uiHeaderButton2.Size = new System.Drawing.Size(118, 88);
-            this.uiHeaderButton2.Style = Sunny.UI.UIStyle.Custom;
-            this.uiHeaderButton2.Symbol = 362948;
-            this.uiHeaderButton2.SymbolColor = System.Drawing.Color.Black;
-            this.uiHeaderButton2.TabIndex = 71;
-            this.uiHeaderButton2.Text = "차량 입고 조회";
-            // 
-            // uiHeaderButton1
-            // 
-            this.uiHeaderButton1.BackColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton1.BackgroundImage = global::Class0727_03_Winform.Properties.Resources.aprilia;
-            this.uiHeaderButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.uiHeaderButton1.CircleColor = System.Drawing.Color.Transparent;
-            this.uiHeaderButton1.CircleHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(40)))), ((int)(((byte)(70)))));
-            this.uiHeaderButton1.FillHoverColor = System.Drawing.Color.White;
-            this.uiHeaderButton1.FillPressColor = System.Drawing.Color.White;
-            this.uiHeaderButton1.FillSelectedColor = System.Drawing.Color.White;
-            this.uiHeaderButton1.Font = new System.Drawing.Font("경기천년제목V Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiHeaderButton1.ForeColor = System.Drawing.Color.Black;
-            this.uiHeaderButton1.ForeHoverColor = System.Drawing.Color.RoyalBlue;
-            this.uiHeaderButton1.ForePressColor = System.Drawing.Color.MidnightBlue;
-            this.uiHeaderButton1.ForeSelectedColor = System.Drawing.Color.MediumBlue;
-            this.uiHeaderButton1.Location = new System.Drawing.Point(79, 67);
-            this.uiHeaderButton1.Margin = new System.Windows.Forms.Padding(10);
-            this.uiHeaderButton1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiHeaderButton1.Name = "uiHeaderButton1";
-            this.uiHeaderButton1.Padding = new System.Windows.Forms.Padding(0, 15, 0, 15);
-            this.uiHeaderButton1.Radius = 60;
-            this.uiHeaderButton1.RadiusSides = ((Sunny.UI.UICornerRadiusSides)((Sunny.UI.UICornerRadiusSides.LeftTop | Sunny.UI.UICornerRadiusSides.LeftBottom)));
-            this.uiHeaderButton1.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.uiHeaderButton1.Size = new System.Drawing.Size(118, 88);
-            this.uiHeaderButton1.Style = Sunny.UI.UIStyle.Custom;
-            this.uiHeaderButton1.Symbol = 62004;
-            this.uiHeaderButton1.SymbolColor = System.Drawing.Color.Black;
-            this.uiHeaderButton1.TabIndex = 70;
-            this.uiHeaderButton1.Text = "고객 정보 추가";
             // 
             // MainUI_04_metro
             // 

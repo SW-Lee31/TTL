@@ -16,7 +16,7 @@ namespace Class0727_03_Winform.UI
     partial class Personal_info : MaterialForm
     {
         CusAdpater cusapt;
-        static int INDEX;
+        static int INDEX = 0;
 
         public Personal_info()
         {
@@ -49,12 +49,17 @@ namespace Class0727_03_Winform.UI
 
             for (int i = 0; i < cusapt.Cus_list[INDEX - 1].Sub_path.Count; i++)
             {
-                if (i == (cusapt.Cus_list[INDEX - 1].Sub_path.Count - 2))
-                {
-                    sub_path_str += cusapt.Cus_list[INDEX - 1].Sub_path[cusapt.Cus_list[INDEX - 1].Sub_path.Count - 1];
-                }
-                sub_path_str += cusapt.Cus_list[INDEX - 1].Sub_path[i] + ", ";
+                sub_path_str += cusapt.Cus_list[INDEX - 1].Sub_path[i];
 
+                if (i != cusapt.Cus_list[INDEX - 1].Sub_path.Count - 1)
+                {
+                    sub_path_str += ", ";
+                }
+            }
+
+            if (INDEX >= cusapt.Cus_list[INDEX - 1].Sub_path.Count)
+            {
+                MessageBox.Show("Inputed digit is Out of range");
             }
 
             output_path.Text = sub_path_str;
@@ -79,15 +84,20 @@ namespace Class0727_03_Winform.UI
 
             for (int i = 0; i < cusapt.Cus_list[INDEX - 1].Sub_path.Count; i++)
             {
-                if (i == (cusapt.Cus_list[INDEX - 1].Sub_path.Count - 1))
-                {
-                    sub_path_str += cusapt.Cus_list[INDEX - 1].Sub_path[cusapt.Cus_list[INDEX - 1].Sub_path.Count - 1];
-                }
-                sub_path_str += cusapt.Cus_list[INDEX - 1].Sub_path[i] + ", ";
+                sub_path_str += cusapt.Cus_list[INDEX - 1].Sub_path[i];
 
+                if (i != cusapt.Cus_list[INDEX - 1].Sub_path.Count - 1)
+                {
+                    sub_path_str += ", ";
+                }
             }
 
-            output_path.Text = sub_path_str;
+            /*if (INDEX >= cusapt.Cus_list[INDEX - 1].Sub_path.Count)
+            {
+                MessageBox.Show("Inputed digit is Out of range");
+            }
+
+            output_path.Text = sub_path_str;*/
         }
 
         private void uiSymbolButton2_Click(object sender, EventArgs e)
@@ -104,12 +114,17 @@ namespace Class0727_03_Winform.UI
 
             for (int i = 0; i < cusapt.Cus_list[INDEX - 1].Sub_path.Count; i++)
             {
-                if (i == (cusapt.Cus_list[INDEX - 1].Sub_path.Count - 1))
-                {
-                    sub_path_str += cusapt.Cus_list[INDEX - 1].Sub_path[cusapt.Cus_list[INDEX - 1].Sub_path.Count - 1];
-                }
-                sub_path_str += cusapt.Cus_list[INDEX - 1].Sub_path[i] + ", ";
+                sub_path_str += cusapt.Cus_list[INDEX - 1].Sub_path[i];
 
+                if (i != cusapt.Cus_list[INDEX - 1].Sub_path.Count - 1)
+                {
+                    sub_path_str += ", ";
+                }
+            }
+
+            if (INDEX >= cusapt.Cus_list[INDEX - 1].Sub_path.Count)
+            {
+                MessageBox.Show("Inputed digit is Out of range");
             }
 
             output_path.Text = sub_path_str;
