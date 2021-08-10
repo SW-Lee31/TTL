@@ -113,7 +113,7 @@ namespace Class0727_03_Winform.UI
             this.cus_but_submit.ForeColor = System.Drawing.Color.Black;
             this.cus_but_submit.ForeHoverColor = System.Drawing.Color.DarkRed;
             this.cus_but_submit.ForePressColor = System.Drawing.Color.Red;
-            this.cus_but_submit.Location = new System.Drawing.Point(371, 606);
+            this.cus_but_submit.Location = new System.Drawing.Point(364, 643);
             this.cus_but_submit.MinimumSize = new System.Drawing.Size(1, 1);
             this.cus_but_submit.Name = "cus_but_submit";
             this.cus_but_submit.RectColor = System.Drawing.Color.Transparent;
@@ -139,7 +139,7 @@ namespace Class0727_03_Winform.UI
             this.cus_but_temp_store.ForeColor = System.Drawing.Color.Black;
             this.cus_but_temp_store.ForeHoverColor = System.Drawing.Color.DarkRed;
             this.cus_but_temp_store.ForePressColor = System.Drawing.Color.Red;
-            this.cus_but_temp_store.Location = new System.Drawing.Point(123, 606);
+            this.cus_but_temp_store.Location = new System.Drawing.Point(116, 643);
             this.cus_but_temp_store.MinimumSize = new System.Drawing.Size(1, 1);
             this.cus_but_temp_store.Name = "cus_but_temp_store";
             this.cus_but_temp_store.RectColor = System.Drawing.Color.Transparent;
@@ -254,7 +254,7 @@ namespace Class0727_03_Winform.UI
             this.uiLabel1.BackColor = System.Drawing.Color.Transparent;
             this.uiLabel1.Font = new System.Drawing.Font("양재벨라체M", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.uiLabel1.ForeColor = System.Drawing.Color.Black;
-            this.uiLabel1.Location = new System.Drawing.Point(146, 513);
+            this.uiLabel1.Location = new System.Drawing.Point(144, 534);
             this.uiLabel1.Name = "uiLabel1";
             this.uiLabel1.Size = new System.Drawing.Size(198, 23);
             this.uiLabel1.Style = Sunny.UI.UIStyle.Custom;
@@ -269,7 +269,7 @@ namespace Class0727_03_Winform.UI
             this.cus_input_but_ad.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cus_input_but_ad.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.cus_input_but_ad.ForeColor = System.Drawing.Color.Black;
-            this.cus_input_but_ad.Location = new System.Drawing.Point(364, 507);
+            this.cus_input_but_ad.Location = new System.Drawing.Point(362, 528);
             this.cus_input_but_ad.MinimumSize = new System.Drawing.Size(1, 1);
             this.cus_input_but_ad.Name = "cus_input_but_ad";
             this.cus_input_but_ad.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
@@ -285,7 +285,7 @@ namespace Class0727_03_Winform.UI
             this.cus_input_but_introduced.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cus_input_but_introduced.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.cus_input_but_introduced.ForeColor = System.Drawing.Color.Black;
-            this.cus_input_but_introduced.Location = new System.Drawing.Point(461, 507);
+            this.cus_input_but_introduced.Location = new System.Drawing.Point(459, 528);
             this.cus_input_but_introduced.MinimumSize = new System.Drawing.Size(1, 1);
             this.cus_input_but_introduced.Name = "cus_input_but_introduced";
             this.cus_input_but_introduced.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
@@ -301,7 +301,7 @@ namespace Class0727_03_Winform.UI
             this.cus_input_but_net.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cus_input_but_net.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.cus_input_but_net.ForeColor = System.Drawing.Color.Black;
-            this.cus_input_but_net.Location = new System.Drawing.Point(364, 563);
+            this.cus_input_but_net.Location = new System.Drawing.Point(362, 584);
             this.cus_input_but_net.MinimumSize = new System.Drawing.Size(1, 1);
             this.cus_input_but_net.Name = "cus_input_but_net";
             this.cus_input_but_net.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
@@ -317,7 +317,7 @@ namespace Class0727_03_Winform.UI
             this.cus_input_but_club.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cus_input_but_club.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
             this.cus_input_but_club.ForeColor = System.Drawing.Color.Black;
-            this.cus_input_but_club.Location = new System.Drawing.Point(461, 563);
+            this.cus_input_but_club.Location = new System.Drawing.Point(459, 584);
             this.cus_input_but_club.MinimumSize = new System.Drawing.Size(1, 1);
             this.cus_input_but_club.Name = "cus_input_but_club";
             this.cus_input_but_club.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
@@ -462,6 +462,7 @@ namespace Class0727_03_Winform.UI
             this.cus_input_date.SymbolDropDown = 61555;
             this.cus_input_date.SymbolNormal = 61555;
             this.cus_input_date.TabIndex = 85;
+            this.cus_input_date.Text = "2021-07-30";
             this.cus_input_date.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.cus_input_date.Value = new System.DateTime(2021, 7, 30, 9, 44, 57, 692);
             // 
@@ -524,7 +525,7 @@ namespace Class0727_03_Winform.UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(670, 673);
+            this.ClientSize = new System.Drawing.Size(670, 702);
             this.ControlBox = false;
             this.Controls.Add(this.cus_input_date);
             this.Controls.Add(this.cus_input_day);

@@ -44,67 +44,65 @@ namespace Class0727_03_Winform.UI
 
             for (int i = 0; i < carapt.Order_list.Count; i++)
             {
-                for (int j = 0; j < carapt.Order_list[i].Se_num.Count; j++)
+                for (int j = 0; j < carapt.Order_list[i].Se_num_list.Count; j++)
                 {
-                    if (se_num == carapt.Order_list[i].Se_num[j])
+                    if (se_num == carapt.Order_list[i].Se_num_list[j])
                     {
-                        output_name.Text = carapt.Order_list[i].Model;
-                        output_date.Text = carapt.Order_list[i].Date;
-                        output_buyer.Text = carapt.Order_list[i].Cus_name;
-                        /*output_preview.Image = */
+                        output_name.Text = carapt.Order_list[i].Model_list[j];
+                        output_date.Text = carapt.Order_list[i].Date_list[j];
+                        output_buyer.Text = carapt.Order_list[i].Cus.Name;
+
+                        switch (carapt.Order_list[i].Model_list[j])
+                        {
+                            case "Suzuki Model no.1":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model1.jpg");
+                                break;
+
+                            case "Suzuki Model no.2":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model2.jpg");
+                                break;
+
+                            case "Suzuki Model no.3":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model3.jpg");
+                                break;
+
+                            case "Suzuki Model no.4":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model4.jpg");
+                                break;
+
+                            case "Karasaki Model no.1":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model1.jpg");
+                                break;
+
+                            case "Karasaki Model no.2":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model2.jpg");
+                                break;
+
+                            case "Karasaki Model no.3":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model3.jpg");
+                                break;
+
+                            case "Karasaki Model no.4":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model4.jpg");
+                                break;
+
+                            case "Harley Model no.1":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model1.jpg");
+                                break;
+
+                            case "Harley Model no.2":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model2.jpg");
+                                break;
+
+                            case "Harley Model no.3":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model3.jpg");
+                                break;
+
+                            case "Harley Model no.4":
+                                output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model4.jpg");
+                                break;
+                        }
                     }
-                }
-                
-
-                switch (carapt.Order_list[i].Model)
-                {
-                    case "Suzuki Model no.1":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model1.jpg");
-                        break;
-
-                    case "Suzuki Model no.2":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model2.jpg");
-                        break;
-
-                    case "Suzuki Model no.3":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model3.jpg");
-                        break;
-
-                    case "Suzuki Model no.4":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\suzuki_model4.jpg");
-                        break;
-
-                    case "Karasaki Model no.1":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model1.jpg");
-                        break;
-
-                    case "Karasaki Model no.2":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model2.jpg");
-                        break;
-
-                    case "Karasaki Model no.3":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model3.jpg");
-                        break;
-
-                    case "Karasaki Model no.4":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\karasaki_model4.jpg");
-                        break;
-
-                    case "Harley Model no.1":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model1.jpg");
-                        break;
-
-                    case "Harley Model no.2":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model2.jpg");
-                        break;
-
-                    case "Harley Model no.3":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model3.jpg");
-                        break;
-
-                    case "Harley Model no.4":
-                        output_preview.Image = Image.FromFile(@"C:\c#_work\test_17_GUI\Class0727_03_Winform\Resource\harley_model4.jpg");
-                        break;
                 }
             }
 

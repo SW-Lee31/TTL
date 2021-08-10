@@ -45,6 +45,16 @@ namespace Class0727_03_Winform.UI
             output_birth.Text = cusapt.Cus_list[INDEX - 1].Birth;
             output_gender.Text = cusapt.Cus_list[INDEX - 1].Gender;
 
+            if (cusapt.Cus_list[INDEX - 1].Member_digit != "")
+            {
+                output_member_digit.Text = cusapt.Cus_list[INDEX - 1].Member_digit;
+            }
+
+            else
+            {
+                output_member_digit.Text = "NULL";
+            }
+
             string sub_path_str = "";
 
             for (int i = 0; i < cusapt.Cus_list[INDEX - 1].Sub_path.Count; i++)
@@ -57,7 +67,7 @@ namespace Class0727_03_Winform.UI
                 }
             }
 
-            if (INDEX >= cusapt.Cus_list[INDEX - 1].Sub_path.Count)
+            if (INDEX > cusapt.Cus_list[INDEX - 1].Sub_path.Count)
             {
                 MessageBox.Show("Inputed digit is Out of range");
             }
@@ -79,6 +89,17 @@ namespace Class0727_03_Winform.UI
             output_date.Text = cusapt.Cus_list[INDEX - 1].Date;
             output_birth.Text = cusapt.Cus_list[INDEX - 1].Birth;
             output_gender.Text = cusapt.Cus_list[INDEX - 1].Gender;
+
+            if (cusapt.Cus_list[INDEX - 1].Member_digit != "")
+            {
+                output_member_digit.Text = cusapt.Cus_list[INDEX - 1].Member_digit;
+            }
+
+            else
+            {
+                output_member_digit.Text = "NULL";
+            }
+
 
             string sub_path_str = "";
 
@@ -110,6 +131,16 @@ namespace Class0727_03_Winform.UI
             output_birth.Text = cusapt.Cus_list[INDEX - 1].Birth;
             output_gender.Text = cusapt.Cus_list[INDEX - 1].Gender;
 
+            if (cusapt.Cus_list[INDEX - 1].Member_digit != "")
+            {
+                output_member_digit.Text = cusapt.Cus_list[INDEX - 1].Member_digit;
+            }
+
+            else
+            {
+                output_member_digit.Text = "NULL";
+            }
+
             string sub_path_str = "";
 
             for (int i = 0; i < cusapt.Cus_list[INDEX - 1].Sub_path.Count; i++)
@@ -122,7 +153,7 @@ namespace Class0727_03_Winform.UI
                 }
             }
 
-            if (INDEX >= cusapt.Cus_list[INDEX - 1].Sub_path.Count)
+            if (INDEX > cusapt.Cus_list[INDEX - 1].Sub_path.Count)
             {
                 MessageBox.Show("Inputed digit is Out of range");
             }

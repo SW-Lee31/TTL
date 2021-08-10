@@ -15,8 +15,10 @@ namespace Class0727_03_Winform.Model
         private string birth;
         private string gender;
         List<string> sub_path = new List<string>();
+        private string member_digit;
 
-        public Customer(string name, string digit, string addr, string date, string birth, string gender, List<string> sub_path)
+        public Customer(string name, string digit, string addr, string date, string birth, 
+            string gender, List<string> sub_path)
         {
             this.name = name;
             this.digit = digit;
@@ -27,6 +29,11 @@ namespace Class0727_03_Winform.Model
             this.sub_path = sub_path;
         }
 
+        public Customer(string name)
+        {
+            this.name = name;
+        }
+
         public string Name { get => name; set => name = value; }
         public string Digit { get => digit; set => digit = value; }
         public string Addr { get => addr; set => addr = value; }
@@ -34,6 +41,7 @@ namespace Class0727_03_Winform.Model
         public string Birth { get => birth; set => birth = value; }
         public string Gender { get => gender; set => gender = value; }
         public List<string> Sub_path { get => sub_path; set => sub_path = value; }
+        public string Member_digit { get => member_digit; set => member_digit = value; }
 
         public void show_personal_info()
         {
@@ -48,6 +56,7 @@ namespace Class0727_03_Winform.Model
             {
                 Console.Write(this.sub_path[i] + "\t");
             }
+            Console.WriteLine("회원번호 " + this.member_digit);
             Console.WriteLine();
         }
     }

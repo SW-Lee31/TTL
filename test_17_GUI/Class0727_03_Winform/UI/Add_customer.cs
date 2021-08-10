@@ -137,6 +137,7 @@ namespace Class0727_03_Winform.UI
             /*cust_001.show_personal_info();*/
             cusadp.Addcustomer(cust_elements);
             /*cusadp.Show_cus_list_added_info();*/
+            cusadp.Load_csv_customer_info();
         }
 
         private void uiSymbolButton1_Click(object sender, EventArgs e)

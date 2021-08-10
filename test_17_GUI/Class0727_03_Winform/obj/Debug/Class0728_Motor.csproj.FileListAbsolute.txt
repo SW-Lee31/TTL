@@ -57,3 +57,4 @@ C:\Users\sangw\Desktop\TTL\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0728_
 C:\Users\sangw\Desktop\TTL\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.exe
 C:\Users\sangw\Desktop\TTL\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.pdb
 C:\c#_work\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.UI.Admin_customer_management.resources
+C:\c#_work\test_17_GUI\Class0727_03_Winform\obj\Debug\Class0727_03_Winform.UI.Admin_member_management.resources

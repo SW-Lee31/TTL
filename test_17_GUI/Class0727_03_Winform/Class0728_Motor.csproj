@@ -79,16 +79,22 @@
     <Compile Include="UI\Add_customer.Designer.cs">
       <DependentUpon>Add_customer.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Admin_customer_management.cs">
+    <Compile Include="UI\Admin\Admin_customer_management.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Admin_customer_management.Designer.cs">
+    <Compile Include="UI\Admin\Admin_customer_management.Designer.cs">
       <DependentUpon>Admin_customer_management.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Main_user.cs">
+    <Compile Include="UI\Admin\Admin_member_management.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Main_user.Designer.cs">
+    <Compile Include="UI\Admin\Admin_member_management.Designer.cs">
+      <DependentUpon>Admin_member_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\V3\Main_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\V3\Main_user.Designer.cs">
       <DependentUpon>Main_user.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Personal_info.cs">
@@ -103,24 +109,24 @@
     <Compile Include="UI\Salary_info.Designer.cs">
       <DependentUpon>Salary_info.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Sign_in.cs">
+    <Compile Include="UI\Admin\LOGIN\Sign_in.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Sign_in.Designer.cs">
+    <Compile Include="UI\Admin\LOGIN\Sign_in.Designer.cs">
       <DependentUpon>Sign_in.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\MainUI.cs">
+    <Compile Include="UI\Prototype_abandoned\MainUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\MainUI.Designer.cs">
+    <Compile Include="UI\Prototype_abandoned\MainUI.Designer.cs">
       <DependentUpon>MainUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\MainUI_02.cs">
+    <Compile Include="UI\Prototype_abandoned\MainUI_02.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\MainUI_02.Designer.cs">
+    <Compile Include="UI\Prototype_abandoned\MainUI_02.Designer.cs">
       <DependentUpon>MainUI_02.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\MainUI_03.cs">
@@ -129,40 +135,40 @@
     <Compile Include="UI\MainUI_03.Designer.cs">
       <DependentUpon>MainUI_03.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\MainUI_04_metro.cs">
+    <Compile Include="UI\Admin\MainUI_04_metro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\MainUI_04_metro.Designer.cs">
+    <Compile Include="UI\Admin\MainUI_04_metro.Designer.cs">
       <DependentUpon>MainUI_04_metro.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Sign_up.cs">
+    <Compile Include="UI\Admin\LOGIN\Sign_up.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Sign_up.Designer.cs">
+    <Compile Include="UI\Admin\LOGIN\Sign_up.Designer.cs">
       <DependentUpon>Sign_up.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\UserControl_Home.cs">
+    <Compile Include="UI\V3\UserControl_Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\UserControl_Home.Designer.cs">
+    <Compile Include="UI\V3\UserControl_Home.Designer.cs">
       <DependentUpon>UserControl_Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\UserControl_PC_manage.cs">
+    <Compile Include="UI\V3\UserControl_PC_manage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\UserControl_PC_manage.Designer.cs">
+    <Compile Include="UI\V3\UserControl_PC_manage.Designer.cs">
       <DependentUpon>UserControl_PC_manage.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\UserControl_secure.cs">
+    <Compile Include="UI\V3\UserControl_secure.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\UserControl_secure.Designer.cs">
+    <Compile Include="UI\V3\UserControl_secure.Designer.cs">
       <DependentUpon>UserControl_secure.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\UserControl_Signin.cs">
+    <Compile Include="UI\V3\UserControl_Signin.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\UserControl_Signin.Designer.cs">
+    <Compile Include="UI\V3\UserControl_Signin.Designer.cs">
       <DependentUpon>UserControl_Signin.cs</DependentUpon>
     </Compile>
     <Compile Include="Util\Common.cs" />
@@ -182,10 +188,13 @@
     <EmbeddedResource Include="UI\Add_customer.resx">
       <DependentUpon>Add_customer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Admin_customer_management.resx">
+    <EmbeddedResource Include="UI\Admin\Admin_customer_management.resx">
       <DependentUpon>Admin_customer_management.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Main_user.resx">
+    <EmbeddedResource Include="UI\Admin\Admin_member_management.resx">
+      <DependentUpon>Admin_member_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\V3\Main_user.resx">
       <DependentUpon>Main_user.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Personal_info.resx">
@@ -194,34 +203,34 @@
     <EmbeddedResource Include="UI\Salary_info.resx">
       <DependentUpon>Salary_info.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Sign_in.resx">
+    <EmbeddedResource Include="UI\Admin\LOGIN\Sign_in.resx">
       <DependentUpon>Sign_in.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\MainUI.resx">
+    <EmbeddedResource Include="UI\Prototype_abandoned\MainUI.resx">
       <DependentUpon>MainUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\MainUI_02.resx">
+    <EmbeddedResource Include="UI\Prototype_abandoned\MainUI_02.resx">
       <DependentUpon>MainUI_02.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\MainUI_03.resx">
       <DependentUpon>MainUI_03.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\MainUI_04_metro.resx">
+    <EmbeddedResource Include="UI\Admin\MainUI_04_metro.resx">
       <DependentUpon>MainUI_04_metro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Sign_up.resx">
+    <EmbeddedResource Include="UI\Admin\LOGIN\Sign_up.resx">
       <DependentUpon>Sign_up.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\UserControl_Home.resx">
+    <EmbeddedResource Include="UI\V3\UserControl_Home.resx">
       <DependentUpon>UserControl_Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\UserControl_PC_manage.resx">
+    <EmbeddedResource Include="UI\V3\UserControl_PC_manage.resx">
       <DependentUpon>UserControl_PC_manage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\UserControl_secure.resx">
+    <EmbeddedResource Include="UI\V3\UserControl_secure.resx">
       <DependentUpon>UserControl_secure.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\UserControl_Signin.resx">
+    <EmbeddedResource Include="UI\V3\UserControl_Signin.resx">
       <DependentUpon>UserControl_Signin.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

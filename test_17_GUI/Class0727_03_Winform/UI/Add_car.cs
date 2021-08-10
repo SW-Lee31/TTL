@@ -24,7 +24,7 @@ namespace Class0727_03_Winform.UI
         string color;
         string cus_name;
         string date;
-        List<string> se_num = new List<string>();
+        string se_num;
 
         public Add_car()
         {
@@ -49,9 +49,6 @@ namespace Class0727_03_Winform.UI
             {
                 input_cusname.Items.Add(cusapt.Cus_list[name_index].Name);
             }
-
-
-
         }
 
         private void but_back_Click(object sender, EventArgs e)
@@ -65,14 +62,66 @@ namespace Class0727_03_Winform.UI
             model = input_model.Text;
             color = input_color.Text;
             cus_name = input_cusname.Text;
-            se_num.Add(input_senum.Text);
+            se_num = input_senum.Text;
             DateTime dateTime = input_date.Value;
             date = string.Format("{0}년 {1}월 {2}일", dateTime.Year, dateTime.Month, dateTime.Day);
 
-            Car car_index = new Car(brand, model, color, cus_name, se_num, date);
+            List<string> se_num_list = new List<string>();
+            List<string> brand_list = new List<string>();
+            List<string> model_list = new List<string>();
+            List<string> color_list = new List<string>();
+            List<string> date_list = new List<string>();
 
-            carapt.Add_order_list(car_index);
-            /*carapt.show_list();*/
+
+            se_num_list.Add(se_num);
+            brand_list.Add(brand);
+            model_list.Add(model);
+            color_list.Add(color);
+            date_list.Add(date);
+
+
+            if (carapt.Order_list.Count == 0)
+            {
+                for (int i = 0; i < cusapt.Cus_list.Count; i++)
+                {
+                    if (cus_name == cusapt.Cus_list[i].Name)
+                    {
+                        Car car_index = new Car(brand_list, model_list, color_list, cusapt.Cus_list[i], se_num_list, date_list);
+                        carapt.Add_order_list(car_index);
+                    }
+                }
+            }
+
+            else
+            {
+                for (int i = 0; i < carapt.Order_list.Count; i++)
+                {
+                    if (cus_name == carapt.Order_list[i].Cus.Name)
+                    {
+                        carapt.Order_list[i].Se_num_list.Add(se_num);
+                        carapt.Order_list[i].Brand_list.Add(brand);
+                        carapt.Order_list[i].Model_list.Add(model);
+                        carapt.Order_list[i].Color_list.Add(color);
+                        carapt.Order_list[i].Date_list.Add(date);
+                    }
+
+                    else
+                    {
+                        for (int j = 0; j < cusapt.Cus_list.Count; j++)
+                        {
+                            if (cus_name == cusapt.Cus_list[j].Name)
+                            {
+                                Car car_index = new Car(brand_list, model_list, color_list, cusapt.Cus_list[j], se_num_list, date_list);
+                                carapt.Add_order_list(car_index);
+                                break;
+                            }
+                        
+                        }
+                        break;
+                    }
+                }
+            }
+            carapt.show_list();
         }
 
         private void input_model_SelectedIndexChanged(object sender, EventArgs e)
