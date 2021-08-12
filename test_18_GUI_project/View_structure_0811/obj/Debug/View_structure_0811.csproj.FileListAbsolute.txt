@@ -22,3 +22,11 @@ C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811
 C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.UI_contents.Admin_Customer_manage.resources
 C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.UI_contents.Admin_main_form.resources
 C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.Admin_contents.Admin_stock_management.resources
+C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.Admin_contents.Admin_stock_management_contents.Admin_stock_management_main.resources
+C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.Admin_contents.Admin_stock_management_contents.Admin_stock_management_serial.resources
+C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.Admin_contents.Admin_stock_management_contents.Admin_stock_management_del.resources
+C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.UI_contents.Add_person.resources
+C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.UI_contents.Add_person_name_search.Add_person_name_search.resources
+C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.UI_contents.Search_person.resources
+C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.UI_contents.Tracking_del.resources
+C:\c#_work\test_18_GUI_project\View_structure_0811\obj\Debug\View_structure_0811.UI.UI_contents.Track_del_info.Tracking_del_info_map.resources

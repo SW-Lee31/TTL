@@ -9,6 +9,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using View_structure_0811.Adapter;
 using View_structure_0811.UI.UI_contents;
 using View_structure_0811.Util;
 
@@ -29,13 +30,25 @@ namespace View_structure_0811.UI
 #pragma warning restore CS0108
         #endregion  //마우스 클릭
 
+        Person_adapter peradp = new Person_adapter();
+
         Home home_sheet;
+        Add_person add_sheet;
+        Search_person search_sheet;
+        Tracking_del track_sheet;
+
         const string UI_HOME = "Home";
+        const string UI_ADD_PERSON = "Add_person";
+        const string UI_SEARCH_PERSON = "Search_person";
+        const string UI_TRACKING_DEL = "Tracking_del";
 
         public MainUI()
         {
             InitializeComponent();
             home_sheet = new Home();
+            add_sheet = new Add_person();
+            search_sheet = new Search_person();
+            track_sheet = new Tracking_del();
         }
 
         private void MainUI_Load(object sender, EventArgs e)
@@ -87,6 +100,28 @@ namespace View_structure_0811.UI
                 ReleaseCapture();
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
+        }
+
+
+        private void but_cus_add_Click_1(object sender, EventArgs e)
+        {
+            new Add_person(peradp);
+            controllview(add_sheet, UI_ADD_PERSON);
+        }
+
+        private void but_home_Click(object sender, EventArgs e)
+        {
+            controllview(home_sheet, UI_HOME);
+        }
+
+        private void but_search_Click(object sender, EventArgs e)
+        {
+            controllview(search_sheet, UI_SEARCH_PERSON);
+        }
+
+        private void but_track_Click(object sender, EventArgs e)
+        {
+            controllview(track_sheet, UI_TRACKING_DEL);
         }
     }
 }

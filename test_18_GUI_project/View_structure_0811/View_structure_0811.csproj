@@ -74,14 +74,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\Person_adapter.cs" />
+    <Compile Include="CSV\XMLparser.cs" />
+    <Compile Include="CSV\CSV_writer.cs" />
     <Compile Include="Main\Program.cs" />
-    <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\Member.cs" />
+    <Compile Include="Model\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\Admin_contents\Admin_stock_management.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UI\Admin_contents\Admin_stock_management.Designer.cs">
       <DependentUpon>Admin_stock_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Admin_contents\Admin_stock_management_contents\Admin_stock_management_del.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Admin_contents\Admin_stock_management_contents\Admin_stock_management_del.Designer.cs">
+      <DependentUpon>Admin_stock_management_del.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Admin_contents\Admin_stock_management_contents\Admin_stock_management_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Admin_contents\Admin_stock_management_contents\Admin_stock_management_main.Designer.cs">
+      <DependentUpon>Admin_stock_management_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Admin_contents\Admin_stock_management_contents\Admin_stock_management_serial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Admin_contents\Admin_stock_management_contents\Admin_stock_management_serial.Designer.cs">
+      <DependentUpon>Admin_stock_management_serial.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\MainUI.cs">
       <SubType>Form</SubType>
@@ -101,11 +123,29 @@
     <Compile Include="UI\Admin_contents\Admin_main_form.Designer.cs">
       <DependentUpon>Admin_main_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\UI_contents\Add_person.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UI_contents\Add_person.Designer.cs">
+      <DependentUpon>Add_person.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI_contents\Add_person_name_search\Add_person_name_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UI_contents\Add_person_name_search\Add_person_name_search.Designer.cs">
+      <DependentUpon>Add_person_name_search.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\UI_contents\Home.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UI\UI_contents\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI_contents\Search_person.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UI_contents\Search_person.Designer.cs">
+      <DependentUpon>Search_person.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\UI_contents\Sign\Sign_in.cs">
       <SubType>Form</SubType>
@@ -118,6 +158,18 @@
     </Compile>
     <Compile Include="UI\UI_contents\Sign\Sign_up.Designer.cs">
       <DependentUpon>Sign_up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI_contents\Tracking_del.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UI_contents\Tracking_del.Designer.cs">
+      <DependentUpon>Tracking_del.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UI_contents\Track_del_info\Tracking_del_info_map.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\UI_contents\Track_del_info\Tracking_del_info_map.Designer.cs">
+      <DependentUpon>Tracking_del_info_map.cs</DependentUpon>
     </Compile>
     <Compile Include="Util\Common.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -133,6 +185,15 @@
     <EmbeddedResource Include="UI\Admin_contents\Admin_stock_management.resx">
       <DependentUpon>Admin_stock_management.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Admin_contents\Admin_stock_management_contents\Admin_stock_management_del.resx">
+      <DependentUpon>Admin_stock_management_del.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Admin_contents\Admin_stock_management_contents\Admin_stock_management_main.resx">
+      <DependentUpon>Admin_stock_management_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Admin_contents\Admin_stock_management_contents\Admin_stock_management_serial.resx">
+      <DependentUpon>Admin_stock_management_serial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\MainUI.resx">
       <DependentUpon>MainUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,14 +203,29 @@
     <EmbeddedResource Include="UI\Admin_contents\Admin_main_form.resx">
       <DependentUpon>Admin_main_form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_contents\Add_person.resx">
+      <DependentUpon>Add_person.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_contents\Add_person_name_search\Add_person_name_search.resx">
+      <DependentUpon>Add_person_name_search.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\UI_contents\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_contents\Search_person.resx">
+      <DependentUpon>Search_person.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UI_contents\Sign\Sign_in.resx">
       <DependentUpon>Sign_in.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UI_contents\Sign\Sign_up.resx">
       <DependentUpon>Sign_up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_contents\Tracking_del.resx">
+      <DependentUpon>Tracking_del.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UI_contents\Track_del_info\Tracking_del_info_map.resx">
+      <DependentUpon>Tracking_del_info_map.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -165,9 +241,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Adapter\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="ReadMePng\APIKeys.png" />
     <Content Include="ReadMePng\Deploy.png" />
@@ -177,6 +251,8 @@
     <Content Include="ReadMePng\NuPackNugetPackager.png" />
     <Content Include="ReadMePng\Options.png" />
     <Content Include="ReadMePng\类库上右键.png" />
+    <None Include="Resource\magnifying_glass.gif" />
+    <None Include="Resource\map.png" />
     <None Include="Resource\South_korea.jpg" />
     <None Include="Resource\Com_logo.jpg" />
     <None Include="Resource\Main_logo.gif" />

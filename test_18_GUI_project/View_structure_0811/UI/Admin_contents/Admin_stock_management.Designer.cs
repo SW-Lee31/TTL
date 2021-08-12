@@ -36,8 +36,8 @@ namespace View_structure_0811.UI.Admin_contents
             this.uiLabel1 = new Sunny.UI.UILabel();
             this.main_panel = new Sunny.UI.UIFlowLayoutPanel();
             this.uiLine1 = new Sunny.UI.UILine();
-            this.uiHeaderButton1 = new Sunny.UI.UIHeaderButton();
-            this.but_stock_digit = new Sunny.UI.UIHeaderButton();
+            this.but_del = new Sunny.UI.UIHeaderButton();
+            this.but_serial = new Sunny.UI.UIHeaderButton();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chart_panel.SuspendLayout();
             this.main_panel.SuspendLayout();
@@ -56,7 +56,7 @@ namespace View_structure_0811.UI.Admin_contents
             this.chart_panel.Name = "chart_panel";
             this.chart_panel.Padding = new System.Windows.Forms.Padding(2);
             this.chart_panel.RectColor = System.Drawing.Color.Transparent;
-            this.chart_panel.Size = new System.Drawing.Size(339, 42);
+            this.chart_panel.Size = new System.Drawing.Size(515, 42);
             this.chart_panel.Style = Sunny.UI.UIStyle.Custom;
             this.chart_panel.TabIndex = 0;
             this.chart_panel.Text = "uiFlowLayoutPanel1";
@@ -69,7 +69,7 @@ namespace View_structure_0811.UI.Admin_contents
             this.uiLabel1.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uiLabel1.Location = new System.Drawing.Point(2, 2);
             this.uiLabel1.Name = "uiLabel1";
-            this.uiLabel1.Size = new System.Drawing.Size(335, 38);
+            this.uiLabel1.Size = new System.Drawing.Size(511, 38);
             this.uiLabel1.Style = Sunny.UI.UIStyle.Custom;
             this.uiLabel1.TabIndex = 3;
             this.uiLabel1.Text = "입출고 동향";
@@ -78,8 +78,8 @@ namespace View_structure_0811.UI.Admin_contents
             // main_panel
             // 
             this.main_panel.Controls.Add(this.uiLine1);
-            this.main_panel.Controls.Add(this.uiHeaderButton1);
-            this.main_panel.Controls.Add(this.but_stock_digit);
+            this.main_panel.Controls.Add(this.but_del);
+            this.main_panel.Controls.Add(this.but_serial);
             this.main_panel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.main_panel.FillColor = System.Drawing.Color.White;
             this.main_panel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
@@ -89,7 +89,7 @@ namespace View_structure_0811.UI.Admin_contents
             this.main_panel.Name = "main_panel";
             this.main_panel.Padding = new System.Windows.Forms.Padding(2);
             this.main_panel.RectColor = System.Drawing.Color.Transparent;
-            this.main_panel.Size = new System.Drawing.Size(339, 59);
+            this.main_panel.Size = new System.Drawing.Size(515, 59);
             this.main_panel.Style = Sunny.UI.UIStyle.Custom;
             this.main_panel.TabIndex = 1;
             this.main_panel.Text = "uiFlowLayoutPanel1";
@@ -101,47 +101,49 @@ namespace View_structure_0811.UI.Admin_contents
             this.uiLine1.Location = new System.Drawing.Point(-1, 0);
             this.uiLine1.MinimumSize = new System.Drawing.Size(2, 2);
             this.uiLine1.Name = "uiLine1";
-            this.uiLine1.Size = new System.Drawing.Size(360, 3);
+            this.uiLine1.Size = new System.Drawing.Size(517, 3);
             this.uiLine1.Style = Sunny.UI.UIStyle.Custom;
             this.uiLine1.TabIndex = 5;
             // 
-            // uiHeaderButton1
+            // but_del
             // 
-            this.uiHeaderButton1.CircleSize = 0;
-            this.uiHeaderButton1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.uiHeaderButton1.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uiHeaderButton1.Location = new System.Drawing.Point(169, 2);
-            this.uiHeaderButton1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiHeaderButton1.Name = "uiHeaderButton1";
-            this.uiHeaderButton1.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
-            this.uiHeaderButton1.Radius = 0;
-            this.uiHeaderButton1.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
-            this.uiHeaderButton1.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.uiHeaderButton1.Size = new System.Drawing.Size(169, 55);
-            this.uiHeaderButton1.Style = Sunny.UI.UIStyle.Custom;
-            this.uiHeaderButton1.Symbol = 61633;
-            this.uiHeaderButton1.SymbolColor = System.Drawing.Color.Black;
-            this.uiHeaderButton1.TabIndex = 4;
-            this.uiHeaderButton1.Text = "배송정보 관리";
+            this.but_del.CircleSize = 0;
+            this.but_del.Dock = System.Windows.Forms.DockStyle.Right;
+            this.but_del.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_del.Location = new System.Drawing.Point(256, 2);
+            this.but_del.MinimumSize = new System.Drawing.Size(1, 1);
+            this.but_del.Name = "but_del";
+            this.but_del.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.but_del.Radius = 0;
+            this.but_del.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.but_del.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.but_del.Size = new System.Drawing.Size(257, 55);
+            this.but_del.Style = Sunny.UI.UIStyle.Custom;
+            this.but_del.Symbol = 61633;
+            this.but_del.SymbolColor = System.Drawing.Color.Black;
+            this.but_del.TabIndex = 4;
+            this.but_del.Text = "배송정보 관리";
+            this.but_del.Click += new System.EventHandler(this.but_del_Click);
             // 
-            // but_stock_digit
+            // but_serial
             // 
-            this.but_stock_digit.CircleSize = 0;
-            this.but_stock_digit.Dock = System.Windows.Forms.DockStyle.Left;
-            this.but_stock_digit.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_stock_digit.Location = new System.Drawing.Point(2, 2);
-            this.but_stock_digit.MinimumSize = new System.Drawing.Size(1, 1);
-            this.but_stock_digit.Name = "but_stock_digit";
-            this.but_stock_digit.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
-            this.but_stock_digit.Radius = 0;
-            this.but_stock_digit.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
-            this.but_stock_digit.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.but_stock_digit.Size = new System.Drawing.Size(167, 55);
-            this.but_stock_digit.Style = Sunny.UI.UIStyle.Custom;
-            this.but_stock_digit.Symbol = 61484;
-            this.but_stock_digit.SymbolColor = System.Drawing.Color.Black;
-            this.but_stock_digit.TabIndex = 3;
-            this.but_stock_digit.Text = "관리번호 부여";
+            this.but_serial.CircleSize = 0;
+            this.but_serial.Dock = System.Windows.Forms.DockStyle.Left;
+            this.but_serial.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_serial.Location = new System.Drawing.Point(2, 2);
+            this.but_serial.MinimumSize = new System.Drawing.Size(1, 1);
+            this.but_serial.Name = "but_serial";
+            this.but_serial.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.but_serial.Radius = 0;
+            this.but_serial.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.but_serial.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.but_serial.Size = new System.Drawing.Size(257, 55);
+            this.but_serial.Style = Sunny.UI.UIStyle.Custom;
+            this.but_serial.Symbol = 61484;
+            this.but_serial.SymbolColor = System.Drawing.Color.Black;
+            this.but_serial.TabIndex = 3;
+            this.but_serial.Text = "관리번호 부여";
+            this.but_serial.Click += new System.EventHandler(this.but_stock_digit_Click);
             // 
             // chart1
             // 
@@ -156,7 +158,7 @@ namespace View_structure_0811.UI.Admin_contents
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(339, 257);
+            this.chart1.Size = new System.Drawing.Size(515, 257);
             this.chart1.TabIndex = 2;
             this.chart1.Text = "chart1";
             // 
@@ -167,7 +169,7 @@ namespace View_structure_0811.UI.Admin_contents
             this.Controls.Add(this.main_panel);
             this.Controls.Add(this.chart_panel);
             this.Name = "Admin_stock_management";
-            this.Size = new System.Drawing.Size(339, 358);
+            this.Size = new System.Drawing.Size(515, 358);
             this.chart_panel.ResumeLayout(false);
             this.main_panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
@@ -180,8 +182,8 @@ namespace View_structure_0811.UI.Admin_contents
         private Sunny.UI.UIFlowLayoutPanel chart_panel;
         private Sunny.UI.UILabel uiLabel1;
         private Sunny.UI.UIFlowLayoutPanel main_panel;
-        private Sunny.UI.UIHeaderButton uiHeaderButton1;
-        private Sunny.UI.UIHeaderButton but_stock_digit;
+        private Sunny.UI.UIHeaderButton but_del;
+        private Sunny.UI.UIHeaderButton but_serial;
         private Sunny.UI.UILine uiLine1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
     }
