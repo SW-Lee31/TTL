@@ -1,4 +1,3 @@
-﻿고객명, 전화번호, 주소, 가입날짜, 생년월일, 성별, 가입경로
-sda, '01012, sda, 2021년 7월 30일, 1915년 2월 2일, Male, Ad
-zxc, '01034, sda, 2021년 7월 30일, 1915년 2월 2일, Female, AdAd
-wqe, '0105, zxc, 2021년 7월 6일, 1920년 1월 2일, Female, AdAdAd / Activity Club
+﻿고객명, 전화번호, 주소, 가입날짜, 생년월일, 성별, 가입경로, 고객번호
+이상원, '01012341234, 대구시 수성구 만촌동 123123, 2021년 7월 30일, 1921년 3월 5일, Male, Ad / Internet / Activity Club
+김상원, '0104545611, 서울시 마포구 123312, 2021년 7월 30일, 1917년 2월 1일, Female, Ad / Internet / Activity ClubAd / Introduced / Internet / Activity Club

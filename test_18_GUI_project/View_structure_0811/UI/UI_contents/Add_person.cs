@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using View_structure_0811.Adapter;
+using View_structure_0811.CSV;
 using View_structure_0811.Model;
 
 namespace View_structure_0811.UI.UI_contents
@@ -35,6 +36,7 @@ namespace View_structure_0811.UI.UI_contents
 
         private void but_confirm_Click(object sender, EventArgs e)
         {
+            
             // 데이터 입력
             #region
             string name = "";
@@ -93,9 +95,15 @@ namespace View_structure_0811.UI.UI_contents
             #endregion 
 
             Person person_index = new Person(name, digit, addr, date, gender);
-            person_index.print_personal_info();
+            /*person_index.print_personal_info();*/
 
-            peradp.Add_list(person_index);
+            Console.WriteLine("#################################");
+
+            MessageBox.Show("인적사항이 저장되었습니다.");
+
+            Person_adapter.Add_list(person_index);
+            CSV_writer.Load_csv_personal();
+            CSV_reader.Read_csv_personal();
         }
 
         public bool empty_check(string value)

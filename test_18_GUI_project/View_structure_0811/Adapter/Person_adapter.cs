@@ -9,16 +9,16 @@ namespace View_structure_0811.Adapter
 {
     class Person_adapter
     {
-        List<Person> personal_info_list = new List<Person>();
+        static List<Person> personal_info_list = new List<Person>();
 
-        internal List<Person> Personal_info_list { get => personal_info_list; set => personal_info_list = value; }
+        internal static List<Person> Personal_info_list { get => personal_info_list; set => personal_info_list = value; }
 
-        public void Add_list(Person person_index)
+        static public void Add_list(Person person_index)
         {
             personal_info_list.Add(person_index);
         }
 
-        public void pirnt_personal_list_info()
+        static public void pirnt_personal_list_info()
         {
             for (int i = 0; i < personal_info_list.Count; i++)
             {

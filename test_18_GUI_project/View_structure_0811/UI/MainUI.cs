@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using View_structure_0811.Adapter;
+using View_structure_0811.Model;
 using View_structure_0811.UI.UI_contents;
 using View_structure_0811.Util;
 
@@ -29,8 +30,6 @@ namespace View_structure_0811.UI
         static extern bool ReleaseCapture();
 #pragma warning restore CS0108
         #endregion  //마우스 클릭
-
-        Person_adapter peradp = new Person_adapter();
 
         Home home_sheet;
         Add_person add_sheet;
@@ -102,26 +101,33 @@ namespace View_structure_0811.UI
             }
         }
 
-
         private void but_cus_add_Click_1(object sender, EventArgs e)
         {
-            new Add_person(peradp);
+            
             controllview(add_sheet, UI_ADD_PERSON);
+            new Add_person();
         }
 
         private void but_home_Click(object sender, EventArgs e)
         {
+            new Home();
             controllview(home_sheet, UI_HOME);
         }
 
         private void but_search_Click(object sender, EventArgs e)
         {
+            
             controllview(search_sheet, UI_SEARCH_PERSON);
         }
 
         private void but_track_Click(object sender, EventArgs e)
         {
             controllview(track_sheet, UI_TRACKING_DEL);
+        }
+
+        private void Top_panel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -31,6 +31,7 @@ namespace View_structure_0811.UI
         {
             this.Top_panel = new Sunny.UI.UIFlowLayoutPanel();
             this.uiLabel1 = new Sunny.UI.UILabel();
+            this.cxFlatPictureBox2 = new CxFlatUI.CxFlatPictureBox();
             this.but_info = new Sunny.UI.UIButton();
             this.but_mini = new Sunny.UI.UIButton();
             this.but_close = new Sunny.UI.UIButton();
@@ -43,10 +44,9 @@ namespace View_structure_0811.UI
             this.but_home = new Sunny.UI.UIHeaderButton();
             this.uiLine1 = new Sunny.UI.UILine();
             this.main_panel = new System.Windows.Forms.Panel();
-            this.cxFlatPictureBox2 = new CxFlatUI.CxFlatPictureBox();
             this.Top_panel.SuspendLayout();
-            this.Right_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).BeginInit();
+            this.Right_panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // Top_panel
@@ -72,6 +72,7 @@ namespace View_structure_0811.UI
             this.Top_panel.TabIndex = 0;
             this.Top_panel.Text = "uiFlowLayoutPanel1";
             this.Top_panel.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Top_panel.Click += new System.EventHandler(this.Top_panel_Click);
             this.Top_panel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Top_panel_MouseMove);
             // 
             // uiLabel1
@@ -87,6 +88,16 @@ namespace View_structure_0811.UI
             this.uiLabel1.TabIndex = 18;
             this.uiLabel1.Text = "SW-Lee31 물류배송 V1.0.0";
             this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // cxFlatPictureBox2
+            // 
+            this.cxFlatPictureBox2.Image = global::View_structure_0811.Properties.Resources.Com_logo;
+            this.cxFlatPictureBox2.Location = new System.Drawing.Point(12, 2);
+            this.cxFlatPictureBox2.Name = "cxFlatPictureBox2";
+            this.cxFlatPictureBox2.Size = new System.Drawing.Size(89, 56);
+            this.cxFlatPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cxFlatPictureBox2.TabIndex = 3;
+            this.cxFlatPictureBox2.TabStop = false;
             // 
             // but_info
             // 
@@ -313,16 +324,6 @@ namespace View_structure_0811.UI
             this.main_panel.TabIndex = 2;
             this.main_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.main_panel_Paint);
             // 
-            // cxFlatPictureBox2
-            // 
-            this.cxFlatPictureBox2.Image = global::View_structure_0811.Properties.Resources.Com_logo;
-            this.cxFlatPictureBox2.Location = new System.Drawing.Point(12, 2);
-            this.cxFlatPictureBox2.Name = "cxFlatPictureBox2";
-            this.cxFlatPictureBox2.Size = new System.Drawing.Size(89, 56);
-            this.cxFlatPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.cxFlatPictureBox2.TabIndex = 3;
-            this.cxFlatPictureBox2.TabStop = false;
-            // 
             // MainUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -335,8 +336,8 @@ namespace View_structure_0811.UI
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.MainUI_Load);
             this.Top_panel.ResumeLayout(false);
-            this.Right_panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).EndInit();
+            this.Right_panel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

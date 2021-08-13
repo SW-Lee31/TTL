@@ -74,10 +74,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\Id_adapter.cs" />
     <Compile Include="Adapter\Person_adapter.cs" />
+    <Compile Include="CSV\CSV_reader.cs" />
     <Compile Include="CSV\XMLparser.cs" />
     <Compile Include="CSV\CSV_writer.cs" />
     <Compile Include="Main\Program.cs" />
+    <Compile Include="Model\Admin_id.cs" />
     <Compile Include="Model\Member.cs" />
     <Compile Include="Model\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

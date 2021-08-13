@@ -30,9 +30,9 @@ namespace View_structure_0811.UI.UI_contents.Sign
         private void InitializeComponent()
         {
             this.Top_panel = new Sunny.UI.UIFlowLayoutPanel();
+            this.uiLine1 = new Sunny.UI.UILine();
             this.but_close = new Sunny.UI.UIButton();
             this.uiLabel1 = new Sunny.UI.UILabel();
-            this.uiLine1 = new Sunny.UI.UILine();
             this.input_password_check = new Sunny.UI.UITextBox();
             this.uiLabel9 = new Sunny.UI.UILabel();
             this.but_submit = new Sunny.UI.UIButton();
@@ -72,6 +72,16 @@ namespace View_structure_0811.UI.UI_contents.Sign
             this.Top_panel.Text = "uiFlowLayoutPanel1";
             this.Top_panel.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // uiLine1
+            // 
+            this.uiLine1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiLine1.Location = new System.Drawing.Point(-2, 64);
+            this.uiLine1.MinimumSize = new System.Drawing.Size(2, 2);
+            this.uiLine1.Name = "uiLine1";
+            this.uiLine1.Size = new System.Drawing.Size(382, 3);
+            this.uiLine1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiLine1.TabIndex = 19;
+            // 
             // but_close
             // 
             this.but_close.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -100,16 +110,6 @@ namespace View_structure_0811.UI.UI_contents.Sign
             this.uiLabel1.Text = "회원가입";
             this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // uiLine1
-            // 
-            this.uiLine1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiLine1.Location = new System.Drawing.Point(-2, 64);
-            this.uiLine1.MinimumSize = new System.Drawing.Size(2, 2);
-            this.uiLine1.Name = "uiLine1";
-            this.uiLine1.Size = new System.Drawing.Size(382, 3);
-            this.uiLine1.Style = Sunny.UI.UIStyle.Custom;
-            this.uiLine1.TabIndex = 19;
-            // 
             // input_password_check
             // 
             this.input_password_check.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -121,6 +121,7 @@ namespace View_structure_0811.UI.UI_contents.Sign
             this.input_password_check.Minimum = -2147483648D;
             this.input_password_check.MinimumSize = new System.Drawing.Size(1, 1);
             this.input_password_check.Name = "input_password_check";
+            this.input_password_check.PasswordChar = '*';
             this.input_password_check.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(168)))), ((int)(((byte)(255)))));
             this.input_password_check.Size = new System.Drawing.Size(150, 29);
             this.input_password_check.Style = Sunny.UI.UIStyle.Custom;
@@ -155,6 +156,7 @@ namespace View_structure_0811.UI.UI_contents.Sign
             this.but_submit.Style = Sunny.UI.UIStyle.Custom;
             this.but_submit.TabIndex = 91;
             this.but_submit.Text = "확인";
+            this.but_submit.Click += new System.EventHandler(this.but_submit_Click_1);
             // 
             // uiLabel8
             // 
@@ -296,6 +298,7 @@ namespace View_structure_0811.UI.UI_contents.Sign
             this.input_password.Minimum = -2147483648D;
             this.input_password.MinimumSize = new System.Drawing.Size(1, 1);
             this.input_password.Name = "input_password";
+            this.input_password.PasswordChar = '*';
             this.input_password.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(168)))), ((int)(((byte)(255)))));
             this.input_password.Size = new System.Drawing.Size(150, 29);
             this.input_password.Style = Sunny.UI.UIStyle.Custom;

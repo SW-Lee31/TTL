@@ -8,6 +8,7 @@ namespace View_structure_0811.Model
 {
     class Person
     {
+        static int Person_index = 5;
         string name;
         string digit;
         string addr;
@@ -23,6 +24,7 @@ namespace View_structure_0811.Model
             this.gender = gender;
         }
 
+        public static int Person_index1 { get => Person_index; set => Person_index = value; }
         public string Name { get => name; set => name = value; }
         public string Digit { get => digit; set => digit = value; }
         public string Addr { get => addr; set => addr = value; }
