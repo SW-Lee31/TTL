@@ -16,8 +16,7 @@ namespace View_structure_0811.UI.UI_contents.Sign
 {
     partial class Sign_in : MaterialForm
     {
-        string[] id_value;
-
+        string file_path_id = @"C:\Users\sangw\Desktop\TTL_master\TTL\test_18_GUI_project\View_structure_0811\CSV\Admin_id_info";
 
         public Sign_in()
         {
@@ -28,15 +27,6 @@ namespace View_structure_0811.UI.UI_contents.Sign
         {
 
             Common.Theme_light(this);
-
-            id_value = CSV_reader.Read_csv_id().ToArray();
-
-            /*id_value = CSV_reader.split(CSV_reader.Read_csv_id());
-
-            for (int i = 0; i < id_value.Length; i++)
-            {
-                Console.WriteLine(id_value[i]);
-            }*/
         }
 
         private void uiFlowLayoutPanel1_Click(object sender, EventArgs e)
@@ -100,28 +90,26 @@ namespace View_structure_0811.UI.UI_contents.Sign
 
         private void uiButton1_Click(object sender, EventArgs e)
         {
+            string id = " " + input_id.Text;
+            string pw = " " + input_pw.Text;
 
-            /*if (id_check() == true && pw_check() == true)
+            List<string[]> csv_value = CSV_reader.Read_csv(file_path_id);
+
+            if (id_check(csv_value, id) == false)
             {
-                new Admin_main_form().Show();
-            }
-            
-            else if (id_check() == true && pw_check() == false)
-            {
-                MessageBox.Show("비밀번호가 틀렸습니다.", "경고", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("존재하지 않는 아이디입니다.");
             }
 
-            else if (id_check() == false && pw_check() == true)
+            else if (pw_check(csv_value, pw) == false)
             {
-                MessageBox.Show("없는 아이디입니다.", "경고", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("일치하지 않는 비밀번호입니다.");
             }
 
             else
             {
-                MessageBox.Show("등록되지 않은 정보입니다.", "경고", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }*/
-
-            new Admin_main_form().Show();
+                new Admin_main_form().Show();
+                Close();
+            }
         }
 
         private void uiLinkLabel1_Click_1(object sender, EventArgs e)
@@ -129,41 +117,28 @@ namespace View_structure_0811.UI.UI_contents.Sign
             new Sign_up().Show();
         }
 
-        /*bool id_check()
+        public bool id_check(List<string[]> result, string id)
         {
-            for (int i = 1; i < id_value.Length; i++)
+            for (int i = 1; i < result.Count; i++)
             {
-                string[] elements = CSV_reader.split(id_value[i]);
-
-                for (int j = 0; j < elements.Length; j++)
-                {
-                    Console.WriteLine(elements[j]);
-                }
-
-                if (input_id.Text == elements[1])
+                if (id == result[i][1])
                 {
                     return true;
                 }
             }
-
             return false;
+        }
 
-        }*/
-
-        /*bool pw_check()
+        public bool pw_check(List<string[]> result, string pw)
         {
-            for (int i = 1; i < id_value.Count; i++)
+            for (int i = 1; i < result.Count; i++)
             {
-                string[] elements = CSV_reader.split(id_value[i]);
-
-                if (input_id.Text == elements[2])
+                if (pw == result[i][2])
                 {
                     return true;
                 }
-
             }
-
             return false;
-        }*/
+        }
     }
 }

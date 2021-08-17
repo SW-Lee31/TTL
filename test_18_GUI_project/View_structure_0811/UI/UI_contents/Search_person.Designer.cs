@@ -40,8 +40,6 @@ namespace View_structure_0811.UI.UI_contents
             this.text2 = new Sunny.UI.UILabel();
             this.uiLabel5 = new Sunny.UI.UILabel();
             this.input_memberdigit = new Sunny.UI.UITextBox();
-            this.uiLabel4 = new Sunny.UI.UILabel();
-            this.output_serial = new Sunny.UI.UILabel();
             this.uiLabel6 = new Sunny.UI.UILabel();
             this.output_name = new Sunny.UI.UILabel();
             this.link_name_search = new System.Windows.Forms.LinkLabel();
@@ -52,19 +50,20 @@ namespace View_structure_0811.UI.UI_contents
             this.output_addr.BackColor = System.Drawing.Color.Transparent;
             this.output_addr.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.output_addr.ForeColor = System.Drawing.Color.Black;
-            this.output_addr.Location = new System.Drawing.Point(202, 268);
+            this.output_addr.Location = new System.Drawing.Point(178, 293);
             this.output_addr.Name = "output_addr";
-            this.output_addr.Size = new System.Drawing.Size(342, 26);
+            this.output_addr.Size = new System.Drawing.Size(288, 26);
             this.output_addr.TabIndex = 136;
             this.output_addr.Text = "data";
             this.output_addr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.output_addr.Click += new System.EventHandler(this.output_addr_Click);
             // 
             // uiLabel1
             // 
             this.uiLabel1.BackColor = System.Drawing.Color.Transparent;
             this.uiLabel1.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.uiLabel1.ForeColor = System.Drawing.Color.Gray;
-            this.uiLabel1.Location = new System.Drawing.Point(93, 267);
+            this.uiLabel1.Location = new System.Drawing.Point(96, 291);
             this.uiLabel1.Name = "uiLabel1";
             this.uiLabel1.Size = new System.Drawing.Size(91, 28);
             this.uiLabel1.Style = Sunny.UI.UIStyle.Custom;
@@ -96,13 +95,14 @@ namespace View_structure_0811.UI.UI_contents
             this.confirm.StyleCustomMode = true;
             this.confirm.TabIndex = 134;
             this.confirm.Text = "확인";
+            this.confirm.Click += new System.EventHandler(this.confirm_Click);
             // 
             // output_gender
             // 
             this.output_gender.BackColor = System.Drawing.Color.Transparent;
             this.output_gender.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.output_gender.ForeColor = System.Drawing.Color.Black;
-            this.output_gender.Location = new System.Drawing.Point(270, 221);
+            this.output_gender.Location = new System.Drawing.Point(273, 245);
             this.output_gender.Name = "output_gender";
             this.output_gender.Size = new System.Drawing.Size(162, 26);
             this.output_gender.TabIndex = 133;
@@ -114,7 +114,7 @@ namespace View_structure_0811.UI.UI_contents
             this.output_birth.BackColor = System.Drawing.Color.Transparent;
             this.output_birth.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.output_birth.ForeColor = System.Drawing.Color.Black;
-            this.output_birth.Location = new System.Drawing.Point(270, 179);
+            this.output_birth.Location = new System.Drawing.Point(273, 203);
             this.output_birth.Name = "output_birth";
             this.output_birth.Size = new System.Drawing.Size(162, 26);
             this.output_birth.TabIndex = 132;
@@ -126,7 +126,7 @@ namespace View_structure_0811.UI.UI_contents
             this.uiLabel3.BackColor = System.Drawing.Color.Transparent;
             this.uiLabel3.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.uiLabel3.ForeColor = System.Drawing.Color.Gray;
-            this.uiLabel3.Location = new System.Drawing.Point(94, 222);
+            this.uiLabel3.Location = new System.Drawing.Point(97, 246);
             this.uiLabel3.Name = "uiLabel3";
             this.uiLabel3.Size = new System.Drawing.Size(90, 28);
             this.uiLabel3.Style = Sunny.UI.UIStyle.Custom;
@@ -139,12 +139,12 @@ namespace View_structure_0811.UI.UI_contents
             this.uiLabel2.BackColor = System.Drawing.Color.Transparent;
             this.uiLabel2.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.uiLabel2.ForeColor = System.Drawing.Color.Gray;
-            this.uiLabel2.Location = new System.Drawing.Point(110, 179);
+            this.uiLabel2.Location = new System.Drawing.Point(113, 203);
             this.uiLabel2.Name = "uiLabel2";
             this.uiLabel2.Size = new System.Drawing.Size(90, 28);
             this.uiLabel2.Style = Sunny.UI.UIStyle.Custom;
             this.uiLabel2.TabIndex = 130;
-            this.uiLabel2.Text = "※ 생년월일";
+            this.uiLabel2.Text = "※ 가입날짜";
             this.uiLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // output_digit
@@ -152,7 +152,7 @@ namespace View_structure_0811.UI.UI_contents
             this.output_digit.BackColor = System.Drawing.Color.Transparent;
             this.output_digit.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.output_digit.ForeColor = System.Drawing.Color.Black;
-            this.output_digit.Location = new System.Drawing.Point(270, 131);
+            this.output_digit.Location = new System.Drawing.Point(273, 155);
             this.output_digit.Name = "output_digit";
             this.output_digit.Size = new System.Drawing.Size(162, 26);
             this.output_digit.TabIndex = 129;
@@ -164,7 +164,7 @@ namespace View_structure_0811.UI.UI_contents
             this.text2.BackColor = System.Drawing.Color.Transparent;
             this.text2.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.text2.ForeColor = System.Drawing.Color.Gray;
-            this.text2.Location = new System.Drawing.Point(107, 129);
+            this.text2.Location = new System.Drawing.Point(110, 153);
             this.text2.Name = "text2";
             this.text2.Size = new System.Drawing.Size(93, 28);
             this.text2.Style = Sunny.UI.UIStyle.Custom;
@@ -201,37 +201,12 @@ namespace View_structure_0811.UI.UI_contents
             this.input_memberdigit.TabIndex = 137;
             this.input_memberdigit.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // uiLabel4
-            // 
-            this.uiLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.uiLabel4.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.uiLabel4.ForeColor = System.Drawing.Color.Gray;
-            this.uiLabel4.Location = new System.Drawing.Point(93, 312);
-            this.uiLabel4.Name = "uiLabel4";
-            this.uiLabel4.Size = new System.Drawing.Size(124, 28);
-            this.uiLabel4.Style = Sunny.UI.UIStyle.Custom;
-            this.uiLabel4.TabIndex = 138;
-            this.uiLabel4.Text = "※ 배송주문번호";
-            this.uiLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // output_serial
-            // 
-            this.output_serial.BackColor = System.Drawing.Color.Transparent;
-            this.output_serial.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.output_serial.ForeColor = System.Drawing.Color.Black;
-            this.output_serial.Location = new System.Drawing.Point(223, 314);
-            this.output_serial.Name = "output_serial";
-            this.output_serial.Size = new System.Drawing.Size(342, 26);
-            this.output_serial.TabIndex = 139;
-            this.output_serial.Text = "data";
-            this.output_serial.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // uiLabel6
             // 
             this.uiLabel6.BackColor = System.Drawing.Color.Transparent;
             this.uiLabel6.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.uiLabel6.ForeColor = System.Drawing.Color.Gray;
-            this.uiLabel6.Location = new System.Drawing.Point(94, 86);
+            this.uiLabel6.Location = new System.Drawing.Point(97, 110);
             this.uiLabel6.Name = "uiLabel6";
             this.uiLabel6.Size = new System.Drawing.Size(93, 28);
             this.uiLabel6.Style = Sunny.UI.UIStyle.Custom;
@@ -244,7 +219,7 @@ namespace View_structure_0811.UI.UI_contents
             this.output_name.BackColor = System.Drawing.Color.Transparent;
             this.output_name.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.output_name.ForeColor = System.Drawing.Color.Black;
-            this.output_name.Location = new System.Drawing.Point(270, 87);
+            this.output_name.Location = new System.Drawing.Point(273, 111);
             this.output_name.Name = "output_name";
             this.output_name.Size = new System.Drawing.Size(162, 26);
             this.output_name.TabIndex = 141;
@@ -272,8 +247,6 @@ namespace View_structure_0811.UI.UI_contents
             this.Controls.Add(this.link_name_search);
             this.Controls.Add(this.output_name);
             this.Controls.Add(this.uiLabel6);
-            this.Controls.Add(this.output_serial);
-            this.Controls.Add(this.uiLabel4);
             this.Controls.Add(this.input_memberdigit);
             this.Controls.Add(this.output_addr);
             this.Controls.Add(this.uiLabel1);
@@ -287,6 +260,7 @@ namespace View_structure_0811.UI.UI_contents
             this.Controls.Add(this.uiLabel5);
             this.Name = "Search_person";
             this.Size = new System.Drawing.Size(585, 402);
+            this.Load += new System.EventHandler(this.Search_person_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -305,8 +279,6 @@ namespace View_structure_0811.UI.UI_contents
         private Sunny.UI.UILabel text2;
         private Sunny.UI.UILabel uiLabel5;
         private Sunny.UI.UITextBox input_memberdigit;
-        private Sunny.UI.UILabel uiLabel4;
-        private Sunny.UI.UILabel output_serial;
         private Sunny.UI.UILabel uiLabel6;
         private Sunny.UI.UILabel output_name;
         private System.Windows.Forms.LinkLabel link_name_search;

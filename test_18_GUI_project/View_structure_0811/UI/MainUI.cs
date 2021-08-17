@@ -105,12 +105,10 @@ namespace View_structure_0811.UI
         {
             
             controllview(add_sheet, UI_ADD_PERSON);
-            new Add_person();
         }
 
         private void but_home_Click(object sender, EventArgs e)
         {
-            new Home();
             controllview(home_sheet, UI_HOME);
         }
 

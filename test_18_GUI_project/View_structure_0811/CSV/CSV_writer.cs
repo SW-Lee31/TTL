@@ -11,9 +11,9 @@ namespace View_structure_0811.CSV
 {
     class CSV_writer
     {
-        static public void Load_csv_personal()
+        static public void Load_csv_personal(string file_path_personal_info)
         {
-            StreamWriter csv_person = new StreamWriter(@"C:\\c#_work\\test_18_GUI_project\\View_structure_0811\\CSV\\personal_info.csv", false, Encoding.UTF8);
+            StreamWriter csv_person = new StreamWriter(file_path_personal_info, false, Encoding.UTF8);
 
             csv_person.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}",
                "번호", "이름", "전화번호", "주소", "가입날짜", "성별");
@@ -31,9 +31,9 @@ namespace View_structure_0811.CSV
             csv_person.Close();
         }
 
-        static public void Load_csv_id()
+        static public void Load_csv_id(string file_path_id_info)
         {
-            StreamWriter csv_id = new StreamWriter(@"C:\\c#_work\\test_18_GUI_project\\View_structure_0811\\CSV\\ID_info.csv", false, Encoding.UTF8);
+            StreamWriter csv_id = new StreamWriter(file_path_id_info, false, Encoding.UTF8);
 
             csv_id.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}",
                "번호", "ID", "Password", "이름", "전화번호", "주소");
@@ -47,6 +47,27 @@ namespace View_structure_0811.CSV
                                         Id_adapter.Id_list[i].Name,
                                         Id_adapter.Id_list[i].Digit,
                                         Id_adapter.Id_list[i].Addr);
+            }
+            csv_id.Close();
+        }
+
+        static public void Load_csv_member(string file_path_member_info)
+        {
+            StreamWriter csv_id = new StreamWriter(file_path_member_info, false, Encoding.UTF8);
+
+            csv_id.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}",
+               "번호", "이름", "전화번호", "주소", "가입날짜", "성별", "고객번호");
+
+            for (int i = 0; i < Member_adapter.Member_list.Count; i++)
+            {
+                csv_id.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}, {6}",
+                                        i + 1,
+                                        Member_adapter.Member_list[i].Name1,
+                                        Member_adapter.Member_list[i].Digit1,
+                                        Member_adapter.Member_list[i].Addr1,
+                                        Member_adapter.Member_list[i].Date1,
+                                        Member_adapter.Member_list[i].Gender1,
+                                        Member_adapter.Member_list[i].Member_digit);
             }
             csv_id.Close();
         }

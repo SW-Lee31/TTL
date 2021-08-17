@@ -127,6 +127,57 @@
   <data name="delivery" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resource\delivery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jd_cap_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_cap_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_cap_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_cap_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_cap_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_cap_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_cap_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_cap_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_cap_shoes_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_cap_shoes_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_cap_shoes_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_cap_shoes_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_cap_shoes_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_cap_shoes_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_jacket_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_jacket_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_outer_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_outer_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_outer_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_outer_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_outer_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_outer_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_pants_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_pants_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_pants_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_pants_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_shirts_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_shirts_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_shirts_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_shirts_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jd_shirts_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\jd_shirts_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="john_deere_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\john_deere_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="magnifying_glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resource\magnifying_glass.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -141,6 +192,33 @@
   </data>
   <data name="monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resource\monitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mz_cap_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\mz_cap_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mz_cap_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\mz_cap_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mz_cap_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\mz_cap_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mz_pants_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\mz_pants_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mz_pants_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\mz_pants_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mz_pants_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\mz_pants_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mz_shirt_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\mz_shirt_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mz_shirt_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\mz_shirt_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mz_shirt_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resource\mz_shirt_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="package" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resource\package.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

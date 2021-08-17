@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using View_structure_0811.Adapter;
+using View_structure_0811.UI.Order_contents;
 using View_structure_0811.UI.UI_contents.Sign;
 
 namespace View_structure_0811.UI.UI_contents
@@ -32,6 +33,11 @@ namespace View_structure_0811.UI.UI_contents
         private void but_admin_Click(object sender, EventArgs e)
         {
             new Sign_in().ShowDialog();
+        }
+
+        private void uiHeaderButton1_Click_1(object sender, EventArgs e)
+        {
+            new Order_Main().Show();
         }
     }
 }

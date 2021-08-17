@@ -17,7 +17,7 @@ namespace View_structure_0811.Model
         private string member_digit;
         private List<string> serial_num;
 
-        public Member(string name, string digit, string addr, string gender, string date, string member_digit, List<string> serial_num)
+        public Member(string name, string digit, string addr, string gender, string date, string member_digit)
             : base(name, digit, addr, gender, date)
         {
             this.name = name;
@@ -26,7 +26,6 @@ namespace View_structure_0811.Model
             this.date = date;
             this.gender = gender;
             this.member_digit = member_digit;
-            this.serial_num = serial_num;
         }
 
         public string Name1 { get => name; set => name = value; }

@@ -67,10 +67,22 @@ namespace View_structure_0811.UI.UI_contents.Sign
             // 
             this.but_close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.but_close.Dock = System.Windows.Forms.DockStyle.Right;
+            this.but_close.FillColor = System.Drawing.Color.White;
+            this.but_close.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_close.FillPressColor = System.Drawing.Color.Gray;
+            this.but_close.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_close.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.but_close.ForeColor = System.Drawing.Color.Silver;
+            this.but_close.ForeHoverColor = System.Drawing.Color.Red;
+            this.but_close.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.but_close.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_close.Location = new System.Drawing.Point(343, 2);
             this.but_close.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_close.Name = "but_close";
+            this.but_close.RectColor = System.Drawing.Color.Transparent;
+            this.but_close.RectHoverColor = System.Drawing.Color.Transparent;
+            this.but_close.RectPressColor = System.Drawing.Color.Transparent;
+            this.but_close.RectSelectedColor = System.Drawing.Color.Transparent;
             this.but_close.Size = new System.Drawing.Size(35, 62);
             this.but_close.Style = Sunny.UI.UIStyle.Custom;
             this.but_close.TabIndex = 3;

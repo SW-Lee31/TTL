@@ -11,6 +11,7 @@ namespace View_structure_0811.CSV
 {
     class CSV_reader
     {
+
         static public List<string> Read_csv_personal()
         {
             StreamReader csv_person = new StreamReader(@"C:\\c#_work\\test_18_GUI_project\\View_structure_0811\\CSV\\personal_info.csv", false);
@@ -65,5 +66,22 @@ namespace View_structure_0811.CSV
 
             return elements;
         }
+
+        static public List<string[]> Read_csv(string file_path)
+        {
+            StreamReader filename = new StreamReader(file_path, false);
+            List<string[]> result = new List<string[]>();
+            
+            while (!filename.EndOfStream)
+            {
+                string line_value = filename.ReadLine();
+                string[] data = line_value.Split(',');
+                result.Add(data);
+            }
+
+            return result;
+        }
+
+
     }
 }

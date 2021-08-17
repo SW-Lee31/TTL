@@ -69,6 +69,7 @@ namespace View_structure_0811.UI.UI_contents
             this.confirm.StyleCustomMode = true;
             this.confirm.TabIndex = 123;
             this.confirm.Text = "확인";
+            this.confirm.Click += new System.EventHandler(this.confirm_Click);
             // 
             // cus_but_submit
             // 
@@ -94,6 +95,7 @@ namespace View_structure_0811.UI.UI_contents
             this.cus_but_submit.StyleCustomMode = true;
             this.cus_but_submit.TabIndex = 122;
             this.cus_but_submit.Text = "등록";
+            this.cus_but_submit.Click += new System.EventHandler(this.cus_but_submit_Click);
             // 
             // input_mem_digit
             // 
@@ -161,7 +163,7 @@ namespace View_structure_0811.UI.UI_contents
             this.uiLabel2.Size = new System.Drawing.Size(90, 28);
             this.uiLabel2.Style = Sunny.UI.UIStyle.Custom;
             this.uiLabel2.TabIndex = 116;
-            this.uiLabel2.Text = "※ 생년월일";
+            this.uiLabel2.Text = "※ 가입날짜";
             this.uiLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // output_digit
@@ -234,7 +236,7 @@ namespace View_structure_0811.UI.UI_contents
             this.output_addr.BackColor = System.Drawing.Color.Transparent;
             this.output_addr.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.output_addr.ForeColor = System.Drawing.Color.Black;
-            this.output_addr.Location = new System.Drawing.Point(161, 224);
+            this.output_addr.Location = new System.Drawing.Point(120, 223);
             this.output_addr.Name = "output_addr";
             this.output_addr.Size = new System.Drawing.Size(342, 26);
             this.output_addr.TabIndex = 125;
@@ -260,6 +262,7 @@ namespace View_structure_0811.UI.UI_contents
             this.Controls.Add(this.uiLabel5);
             this.Name = "Admin_Customer_manage";
             this.Size = new System.Drawing.Size(515, 358);
+            this.Load += new System.EventHandler(this.Admin_Customer_manage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -65,10 +65,22 @@ namespace View_structure_0811.UI.UI_contents.Add_person_name_search
             // 
             this.but_close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.but_close.Dock = System.Windows.Forms.DockStyle.Right;
+            this.but_close.FillColor = System.Drawing.Color.White;
+            this.but_close.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_close.FillPressColor = System.Drawing.Color.Gray;
+            this.but_close.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_close.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.but_close.ForeColor = System.Drawing.Color.Silver;
+            this.but_close.ForeHoverColor = System.Drawing.Color.Red;
+            this.but_close.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.but_close.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_close.Location = new System.Drawing.Point(325, 2);
             this.but_close.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_close.Name = "but_close";
+            this.but_close.RectColor = System.Drawing.Color.Transparent;
+            this.but_close.RectHoverColor = System.Drawing.Color.Transparent;
+            this.but_close.RectPressColor = System.Drawing.Color.Transparent;
+            this.but_close.RectSelectedColor = System.Drawing.Color.Transparent;
             this.but_close.Size = new System.Drawing.Size(35, 62);
             this.but_close.Style = Sunny.UI.UIStyle.Custom;
             this.but_close.TabIndex = 3;
@@ -92,13 +104,12 @@ namespace View_structure_0811.UI.UI_contents.Add_person_name_search
             // output_memberdigit
             // 
             this.output_memberdigit.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.output_memberdigit.Font = new System.Drawing.Font("맑은 고딕", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.output_memberdigit.ForeColor = System.Drawing.Color.Black;
+            this.output_memberdigit.Font = new System.Drawing.Font("맑은 고딕", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.output_memberdigit.ForeColor = System.Drawing.Color.Green;
             this.output_memberdigit.Location = new System.Drawing.Point(8, 200);
             this.output_memberdigit.Name = "output_memberdigit";
             this.output_memberdigit.Size = new System.Drawing.Size(342, 81);
             this.output_memberdigit.TabIndex = 154;
-            this.output_memberdigit.Text = "data";
             this.output_memberdigit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // input_name
@@ -142,6 +153,7 @@ namespace View_structure_0811.UI.UI_contents.Add_person_name_search
             this.confirm.StyleCustomMode = true;
             this.confirm.TabIndex = 149;
             this.confirm.Text = "확인";
+            this.confirm.Click += new System.EventHandler(this.confirm_Click);
             // 
             // uiLabel7
             // 

@@ -17,6 +17,8 @@ namespace View_structure_0811.UI.UI_contents.Sign
 {
     partial class Sign_up : MaterialForm
     {
+        string file_path_id = @"C:\Users\sangw\Desktop\TTL_master\TTL\test_18_GUI_project\View_structure_0811\CSV\Admin_id_info";
+
         public Sign_up()
         {
             InitializeComponent();
@@ -108,8 +110,8 @@ namespace View_structure_0811.UI.UI_contents.Sign
                 pw_result = pw;
                 Admin_id id_index = new Admin_id(id, pw_result, name, digit, addr);
                 Id_adapter.add_list(id_index);
-                CSV_writer.Load_csv_id();
-                CSV_reader.Read_csv_id();
+                CSV_writer.Load_csv_id(file_path_id);
+                CSV_reader.Read_csv(file_path_id);
                 MessageBox.Show("회원가입이 완료되었습니다.");
                 Close();
             }

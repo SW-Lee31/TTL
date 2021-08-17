@@ -29,9 +29,9 @@ namespace View_structure_0811.UI.Admin_contents
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart_panel = new Sunny.UI.UIFlowLayoutPanel();
             this.uiLabel1 = new Sunny.UI.UILabel();
             this.main_panel = new Sunny.UI.UIFlowLayoutPanel();
@@ -98,6 +98,7 @@ namespace View_structure_0811.UI.Admin_contents
             // uiLine1
             // 
             this.uiLine1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiLine1.LineColor = System.Drawing.Color.Silver;
             this.uiLine1.Location = new System.Drawing.Point(-1, 0);
             this.uiLine1.MinimumSize = new System.Drawing.Size(2, 2);
             this.uiLine1.Name = "uiLine1";
@@ -109,7 +110,15 @@ namespace View_structure_0811.UI.Admin_contents
             // 
             this.but_del.CircleSize = 0;
             this.but_del.Dock = System.Windows.Forms.DockStyle.Right;
+            this.but_del.FillColor = System.Drawing.Color.White;
+            this.but_del.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_del.FillPressColor = System.Drawing.Color.Gray;
+            this.but_del.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_del.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_del.ForeColor = System.Drawing.Color.Gray;
+            this.but_del.ForeHoverColor = System.Drawing.Color.Black;
+            this.but_del.ForePressColor = System.Drawing.Color.Black;
+            this.but_del.ForeSelectedColor = System.Drawing.Color.Black;
             this.but_del.Location = new System.Drawing.Point(256, 2);
             this.but_del.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_del.Name = "but_del";
@@ -129,7 +138,15 @@ namespace View_structure_0811.UI.Admin_contents
             // 
             this.but_serial.CircleSize = 0;
             this.but_serial.Dock = System.Windows.Forms.DockStyle.Left;
+            this.but_serial.FillColor = System.Drawing.Color.White;
+            this.but_serial.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_serial.FillPressColor = System.Drawing.Color.Gray;
+            this.but_serial.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_serial.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_serial.ForeColor = System.Drawing.Color.Gray;
+            this.but_serial.ForeHoverColor = System.Drawing.Color.Black;
+            this.but_serial.ForePressColor = System.Drawing.Color.Black;
+            this.but_serial.ForeSelectedColor = System.Drawing.Color.Black;
             this.but_serial.Location = new System.Drawing.Point(2, 2);
             this.but_serial.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_serial.Name = "but_serial";
@@ -147,17 +164,17 @@ namespace View_structure_0811.UI.Admin_contents
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(0, 42);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(515, 257);
             this.chart1.TabIndex = 2;
             this.chart1.Text = "chart1";

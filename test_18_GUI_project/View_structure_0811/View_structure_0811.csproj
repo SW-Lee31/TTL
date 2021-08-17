@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapter\Id_adapter.cs" />
+    <Compile Include="Adapter\Member_adapter.cs" />
     <Compile Include="Adapter\Person_adapter.cs" />
     <Compile Include="CSV\CSV_reader.cs" />
     <Compile Include="CSV\XMLparser.cs" />
@@ -125,6 +126,18 @@
     </Compile>
     <Compile Include="UI\Admin_contents\Admin_main_form.Designer.cs">
       <DependentUpon>Admin_main_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Order_contents\Order_jd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Order_contents\Order_jd.Designer.cs">
+      <DependentUpon>Order_jd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Order_contents\Order_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Order_contents\Order_Main.Designer.cs">
+      <DependentUpon>Order_Main.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\UI_contents\Add_person.cs">
       <SubType>UserControl</SubType>
@@ -206,6 +219,12 @@
     <EmbeddedResource Include="UI\Admin_contents\Admin_main_form.resx">
       <DependentUpon>Admin_main_form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Order_contents\Order_jd.resx">
+      <DependentUpon>Order_jd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Order_contents\Order_Main.resx">
+      <DependentUpon>Order_Main.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\UI_contents\Add_person.resx">
       <DependentUpon>Add_person.cs</DependentUpon>
     </EmbeddedResource>
@@ -254,6 +273,32 @@
     <Content Include="ReadMePng\NuPackNugetPackager.png" />
     <Content Include="ReadMePng\Options.png" />
     <Content Include="ReadMePng\类库上右键.png" />
+    <None Include="Resource\john_deere_logo.jpg" />
+    <None Include="Resource\mz_shirt_3.jpg" />
+    <None Include="Resource\mz_shirt_2.jpg" />
+    <None Include="Resource\mz_shirt_1.jpg" />
+    <None Include="Resource\mz_pants_3.jpg" />
+    <None Include="Resource\mz_pants_2.jpg" />
+    <None Include="Resource\mz_pants_1.jpg" />
+    <None Include="Resource\mz_cap_3.jpg" />
+    <None Include="Resource\mz_cap_2.jpg" />
+    <None Include="Resource\mz_cap_1.jpg" />
+    <None Include="Resource\jd_shirts_3.jpg" />
+    <None Include="Resource\jd_shirts_2.jpg" />
+    <None Include="Resource\jd_shirts_1.jpg" />
+    <None Include="Resource\jd_pants_2.jpg" />
+    <None Include="Resource\jd_pants_1.jpg" />
+    <None Include="Resource\jd_outer_3.jpg" />
+    <None Include="Resource\jd_outer_2.jpg" />
+    <None Include="Resource\jd_outer_1.jpg" />
+    <None Include="Resource\jd_jacket_1.jpg" />
+    <None Include="Resource\jd_cap_shoes_3.jpg" />
+    <None Include="Resource\jd_cap_shoes_2.jpg" />
+    <None Include="Resource\jd_cap_shoes_1.jpg" />
+    <None Include="Resource\jd_cap_4.jpg" />
+    <None Include="Resource\jd_cap_3.jpg" />
+    <None Include="Resource\jd_cap_2.jpg" />
+    <None Include="Resource\jd_cap_1.jpg" />
     <None Include="Resource\magnifying_glass.gif" />
     <None Include="Resource\map.png" />
     <None Include="Resource\South_korea.jpg" />

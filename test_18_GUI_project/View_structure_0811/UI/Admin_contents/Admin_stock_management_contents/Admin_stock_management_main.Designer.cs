@@ -35,6 +35,7 @@ namespace View_structure_0811.UI.Admin_contents.Admin_stock_management_contents
             this.uiLine1 = new Sunny.UI.UILine();
             this.Top_panel = new Sunny.UI.UIFlowLayoutPanel();
             this.uiLabel1 = new Sunny.UI.UILabel();
+            this.cxFlatPictureBox2 = new CxFlatUI.CxFlatPictureBox();
             this.but_info = new Sunny.UI.UIButton();
             this.but_mini = new Sunny.UI.UIButton();
             this.but_close = new Sunny.UI.UIButton();
@@ -42,11 +43,10 @@ namespace View_structure_0811.UI.Admin_contents.Admin_stock_management_contents
             this.but_manage_del = new Sunny.UI.UIHeaderButton();
             this.but_input_serial = new Sunny.UI.UIHeaderButton();
             this.main_panel = new Sunny.UI.UIFlowLayoutPanel();
-            this.cxFlatPictureBox2 = new CxFlatUI.CxFlatPictureBox();
             this.uiFlowLayoutPanel2.SuspendLayout();
             this.Top_panel.SuspendLayout();
-            this.uiFlowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).BeginInit();
+            this.uiFlowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // uiFlowLayoutPanel2
@@ -150,14 +150,36 @@ namespace View_structure_0811.UI.Admin_contents.Admin_stock_management_contents
             this.uiLabel1.Text = "SW-Lee31 물류배송 V1.0.0";
             this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // cxFlatPictureBox2
+            // 
+            this.cxFlatPictureBox2.Image = global::View_structure_0811.Properties.Resources.Com_logo;
+            this.cxFlatPictureBox2.Location = new System.Drawing.Point(12, 2);
+            this.cxFlatPictureBox2.Name = "cxFlatPictureBox2";
+            this.cxFlatPictureBox2.Size = new System.Drawing.Size(89, 56);
+            this.cxFlatPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cxFlatPictureBox2.TabIndex = 3;
+            this.cxFlatPictureBox2.TabStop = false;
+            // 
             // but_info
             // 
             this.but_info.Cursor = System.Windows.Forms.Cursors.Hand;
             this.but_info.Dock = System.Windows.Forms.DockStyle.Right;
+            this.but_info.FillColor = System.Drawing.Color.White;
+            this.but_info.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_info.FillPressColor = System.Drawing.Color.Gray;
+            this.but_info.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_info.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_info.ForeColor = System.Drawing.Color.Silver;
+            this.but_info.ForeHoverColor = System.Drawing.Color.Black;
+            this.but_info.ForePressColor = System.Drawing.Color.Black;
+            this.but_info.ForeSelectedColor = System.Drawing.Color.Black;
             this.but_info.Location = new System.Drawing.Point(562, 2);
             this.but_info.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_info.Name = "but_info";
+            this.but_info.RectColor = System.Drawing.Color.Transparent;
+            this.but_info.RectHoverColor = System.Drawing.Color.Transparent;
+            this.but_info.RectPressColor = System.Drawing.Color.Transparent;
+            this.but_info.RectSelectedColor = System.Drawing.Color.Transparent;
             this.but_info.Size = new System.Drawing.Size(35, 62);
             this.but_info.Style = Sunny.UI.UIStyle.Custom;
             this.but_info.TabIndex = 6;
@@ -167,11 +189,23 @@ namespace View_structure_0811.UI.Admin_contents.Admin_stock_management_contents
             // 
             this.but_mini.Cursor = System.Windows.Forms.Cursors.Hand;
             this.but_mini.Dock = System.Windows.Forms.DockStyle.Right;
+            this.but_mini.FillColor = System.Drawing.Color.White;
+            this.but_mini.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_mini.FillPressColor = System.Drawing.Color.Gray;
+            this.but_mini.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_mini.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.but_mini.ForeColor = System.Drawing.Color.Silver;
+            this.but_mini.ForeHoverColor = System.Drawing.Color.Lime;
+            this.but_mini.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.but_mini.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.but_mini.Location = new System.Drawing.Point(597, 2);
             this.but_mini.Margin = new System.Windows.Forms.Padding(3, 15, 15, 15);
             this.but_mini.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_mini.Name = "but_mini";
+            this.but_mini.RectColor = System.Drawing.Color.Transparent;
+            this.but_mini.RectHoverColor = System.Drawing.Color.Transparent;
+            this.but_mini.RectPressColor = System.Drawing.Color.Transparent;
+            this.but_mini.RectSelectedColor = System.Drawing.Color.Transparent;
             this.but_mini.Size = new System.Drawing.Size(35, 62);
             this.but_mini.Style = Sunny.UI.UIStyle.Custom;
             this.but_mini.TabIndex = 4;
@@ -182,10 +216,22 @@ namespace View_structure_0811.UI.Admin_contents.Admin_stock_management_contents
             // 
             this.but_close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.but_close.Dock = System.Windows.Forms.DockStyle.Right;
+            this.but_close.FillColor = System.Drawing.Color.White;
+            this.but_close.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_close.FillPressColor = System.Drawing.Color.Gray;
+            this.but_close.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_close.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.but_close.ForeColor = System.Drawing.Color.Silver;
+            this.but_close.ForeHoverColor = System.Drawing.Color.Red;
+            this.but_close.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.but_close.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_close.Location = new System.Drawing.Point(632, 2);
             this.but_close.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_close.Name = "but_close";
+            this.but_close.RectColor = System.Drawing.Color.Transparent;
+            this.but_close.RectHoverColor = System.Drawing.Color.Transparent;
+            this.but_close.RectPressColor = System.Drawing.Color.Transparent;
+            this.but_close.RectSelectedColor = System.Drawing.Color.Transparent;
             this.but_close.Size = new System.Drawing.Size(35, 62);
             this.but_close.Style = Sunny.UI.UIStyle.Custom;
             this.but_close.TabIndex = 3;
@@ -217,7 +263,15 @@ namespace View_structure_0811.UI.Admin_contents.Admin_stock_management_contents
             // 
             this.but_manage_del.CircleSize = 0;
             this.but_manage_del.Dock = System.Windows.Forms.DockStyle.Left;
+            this.but_manage_del.FillColor = System.Drawing.Color.White;
+            this.but_manage_del.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_manage_del.FillPressColor = System.Drawing.Color.Gray;
+            this.but_manage_del.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_manage_del.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.but_manage_del.ForeColor = System.Drawing.Color.Gray;
+            this.but_manage_del.ForeHoverColor = System.Drawing.Color.Black;
+            this.but_manage_del.ForePressColor = System.Drawing.Color.Black;
+            this.but_manage_del.ForeSelectedColor = System.Drawing.Color.Black;
             this.but_manage_del.Location = new System.Drawing.Point(337, 2);
             this.but_manage_del.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_manage_del.Name = "but_manage_del";
@@ -236,7 +290,15 @@ namespace View_structure_0811.UI.Admin_contents.Admin_stock_management_contents
             // 
             this.but_input_serial.CircleSize = 0;
             this.but_input_serial.Dock = System.Windows.Forms.DockStyle.Left;
+            this.but_input_serial.FillColor = System.Drawing.Color.White;
+            this.but_input_serial.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_input_serial.FillPressColor = System.Drawing.Color.Gray;
+            this.but_input_serial.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_input_serial.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.but_input_serial.ForeColor = System.Drawing.Color.Gray;
+            this.but_input_serial.ForeHoverColor = System.Drawing.Color.Black;
+            this.but_input_serial.ForePressColor = System.Drawing.Color.Black;
+            this.but_input_serial.ForeSelectedColor = System.Drawing.Color.Black;
             this.but_input_serial.Location = new System.Drawing.Point(2, 2);
             this.but_input_serial.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_input_serial.Name = "but_input_serial";
@@ -260,20 +322,12 @@ namespace View_structure_0811.UI.Admin_contents.Admin_stock_management_contents
             this.main_panel.MinimumSize = new System.Drawing.Size(1, 1);
             this.main_panel.Name = "main_panel";
             this.main_panel.Padding = new System.Windows.Forms.Padding(2);
+            this.main_panel.RectColor = System.Drawing.Color.Transparent;
             this.main_panel.Size = new System.Drawing.Size(669, 334);
+            this.main_panel.Style = Sunny.UI.UIStyle.Custom;
             this.main_panel.TabIndex = 9;
             this.main_panel.Text = "uiFlowLayoutPanel3";
             this.main_panel.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // cxFlatPictureBox2
-            // 
-            this.cxFlatPictureBox2.Image = global::View_structure_0811.Properties.Resources.Com_logo;
-            this.cxFlatPictureBox2.Location = new System.Drawing.Point(12, 2);
-            this.cxFlatPictureBox2.Name = "cxFlatPictureBox2";
-            this.cxFlatPictureBox2.Size = new System.Drawing.Size(89, 56);
-            this.cxFlatPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.cxFlatPictureBox2.TabIndex = 3;
-            this.cxFlatPictureBox2.TabStop = false;
             // 
             // Admin_stock_management_main
             // 
@@ -290,8 +344,8 @@ namespace View_structure_0811.UI.Admin_contents.Admin_stock_management_contents
             this.Load += new System.EventHandler(this.Admin_stock_management_main_Load);
             this.uiFlowLayoutPanel2.ResumeLayout(false);
             this.Top_panel.ResumeLayout(false);
-            this.uiFlowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).EndInit();
+            this.uiFlowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

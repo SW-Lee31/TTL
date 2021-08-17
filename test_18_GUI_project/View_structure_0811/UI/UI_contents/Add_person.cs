@@ -13,8 +13,11 @@ using View_structure_0811.Model;
 
 namespace View_structure_0811.UI.UI_contents
 {
+    
+
     partial class Add_person : UserControl
     {
+        string file_path_personal_info = @"C:\Users\sangw\Desktop\TTL_master\TTL\test_18_GUI_project\View_structure_0811\CSV\Personal_info.csv";
 
         Person_adapter peradp;
 
@@ -97,13 +100,11 @@ namespace View_structure_0811.UI.UI_contents
             Person person_index = new Person(name, digit, addr, date, gender);
             /*person_index.print_personal_info();*/
 
-            Console.WriteLine("#################################");
-
             MessageBox.Show("인적사항이 저장되었습니다.");
 
             Person_adapter.Add_list(person_index);
-            CSV_writer.Load_csv_personal();
-            CSV_reader.Read_csv_personal();
+            CSV_writer.Load_csv_personal(file_path_personal_info);
+            /*CSV_reader.Read_csv(file_path_personal_info);*/
         }
 
         public bool empty_check(string value)

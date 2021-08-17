@@ -31,7 +31,6 @@ namespace View_structure_0811.UI.UI_contents
         {
             this.Top_panel = new Sunny.UI.UIFlowLayoutPanel();
             this.uiLabel1 = new Sunny.UI.UILabel();
-            this.cxFlatPictureBox2 = new CxFlatUI.CxFlatPictureBox();
             this.but_mini = new Sunny.UI.UIButton();
             this.but_close = new Sunny.UI.UIButton();
             this.uiFlowLayoutPanel2 = new Sunny.UI.UIFlowLayoutPanel();
@@ -43,10 +42,11 @@ namespace View_structure_0811.UI.UI_contents
             this.but_add_stuff = new Sunny.UI.UIHeaderButton();
             this.but_cus_add = new Sunny.UI.UIHeaderButton();
             this.main_panel = new Sunny.UI.UIFlowLayoutPanel();
+            this.cxFlatPictureBox2 = new CxFlatUI.CxFlatPictureBox();
             this.Top_panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).BeginInit();
             this.uiFlowLayoutPanel2.SuspendLayout();
             this.uiFlowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // Top_panel
@@ -87,25 +87,27 @@ namespace View_structure_0811.UI.UI_contents
             this.uiLabel1.Text = "SW-Lee31 물류배송 V1.0.0";
             this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // cxFlatPictureBox2
-            // 
-            this.cxFlatPictureBox2.Image = global::View_structure_0811.Properties.Resources.Com_logo;
-            this.cxFlatPictureBox2.Location = new System.Drawing.Point(12, 2);
-            this.cxFlatPictureBox2.Name = "cxFlatPictureBox2";
-            this.cxFlatPictureBox2.Size = new System.Drawing.Size(89, 56);
-            this.cxFlatPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.cxFlatPictureBox2.TabIndex = 3;
-            this.cxFlatPictureBox2.TabStop = false;
-            // 
             // but_mini
             // 
             this.but_mini.Cursor = System.Windows.Forms.Cursors.Hand;
             this.but_mini.Dock = System.Windows.Forms.DockStyle.Right;
+            this.but_mini.FillColor = System.Drawing.Color.White;
+            this.but_mini.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_mini.FillPressColor = System.Drawing.Color.Gray;
+            this.but_mini.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_mini.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.but_mini.ForeColor = System.Drawing.Color.Silver;
+            this.but_mini.ForeHoverColor = System.Drawing.Color.Lime;
+            this.but_mini.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.but_mini.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.but_mini.Location = new System.Drawing.Point(597, 2);
             this.but_mini.Margin = new System.Windows.Forms.Padding(3, 15, 15, 15);
             this.but_mini.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_mini.Name = "but_mini";
+            this.but_mini.RectColor = System.Drawing.Color.Transparent;
+            this.but_mini.RectHoverColor = System.Drawing.Color.Transparent;
+            this.but_mini.RectPressColor = System.Drawing.Color.Transparent;
+            this.but_mini.RectSelectedColor = System.Drawing.Color.Transparent;
             this.but_mini.Size = new System.Drawing.Size(35, 62);
             this.but_mini.Style = Sunny.UI.UIStyle.Custom;
             this.but_mini.TabIndex = 4;
@@ -116,10 +118,22 @@ namespace View_structure_0811.UI.UI_contents
             // 
             this.but_close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.but_close.Dock = System.Windows.Forms.DockStyle.Right;
+            this.but_close.FillColor = System.Drawing.Color.White;
+            this.but_close.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_close.FillPressColor = System.Drawing.Color.Gray;
+            this.but_close.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_close.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.but_close.ForeColor = System.Drawing.Color.Silver;
+            this.but_close.ForeHoverColor = System.Drawing.Color.Red;
+            this.but_close.ForePressColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.but_close.ForeSelectedColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.but_close.Location = new System.Drawing.Point(632, 2);
             this.but_close.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_close.Name = "but_close";
+            this.but_close.RectColor = System.Drawing.Color.Transparent;
+            this.but_close.RectHoverColor = System.Drawing.Color.Transparent;
+            this.but_close.RectPressColor = System.Drawing.Color.Transparent;
+            this.but_close.RectSelectedColor = System.Drawing.Color.Transparent;
             this.but_close.Size = new System.Drawing.Size(35, 62);
             this.but_close.Style = Sunny.UI.UIStyle.Custom;
             this.but_close.TabIndex = 3;
@@ -215,7 +229,15 @@ namespace View_structure_0811.UI.UI_contents
             this.but_monitor.CircleHoverColor = System.Drawing.Color.White;
             this.but_monitor.CircleSize = 0;
             this.but_monitor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.but_monitor.FillColor = System.Drawing.Color.White;
+            this.but_monitor.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_monitor.FillPressColor = System.Drawing.Color.Gray;
+            this.but_monitor.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_monitor.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.but_monitor.ForeColor = System.Drawing.Color.Gray;
+            this.but_monitor.ForeHoverColor = System.Drawing.Color.Black;
+            this.but_monitor.ForePressColor = System.Drawing.Color.Black;
+            this.but_monitor.ForeSelectedColor = System.Drawing.Color.Black;
             this.but_monitor.Location = new System.Drawing.Point(2, 246);
             this.but_monitor.Margin = new System.Windows.Forms.Padding(0);
             this.but_monitor.MinimumSize = new System.Drawing.Size(1, 1);
@@ -237,7 +259,15 @@ namespace View_structure_0811.UI.UI_contents
             this.but_add_stuff.CircleHoverColor = System.Drawing.Color.White;
             this.but_add_stuff.CircleSize = 0;
             this.but_add_stuff.Dock = System.Windows.Forms.DockStyle.Top;
+            this.but_add_stuff.FillColor = System.Drawing.Color.White;
+            this.but_add_stuff.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_add_stuff.FillPressColor = System.Drawing.Color.Gray;
+            this.but_add_stuff.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_add_stuff.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.but_add_stuff.ForeColor = System.Drawing.Color.Gray;
+            this.but_add_stuff.ForeHoverColor = System.Drawing.Color.Black;
+            this.but_add_stuff.ForePressColor = System.Drawing.Color.Black;
+            this.but_add_stuff.ForeSelectedColor = System.Drawing.Color.Black;
             this.but_add_stuff.Location = new System.Drawing.Point(2, 131);
             this.but_add_stuff.Margin = new System.Windows.Forms.Padding(0);
             this.but_add_stuff.MinimumSize = new System.Drawing.Size(1, 1);
@@ -260,7 +290,15 @@ namespace View_structure_0811.UI.UI_contents
             this.but_cus_add.CircleHoverColor = System.Drawing.Color.White;
             this.but_cus_add.CircleSize = 0;
             this.but_cus_add.Dock = System.Windows.Forms.DockStyle.Top;
+            this.but_cus_add.FillColor = System.Drawing.Color.White;
+            this.but_cus_add.FillHoverColor = System.Drawing.Color.Silver;
+            this.but_cus_add.FillPressColor = System.Drawing.Color.Gray;
+            this.but_cus_add.FillSelectedColor = System.Drawing.Color.Gray;
             this.but_cus_add.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.but_cus_add.ForeColor = System.Drawing.Color.Gray;
+            this.but_cus_add.ForeHoverColor = System.Drawing.Color.Black;
+            this.but_cus_add.ForePressColor = System.Drawing.Color.Black;
+            this.but_cus_add.ForeSelectedColor = System.Drawing.Color.Black;
             this.but_cus_add.Location = new System.Drawing.Point(2, 2);
             this.but_cus_add.Margin = new System.Windows.Forms.Padding(0);
             this.but_cus_add.MinimumSize = new System.Drawing.Size(1, 1);
@@ -293,6 +331,16 @@ namespace View_structure_0811.UI.UI_contents
             this.main_panel.Text = "uiFlowLayoutPanel3";
             this.main_panel.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // cxFlatPictureBox2
+            // 
+            this.cxFlatPictureBox2.Image = global::View_structure_0811.Properties.Resources.Com_logo;
+            this.cxFlatPictureBox2.Location = new System.Drawing.Point(12, 2);
+            this.cxFlatPictureBox2.Name = "cxFlatPictureBox2";
+            this.cxFlatPictureBox2.Size = new System.Drawing.Size(89, 56);
+            this.cxFlatPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cxFlatPictureBox2.TabIndex = 3;
+            this.cxFlatPictureBox2.TabStop = false;
+            // 
             // Admin_main_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -305,11 +353,12 @@ namespace View_structure_0811.UI.UI_contents
             this.Controls.Add(this.Top_panel);
             this.Name = "Admin_main_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.TopMost = true;
             this.Load += new System.EventHandler(this.Admin_main_form_Load);
             this.Top_panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).EndInit();
             this.uiFlowLayoutPanel2.ResumeLayout(false);
             this.uiFlowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }

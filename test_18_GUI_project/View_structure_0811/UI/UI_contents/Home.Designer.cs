@@ -30,10 +30,10 @@ namespace View_structure_0811.UI.UI_contents
         private void InitializeComponent()
         {
             this.uiFlowLayoutPanel1 = new Sunny.UI.UIFlowLayoutPanel();
-            this.uiLine2 = new Sunny.UI.UILine();
             this.uiLine3 = new Sunny.UI.UILine();
             this.but_map_right = new Sunny.UI.UISymbolButton();
-            this.cxFlatPictureBox3 = new CxFlatUI.CxFlatPictureBox();
+            this.uiHeaderButton1 = new Sunny.UI.UIHeaderButton();
+            this.uiLine2 = new Sunny.UI.UILine();
             this.but_map_left = new Sunny.UI.UISymbolButton();
             this.but_admin = new Sunny.UI.UIHeaderButton();
             this.uiFlowLayoutPanel2 = new Sunny.UI.UIFlowLayoutPanel();
@@ -43,7 +43,6 @@ namespace View_structure_0811.UI.UI_contents
             this.cxFlatPictureBox2 = new CxFlatUI.CxFlatPictureBox();
             this.cxFlatPictureBox1 = new CxFlatUI.CxFlatPictureBox();
             this.uiFlowLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox3)).BeginInit();
             this.uiFlowLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).BeginInit();
@@ -51,10 +50,10 @@ namespace View_structure_0811.UI.UI_contents
             // 
             // uiFlowLayoutPanel1
             // 
-            this.uiFlowLayoutPanel1.Controls.Add(this.uiLine2);
             this.uiFlowLayoutPanel1.Controls.Add(this.uiLine3);
             this.uiFlowLayoutPanel1.Controls.Add(this.but_map_right);
-            this.uiFlowLayoutPanel1.Controls.Add(this.cxFlatPictureBox3);
+            this.uiFlowLayoutPanel1.Controls.Add(this.uiHeaderButton1);
+            this.uiFlowLayoutPanel1.Controls.Add(this.uiLine2);
             this.uiFlowLayoutPanel1.Controls.Add(this.but_map_left);
             this.uiFlowLayoutPanel1.Controls.Add(this.but_admin);
             this.uiFlowLayoutPanel1.Controls.Add(this.uiFlowLayoutPanel2);
@@ -73,16 +72,6 @@ namespace View_structure_0811.UI.UI_contents
             this.uiFlowLayoutPanel1.Text = "uiFlowLayoutPanel1";
             this.uiFlowLayoutPanel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // uiLine2
-            // 
-            this.uiLine2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiLine2.Location = new System.Drawing.Point(-6, 1);
-            this.uiLine2.MinimumSize = new System.Drawing.Size(2, 2);
-            this.uiLine2.Name = "uiLine2";
-            this.uiLine2.Size = new System.Drawing.Size(597, 3);
-            this.uiLine2.Style = Sunny.UI.UIStyle.Custom;
-            this.uiLine2.TabIndex = 18;
-            // 
             // uiLine3
             // 
             this.uiLine3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
@@ -98,24 +87,44 @@ namespace View_structure_0811.UI.UI_contents
             this.but_map_right.Cursor = System.Windows.Forms.Cursors.Hand;
             this.but_map_right.Dock = System.Windows.Forms.DockStyle.Left;
             this.but_map_right.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.but_map_right.Location = new System.Drawing.Point(290, 2);
+            this.but_map_right.Location = new System.Drawing.Point(325, 2);
             this.but_map_right.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_map_right.Name = "but_map_right";
             this.but_map_right.Size = new System.Drawing.Size(25, 122);
             this.but_map_right.Style = Sunny.UI.UIStyle.Custom;
             this.but_map_right.Symbol = 61701;
-            this.but_map_right.TabIndex = 17;
+            this.but_map_right.TabIndex = 20;
             // 
-            // cxFlatPictureBox3
+            // uiHeaderButton1
             // 
-            this.cxFlatPictureBox3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.cxFlatPictureBox3.Image = global::View_structure_0811.Properties.Resources.South_korea;
-            this.cxFlatPictureBox3.Location = new System.Drawing.Point(27, 2);
-            this.cxFlatPictureBox3.Name = "cxFlatPictureBox3";
-            this.cxFlatPictureBox3.Size = new System.Drawing.Size(263, 122);
-            this.cxFlatPictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.cxFlatPictureBox3.TabIndex = 16;
-            this.cxFlatPictureBox3.TabStop = false;
+            this.uiHeaderButton1.CircleSize = 0;
+            this.uiHeaderButton1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.uiHeaderButton1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiHeaderButton1.Location = new System.Drawing.Point(27, 2);
+            this.uiHeaderButton1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiHeaderButton1.Name = "uiHeaderButton1";
+            this.uiHeaderButton1.Padding = new System.Windows.Forms.Padding(0, 40, 0, 10);
+            this.uiHeaderButton1.Radius = 0;
+            this.uiHeaderButton1.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
+            this.uiHeaderButton1.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
+            this.uiHeaderButton1.Size = new System.Drawing.Size(298, 122);
+            this.uiHeaderButton1.Style = Sunny.UI.UIStyle.Custom;
+            this.uiHeaderButton1.Symbol = 61975;
+            this.uiHeaderButton1.SymbolColor = System.Drawing.Color.Black;
+            this.uiHeaderButton1.SymbolSize = 64;
+            this.uiHeaderButton1.TabIndex = 19;
+            this.uiHeaderButton1.Text = "주문";
+            this.uiHeaderButton1.Click += new System.EventHandler(this.uiHeaderButton1_Click_1);
+            // 
+            // uiLine2
+            // 
+            this.uiLine2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiLine2.Location = new System.Drawing.Point(-6, 0);
+            this.uiLine2.MinimumSize = new System.Drawing.Size(2, 2);
+            this.uiLine2.Name = "uiLine2";
+            this.uiLine2.Size = new System.Drawing.Size(597, 3);
+            this.uiLine2.Style = Sunny.UI.UIStyle.Custom;
+            this.uiLine2.TabIndex = 18;
             // 
             // but_map_left
             // 
@@ -135,14 +144,14 @@ namespace View_structure_0811.UI.UI_contents
             this.but_admin.CircleSize = 0;
             this.but_admin.Dock = System.Windows.Forms.DockStyle.Right;
             this.but_admin.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.but_admin.Location = new System.Drawing.Point(349, 2);
+            this.but_admin.Location = new System.Drawing.Point(347, 2);
             this.but_admin.MinimumSize = new System.Drawing.Size(1, 1);
             this.but_admin.Name = "but_admin";
             this.but_admin.Padding = new System.Windows.Forms.Padding(0, 35, 0, 10);
             this.but_admin.Radius = 0;
             this.but_admin.RadiusSides = Sunny.UI.UICornerRadiusSides.None;
             this.but_admin.RectSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.None;
-            this.but_admin.Size = new System.Drawing.Size(234, 122);
+            this.but_admin.Size = new System.Drawing.Size(236, 122);
             this.but_admin.Style = Sunny.UI.UIStyle.Custom;
             this.but_admin.Symbol = 57591;
             this.but_admin.SymbolColor = System.Drawing.Color.Black;
@@ -242,7 +251,6 @@ namespace View_structure_0811.UI.UI_contents
             this.Name = "Home";
             this.Size = new System.Drawing.Size(585, 402);
             this.uiFlowLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox3)).EndInit();
             this.uiFlowLayoutPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cxFlatPictureBox1)).EndInit();
@@ -261,9 +269,9 @@ namespace View_structure_0811.UI.UI_contents
         private Sunny.UI.UILine uiLine3;
         private Sunny.UI.UILinkLabel link_homepage;
         private Sunny.UI.UILabel uiLabel1;
-        private Sunny.UI.UISymbolButton but_map_right;
-        private CxFlatUI.CxFlatPictureBox cxFlatPictureBox3;
         private Sunny.UI.UISymbolButton but_map_left;
         private Sunny.UI.UILine uiLine2;
+        private Sunny.UI.UISymbolButton but_map_right;
+        private Sunny.UI.UIHeaderButton uiHeaderButton1;
     }
 }
