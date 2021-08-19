@@ -1,0 +1,86 @@
+업데이트 2021년 3월 10일 by hack4ork
+
+1. 테이블생성 - student_t 이 테이블명
+
+create table student_t (
+    id number not null,
+    name varchar(20) not null,
+    age number not null,
+    addr varchar(80) not null,
+    constraint pk_student_id primary key(id)
+);
+
+/////////////////////////////////////////////////////////////////////////////////
+// 시퀀스를 생성하여 id 를 1000부터 1씩 자동으로 증가하도록 처리.
+create sequence seq_id increment by 1 start with 1000;
+
+// 시퀀스 삭제
+drop sequence seq_id;
+
+[SQL 사용예]
+insert into student_t values (seq_id.nextval, '최길동', 100, '대구 달서구');
+/////////////////////////////////////////////////////////////////////////////////
+
+2. 데이터 타입 참고
+
+varchar : 가변 길이 문자 데이터 (1~4000byte)
+varchar2 : 가변 길이 문자 데이터 (1~4000byte) - 권장
+char : 고정 길이 문자 데이터(1~2000byte)
+number : 숫자 가변 길이 데이터 
+date : 날짜 ( 7바이트로 저장)
+clob : 대용량 문자열 처리
+blob : 이진 대형 객체 (Binary). 이미지, 동영상, 사운드 파일
+
+3. 테이블 정보 보기
+
+desc student_t;
+
+4. 테이블 수정 
+
+alter table student_t add (name2 varchar2(40));		// 테이블에 새로운 컬럼 추가
+alter table student_t modify (name2 varchar2(50));	// 컬럼 정보 수정
+alter table student_t rename column name2 to name4;	// 컬럼 이름 변경
+alter table student_t drop column name4;		// 새로 추가한 컬럼 삭제
+
+5. 테이블 삭제
+
+drop table student_t;
+
+6. 테이블 생성 후 primary key 지정
+
+alter table student_t add constraint pk_student_id primary key(id);
+
+7. 기본 쿼리 처리문
+
+ㄱ. 데이터 추가
+// 시퀀스를 추가하여 자동으로 id값 증가하도록 처리 (2. 테이블 생성 참고)
+insert into student_t values (seq_id.nextval, '최길동', 100, '대구 달서구');
+
+ㄴ. 생성된 모든 데이터의 행의 전체갯수 가져오기
+
+select count(*) from student_t;
+
+ㄷ. 테이블에서 데이터 가져오기
+select *(모든 컬럼) from 테이블명;
+select 컬럼명, 컬럼명 from 테이블명 where id=3;
+
+ㄹ. where 검색 조건
+select * from student_t where id=3;
+select * from student_t where name is null; (null 일 경우)
+select * from student_t where name is not null; (null 이 아닌 경우)
+select * from student_t where name like '%길동'; ("길동"을 포함하는 이름)
+select * from student_t where name like '_길동'; ("길동"을 포함하는 이름)
+
+ㅁ. 데이터 정렬
+select * from student_t order by name; (오름차순 정렬)
+select * from student_t order by name DESC; (내림차순 정렬);
+select * from student_t where name like '%길동' order by id desc;
+
+ㅂ. 데이터 삭제
+delete from 테이블명 where 필드명 ='검색어';
+delete from student_t where id=10;
+
+ㅅ. 데이터 수정
+update student_t set name=‘박길동’ where name= '홍길동';
+update student_t set name=‘최만두’ where id=10';
+update student_t set name='홍만두', age=11, addr='서울 강남 강남스타일로' where id = 10;
